@@ -1,0 +1,30 @@
+# MyST / Jupyter Book build output (fully regenerable)
+_build/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node (mystmd tooling, if installed locally instead of via pyenv/pip)
+node_modules/
+package-lock.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Secrets - never commit real credentials
+*credentials*.json
+!*credentials*template*.json
+.env
