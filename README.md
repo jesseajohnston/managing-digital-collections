@@ -49,13 +49,32 @@ If the environment is already configured and you just want to start, run:
 myst start
 ```
 
-To build and create pdfs, run:
+To build the site, run:
 
 ```bash
 myst build
 ```
 
 Note that the build command will build documents according to the instructions under the `export:` key in `myst.yml`, so if any previous version is desired to be saved, it should be renamed or update th instructions before running the command.
+
+To create pdfs, you may need to run additional commands that
+initiate the creation of specific templates, such as:
+
+```bash
+myst build --pdf
+```
+
+OR
+
+```bash
+myst build --typst
+```
+
+To build "everything" (that is, the html site, plus all exports), run:
+
+```bash
+myst build -a
+```
 
 ## License
 
