@@ -28,3 +28,6 @@ Thumbs.db
 *credentials*.json
 !*credentials*template*.json
 .env
+
+# Specific files for this project
+plan_changing_to_book_update_202607.md
