@@ -5,21 +5,23 @@ extends:
 project:
   id: 7c994f0a-9f4b-401e-a7e6-153b5ac9423f
   title: Managing Digital Collections
-  date: 2026-07-26
+  subtitle: An Open-Source Guide to Digital Cultural Heritage Management with Python (August 2026 edition)
+  edition: July 2026 edition
+  #date: 2026-07-26
   description: This online book offers an overview and introduction to how to manage digital collections, with a focus on metadata, batch programming techniques, and open source systems. The book was initiated as a course textbook, which is still evident in the associated pages describing assignments, schedule, and some of the tooling. More broadly, however, the book aims to provide an open-source and interactive series of examples that illustrate concepts, techniques, and overall frameworks for managing digital collections (that is, digitized and digital content that is managed by libraries, archives, museums, and other cultural heritage organizations, including community archives).
   keywords:
     - digital collections
     - python
     - metadata
     - programming
-    - cultural-heritage
+    - cultural heritage
   github: jesseajohnston/managing-digital-collections
   bibliography: references.bib
   toc:
     - file: index.md
     - title: Introduction
       children:
-        - file: intro/intro.md
+        - file: intro/introduction.md
           title: Introduction
         - file: intro/setup.md
           title: Getting Started
@@ -46,9 +48,10 @@ project:
   exports:
     - format: typst
       template: plain_typst_book #lapreprint-typst #plain_typest_book
+      #date: 2026-07-30
       articles:
         - index.md
-        - intro/intro.md
+        - intro/introduction.md
         - part02/xml-working-with-MODS.ipynb
         - labs/lab-01-example.md
       output: ./_build/exports/managing-digital-collections-beta.pdf
@@ -67,3 +70,4 @@ site:
     #favicon: favicon.ico
     #logo: site_logo.png
     logo_text: Managing Digital Collections
+    hide_authors: true
