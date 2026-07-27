@@ -25,6 +25,30 @@ engine platform. The site is published using GitHub.
 
 There are a variety of callout styles, which are [described here at the MyST documentation](https://mystmd.org/guide/admonitions). Primarily `seealso` and `important`, or `caution` may be used.
 
+These should be used not just for callouts, but also for referencing associated assignment content.
+For example:
+
+```
+:::{seealso} Try it yourself
+Practice these concepts in [](labs/lab-01-example.md)
+:::
+```
+
+The above will pull the lab title and autopopulate the link. This is an inviting way to integrate the assignments, and all of the assignment information will be located in the lab section at the end.
+
+Chapters should also open with two standard callouts, in this order: a `tip` for Learning Outcomes and a `note` for Dependencies (tools/libraries used in that chapter). For example:
+
+```
+:::{tip} Learning Outcomes
+- Bullet 1
+- Bullet 2
+:::
+
+:::{note} Dependencies
+Tools/libraries used in this chapter: `lxml`, `requests`.
+:::
+```
+
 ### Citations
 
 Citations should be recorded in bibtex format, and entered in `references.bib`. Conventions and fields available for bibtex
