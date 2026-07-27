@@ -19,7 +19,13 @@ at the University of Michigan School of Information in fall 2026.
 The project has been built to publish an ebook using the MyST document
 engine platform. The site is published using GitHub.
 
-## Citations
+## Creating and Styling Text
+
+### Callouts
+
+There are a variety of callout styles, which are [described here at the MyST documentation](https://mystmd.org/guide/admonitions). Primarily `seealso` and `important`, or `caution` may be used.
+
+### Citations
 
 Citations should be recorded in bibtex format, and entered in `references.bib`. Conventions and fields available for bibtex
 can be searched at <https://www.bibtex.com/e/entry-types/>.
