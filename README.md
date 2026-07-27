@@ -19,6 +19,15 @@ at the University of Michigan School of Information in fall 2026.
 The project has been built to publish an ebook using the MyST document
 engine platform. The site is published using GitHub.
 
+## Citations
+
+Citations should be recorded in bibtex format, and entered in `references.bib`. Conventions and fields available for bibtex
+can be searched at <https://www.bibtex.com/e/entry-types/>.
+
+
+In text citations can be referenced using MyST patterns, generally
+including an @authordate reference in square brackets. More details on this usage in MyST can be found at the [MyST citation page](https://mystmd.org/guide/citations#markdown-citations).
+
 ## Running Locally
 
 To test and run the project locally, you will need at least MyST and NPM.
