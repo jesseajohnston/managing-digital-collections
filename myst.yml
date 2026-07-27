@@ -1,0 +1,71 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - ./authors.yml
+project:
+  id: 7c994f0a-9f4b-401e-a7e6-153b5ac9423f
+  title: Managing Digital Collections
+  date: 2026-07-26
+  description: This online book offers an overview and introduction to how to manage digital collections, with a focus on metadata, batch programming techniques, and open source systems. The book was initiated as a course textbook, which is still evident in the associated pages describing assignments, schedule, and some of the tooling. More broadly, however, the book aims to provide an open-source and interactive series of examples that illustrate concepts, techniques, and overall frameworks for managing digital collections (that is, digitized and digital content that is managed by libraries, archives, museums, and other cultural heritage organizations, including community archives).
+  keywords:
+    - digital collections
+    - python
+    - metadata
+    - programming
+    - cultural-heritage
+  github: jesseajohnston/managing-digital-collections
+  bibliography: references.bib
+  toc:
+    - file: index.md
+    - title: Introduction
+      children:
+        - file: intro/intro.md
+          title: Introduction
+        - file: intro/setup.md
+          title: Getting Started
+    - title: "Part 1: Libraries and Open Source Culture"
+      children:
+        - file: part01/open-source-libraries.md
+          title: Open Source Culture
+      # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 1
+    - title: "Part 2: Working with Metadata"
+      children:
+        - file: part02/xml-working-with-MODS.ipynb
+          title: Chapter 1 Working with MODS
+    - title: "Part 3: Working with Networks"
+      children: []
+      # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 3
+    - title: "Part 4: Presenting and Managing Collections"
+      children: []
+      # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 4
+    - title: Labs
+      # a list of labs would go here
+      children:
+        - file: labs/lab-01-example.md
+        - file: labs/algo-test-tfidf.ipynb
+          title: Testing the TFIDF Algorithm
+  exports:
+    - format: typst
+      template: plain_typst_book #lapreprint-typst #plain_typest_book
+      articles:
+        - index.md
+        - intro/intro.md
+        - part02/xml-working-with-MODS.ipynb
+        - labs/algo-test-tfidf.ipynb
+        - labs/lab-01-example.md
+      output: ./_build/exports/managing-digital-collections-beta.pdf
+      id: full-book-pdf
+      show_pagenumber: true
+  downloads:
+    - id: full-book-pdf
+      title: Download the full book (PDF)
+  license: CC-BY-NC-SA-4.0
+  open_access: true
+
+site:
+  template: book-theme
+  options:
+    hide_myst_branding: true
+    #favicon: favicon.ico
+    #logo: site_logo.png
+    logo_text: Managing Digital Collections
