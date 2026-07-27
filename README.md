@@ -30,6 +30,7 @@ There are a variety of callout styles, which are [described here at the MyST doc
 Citations should be recorded in bibtex format, and entered in `references.bib`. Conventions and fields available for bibtex
 can be searched at <https://www.bibtex.com/e/entry-types/>.
 
+Citations and footnotes follow the [styles set out in pandoc](https://pandoc.org/MANUAL.html#citation-syntax).
 
 In text citations can be referenced using MyST patterns, generally
 including an @authordate reference in square brackets. More details on this usage in MyST can be found at the [MyST citation page](https://mystmd.org/guide/citations#markdown-citations).
