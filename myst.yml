@@ -42,8 +42,7 @@ project:
       # a list of labs would go here
       children:
         - file: labs/lab-01-example.md
-        - file: labs/algo-test-tfidf.ipynb
-          title: Testing the TFIDF Algorithm
+          title: Setting Up CollectionBuilder
   exports:
     - format: typst
       template: plain_typst_book #lapreprint-typst #plain_typest_book
@@ -51,7 +50,6 @@ project:
         - index.md
         - intro/intro.md
         - part02/xml-working-with-MODS.ipynb
-        - labs/algo-test-tfidf.ipynb
         - labs/lab-01-example.md
       output: ./_build/exports/managing-digital-collections-beta.pdf
       id: full-book-pdf
