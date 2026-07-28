@@ -7,6 +7,7 @@ site:
 
 % initially this used the +++{"part": "abstract"} notation but that was not really supported in the pdf output; revisit this in a later edition
 % +++{"part": "abstract"}
+% +++{"part": "acknowledgements"}
 
 ## Abstract
 
