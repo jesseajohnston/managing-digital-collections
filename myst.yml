@@ -18,6 +18,7 @@ project:
   github: jesseajohnston/managing-digital-collections
   bibliography: references.bib
   toc:
+    #- file: cover.md
     - file: index.md
     - title: Introduction
       children:
@@ -36,15 +37,15 @@ project:
           title: Chapter 1 Working with MODS
     - title: "Part 3: Working with Networks"
       children: []
-      # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 3
+        # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 3
     - title: "Part 4: Presenting and Managing Collections"
       children: []
-      # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 4
+        # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 4
     - title: Labs
-      # a list of labs would go here
       children:
-        - file: labs/lab-01-example.md
-          title: Setting Up CollectionBuilder
+        # a list of labs would go here
+        - file: labs/lab-04-jekyll.md
+          title: "Lab 4: Setting Up CollectionBuilder"
   exports:
     - format: typst
       template: plain_typst_book #lapreprint-typst #plain_typest_book
@@ -53,7 +54,7 @@ project:
         - index.md
         - intro/introduction.md
         - part02/xml-working-with-MODS.ipynb
-        - labs/lab-01-example.md
+        - labs/lab-04-jekyll.md
       output: ./_build/exports/managing-digital-collections-beta.pdf
       id: full-book-pdf
       show_pagenumber: true
