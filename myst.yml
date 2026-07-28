@@ -53,6 +53,9 @@ project:
       articles:
         - index.md
         - intro/introduction.md
+        - intro/setup.md #may not be necessary in pdf?
+        - part01/01-open-source-libraries.md
+        - part01/02-brief-history-open-libraries.md
         - part02/xml-working-with-MODS.ipynb
         - labs/lab-04-jekyll.md
       output: ./_build/exports/managing-digital-collections-beta.pdf
@@ -72,3 +75,4 @@ site:
     #logo: site_logo.png
     logo_text: Managing Digital Collections
     hide_authors: true
+    #style: custom.css
