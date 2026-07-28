@@ -37,11 +37,4 @@ Some themes and points that should be reiterated:
 
 ````
 
-## A Brief History of Open Exchange in Libraries
-
-While the open source movement may follow its own significant trajectory,
-libraries also have a notable and distinct history of open information exchange.
-
-As @svenonius2000 suggests, the need for broad and international exchange of bibliographic records necessitated consistent and open standards for information exchange. 
-
 [^n1]: Largely, this is a division between the GNU community and the Open Source License community.
