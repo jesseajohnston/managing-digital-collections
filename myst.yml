@@ -2,12 +2,20 @@
 version: 1
 extends:
   - ./authors.yml
+  - ./frontmatter-parts.yml
 project:
   id: 7c994f0a-9f4b-401e-a7e6-153b5ac9423f
   title: Managing Digital Collections
-  subtitle: An Open-Source Guide to Digital Cultural Heritage Management with Python (August 2026 edition)
-  edition: July 2026 edition
-  #date: 2026-07-26
+  subtitle: An Open-Source Guide to Digital Cultural Heritage Management with Python
+  edition: August 2026 edition
+  date: 2026-07-29
+  venue: 
+    #Preferred Citation block; note that series is being repurposed
+    series: "Preferred Citation:"
+    location: Ann Arbor
+    date: "2026"
+    publisher: University of Michigan School of Information
+    #url: "TBD"
   description: This online book offers an overview and introduction to how to manage digital collections, with a focus on metadata, batch programming techniques, and open source systems. The book was initiated as a course textbook, which is still evident in the associated pages describing assignments, schedule, and some of the tooling. More broadly, however, the book aims to provide an open-source and interactive series of examples that illustrate concepts, techniques, and overall frameworks for managing digital collections (that is, digitized and digital content that is managed by libraries, archives, museums, and other cultural heritage organizations, including community archives).
   keywords:
     - digital collections
@@ -48,10 +56,9 @@ project:
           title: "Lab 4: Setting Up CollectionBuilder"
   exports:
     - format: typst
-      template: plain_typst_book #lapreprint-typst #plain_typest_book
-      #date: 2026-07-30
+      template: ./templates/plain_typst_book_custom #lapreprint-typst #plain_typest_book
       articles:
-        - index.md
+        #- index.md index file is only used for online version
         - intro/introduction.md
         - intro/setup.md #may not be necessary in pdf?
         - part01/01-open-source-libraries.md
@@ -61,24 +68,27 @@ project:
       output: ./_build/exports/managing-digital-collections-beta.pdf
       id: typst-book-pdf
       show_pagenumber: true
+      papersize: us-letter
     - format: pdf
       template: plain_latex_book
       #date: 2026-07-30
       articles:
-        - file: index.md
-          level: 0 #frontmatter?
+        #- file: index.md
+        #  level: 0 #frontmatter?
         - file: intro/introduction.md
           level: 0
-        - file: intro/setup.md #may not be necessary in pdf?
-          level: -1
+        #- file: intro/setup.md #may not be necessary in pdf?
+        #  level: -1
         - file: part01/01-open-source-libraries.md
-          level: 0
+          level: -1
         - file: part01/02-brief-history-open-libraries.md
+          level: 0
+        - title: Labs and Worked Examples
           level: -1
         - file: part02/xml-working-with-MODS.ipynb
           level: 0
         - file: labs/lab-04-jekyll.md
-          level: 1
+          level: 0
       output: ./_build/exports/managing-digital-collections-latextpl.pdf
       id: latex-book-pdf
       show_pagenumber: true
