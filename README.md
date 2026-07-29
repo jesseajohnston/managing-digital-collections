@@ -36,15 +36,19 @@ Practice these concepts in [](labs/lab-01-example.md)
 
 The above will pull the lab title and autopopulate the link. This is an inviting way to integrate the assignments, and all of the assignment information will be located in the lab section at the end.
 
-Chapters should also open with two standard callouts, in this order: a `tip` for Learning Outcomes and a `note` for Dependencies (tools/libraries used in that chapter). For example:
+Discussion questions or blocks may use `{hint}` (light bulb icon, green).
+
+Activities/tasks/lab boxes may use `{tip}` (pencil on paper icon, green)
+
+Chapters should also open with two standard callouts, in this order: `{important}` (lightning bolt, blue) for Learning Outcomes and `{attention}` (megaphone, orange) for Dependencies (tools/libraries used in that chapter). For example:
 
 ```
-:::{tip} Learning Outcomes
+:::{important} Learning Outcomes
 - Bullet 1
 - Bullet 2
 :::
 
-:::{note} Dependencies
+:::{attention} Dependencies
 Tools/libraries used in this chapter: `lxml`, `requests`.
 :::
 ```
