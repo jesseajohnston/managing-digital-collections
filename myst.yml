@@ -59,11 +59,34 @@ project:
         - part02/xml-working-with-MODS.ipynb
         - labs/lab-04-jekyll.md
       output: ./_build/exports/managing-digital-collections-beta.pdf
-      id: full-book-pdf
+      id: typst-book-pdf
+      show_pagenumber: true
+    - format: pdf
+      template: plain_latex_book
+      #date: 2026-07-30
+      articles:
+        - file: index.md
+          level: 0 #frontmatter?
+        - file: intro/introduction.md
+          level: 0
+        - file: intro/setup.md #may not be necessary in pdf?
+          level: -1
+        - file: part01/01-open-source-libraries.md
+          level: 0
+        - file: part01/02-brief-history-open-libraries.md
+          level: -1
+        - file: part02/xml-working-with-MODS.ipynb
+          level: 0
+        - file: labs/lab-04-jekyll.md
+          level: 1
+      output: ./_build/exports/managing-digital-collections-latextpl.pdf
+      id: latex-book-pdf
       show_pagenumber: true
   downloads:
-    - id: full-book-pdf
+    - id: typst-book-pdf
       title: Download the full book (PDF)
+    - id: latex-book-pdf
+      title: Download the book in PDF (latex template)
   license: CC-BY-NC-SA-4.0
   open_access: true
 
@@ -75,4 +98,4 @@ site:
     #logo: site_logo.png
     logo_text: Managing Digital Collections
     hide_authors: true
-    #style: custom.css
+    #style: ./custom.css
