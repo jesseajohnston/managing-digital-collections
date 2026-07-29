@@ -29,6 +29,10 @@ an active classroom environment, you may find placeholders in some locations.
 If you are seeking to fill those gaps, on digital collections management or other topics, you may be able to find some information about related topics on Wikipedia.
 For example, there are moderately to fully developed articles on related topics including [cultural heritage](wiki:Cultural_heritage), [digital preservation](wiki:digital_preservation), and [collections management](wiki:Collections_management), among other key ideas.
 
+## Structure of the Book
+
+TODO: Note structure here: what are the sections/chapters, and how do they fit together?
+
 ## Using the Book
 
 This book assumes a level of comfort with digital tools and systems.
