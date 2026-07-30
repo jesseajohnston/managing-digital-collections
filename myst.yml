@@ -6,9 +6,9 @@ extends:
 project:
   id: 7c994f0a-9f4b-401e-a7e6-153b5ac9423f
   title: Managing Digital Collections
-  subtitle: An Open-Source Guide to Digital Cultural Heritage Management with Python
+  subtitle: A Guide to Open-Source Digital Cultural Heritage Management with Python
   edition: August 2026 edition
-  date: 2026-07-29
+  #date: 2026-07-29
   venue: 
     #Preferred Citation block; note that series is being repurposed
     series: "Preferred Citation:"
