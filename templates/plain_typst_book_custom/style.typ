@@ -146,7 +146,7 @@
       box(width: 80%,
         align(left,
           text(10pt, fill: gray.darken(50%),
-            [#if venue_series != none [#venue_series. ]#authors, #emph(title) (#venue_location: #venue_publisher, #venue_date).#if venue_url != none [ #link(venue_url)[#venue_url]]]
+            [#if venue_series != none [#venue_series ]#authors, #emph(title) (#venue_location: #venue_publisher, #venue_date).#if venue_url != none [ #link(venue_url)[#venue_url]]]
           )
         )
       )
