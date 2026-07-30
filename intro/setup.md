@@ -54,7 +54,7 @@ A concept described as "fencing" is used in various places in markdown. This tec
 :::{seealso} More Markdown Guides
 Here are a few guides that can help you learn more:
 
-- One of the [original guides from Daring Fireball](https://daringfireball.net/projects/markdown/)
+- [John Gruber's 2004 guide from Daring Fireball](https://daringfireball.net/projects/markdown/)
 - [GitHub Guide to Basic Markdown Formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Markdown Guide's Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 :::
