@@ -4,9 +4,25 @@ title: Getting Started
 
 # Getting Started
 
-This page is a placeholder for the information about how to get things set up so you are ready to get started with this book.
+This page aims to give you an introduction to the basic
+tools, and some of the skills, used throughout the rest
+of the book.
 
 The setup covers the following: basics of working with text, including regular expressions and a few command line tools like `grep`; Git and GitHub; Jupyter notebooks; and what you'll need in your environment. As of 2026, this book assumes that readers are using Visual Studio Code, aka VS Code, as a development environment, but if you use another text editor or [IDE](wiki:Integrated_development_environment), you may need to make some minor translations into that environment as needed.
+
+## A Digital Collections Approach to Tooling
+
+Because these are skills widely used in many
+digital preservation tasks, digital humanities work,
+and the like, there are many guides and tutorials for
+some of these skills. This guide, therefore, intends to
+explain unique or idiomatic uses of these tools as they appear in this book.
+Keep in mind that these may be unique to this book or
+to the digital cultural heritage community, such as it is,
+not necessarily as they are used in other programming or development contexts.
+There are often many existing guides or tutorials for use,
+some of which are extensive and well maintained, so in most
+cases the intent is to explain unique uses, then provide links to those external resources.
 
 ## Text as Interface (Using Plaintext and the Command Line)
 
