@@ -7,7 +7,6 @@ project:
   id: 7c994f0a-9f4b-401e-a7e6-153b5ac9423f
   title: Managing Digital Collections
   subtitle: A Guide to Open-Source Digital Cultural Heritage Management with Python
-  edition: August 2026 edition
   #date: 2026-07-29
   venue: 
     #Preferred Citation block; note that series is being repurposed
@@ -30,9 +29,9 @@ project:
     - file: index.md
     - title: Introduction
       children:
-        - file: intro/introduction.md
+        - file: introduction/index.md
           title: Introduction
-        - file: intro/setup.md
+        - file: introduction/setup.md
           title: Getting Started
     - title: "Part 1: Libraries and Open Source Culture"
       children:
@@ -59,8 +58,8 @@ project:
       template: ./templates/plain_typst_book_custom #lapreprint-typst #plain_typest_book
       articles:
         #- index.md index file is only used for online version
-        - intro/introduction.md
-        - intro/setup.md #may not be necessary in pdf?
+        - introduction/index.md
+        - introduction/setup.md #may not be necessary in pdf?
         - part01/01-open-source-libraries.md
         - part01/02-brief-history-open-libraries.md
         - part02/xml-working-with-MODS.ipynb
@@ -69,15 +68,16 @@ project:
       id: typst-book-pdf
       show_pagenumber: true
       papersize: us-letter
+      edition: August 2026 edition
     - format: pdf
       template: plain_latex_book
       #date: 2026-07-30
       articles:
         #- file: index.md
         #  level: 0 #frontmatter?
-        - file: intro/introduction.md
+        - file: introduction/index.md
           level: 0
-        #- file: intro/setup.md #may not be necessary in pdf?
+        #- file: introduction/setup.md #may not be necessary in pdf?
         #  level: -1
         - file: part01/01-open-source-libraries.md
           level: -1
@@ -107,5 +107,6 @@ site:
     #favicon: favicon.ico
     #logo: site_logo.png
     logo_text: Managing Digital Collections
+    folders: true # maintains folder structure in folders/sections
     hide_authors: true
     #style: ./custom.css
