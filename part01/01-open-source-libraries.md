@@ -2,7 +2,17 @@
 title: Open Source Culture and Libraries
 ---
 
-The course has various readings on open source culture.
+The concept of "open source" has varied meanings in software development.
+This section explicates some of these.
+
+## On Openness
+
+... defining opennes (OAIS); levels of openness, free vs controlled; licensing
+
+## On Source
+
+The _source_ refers to source code. However,
+the concept of dependencies can complicate this.
 
 As noted by Safiya Noble, the choices made by big tech in developing
 and promulgating platforms has a significant impact on
