@@ -35,6 +35,8 @@ jobs:
           node-version: 24.x
       - name: Install MyST Markdown
         run: npm install -g mystmd
+      - name: Install Typst
+        uses: typst-community/setup-typst@v5
       - name: Build TypST pdf
         run: myst build --typst
       - name: Build HTML Assets
