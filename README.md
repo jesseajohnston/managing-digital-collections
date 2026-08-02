@@ -63,6 +63,13 @@ Citations and footnotes follow the [styles set out in pandoc](https://pandoc.org
 In text citations can be referenced using MyST patterns, generally
 including an @authordate reference in square brackets. More details on this usage in MyST can be found at the [MyST citation page](https://mystmd.org/guide/citations#markdown-citations).
 
+### Publication Date (Typst PDF Cover)
+
+The Typst PDF template (`templates/plain_typst_book_custom`) shows two separate dates on the cover, both driven by fields in `myst.yml`:
+
+- **Edition line** (rendered near the authors' names): set by the top-level `project.edition` field (e.g. `edition: August 2026 edition`), used verbatim. If `edition` isn't set, it falls back to `project.date` (currently commented out at `myst.yml:11`), formatted as "[month] [year]" — set it to a full date, e.g. `date: 2026-07-29`.
+- **Preferred Citation block**: set by `project.venue.date` (`myst.yml:16`, currently `"2026"`). Update this string to change the year/date shown in the citation.
+
 ## Running Locally
 
 To test and run the project locally, you will need at least MyST and NPM.
