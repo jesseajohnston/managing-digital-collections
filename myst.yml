@@ -38,10 +38,10 @@ project:
         - file: part01/01-open-source-libraries.md
         - file: part01/02-brief-history-open-libraries.md
       # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 1
-    - title: "Part 2: Working with Metadata"
+    - file: part02/index.md
       children:
         - file: part02/xml-working-with-MODS.ipynb
-          title: Chapter 1 Working with MODS
+          title: "Using Python for XML: Working with MODS"
     - title: "Part 3: Working with Networks"
       children: []
         # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 3
