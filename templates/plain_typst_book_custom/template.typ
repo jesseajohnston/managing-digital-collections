@@ -177,7 +177,6 @@
 
 [# if doc.bibtex #]
 #{
-  show bibliography: set text(8pt)
-  bibliography("[-doc.bibtex-]", title: text(10pt, "References"), style: "apa")
+  bibliography("[-doc.bibtex-]", title: text(10pt, "References"), style: "chicago-author-date")
 }
 [# endif #]
