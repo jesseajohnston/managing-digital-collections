@@ -11,9 +11,15 @@
   subtitle: "[-doc.subtitle-]",
 [# endif #]
 
-// edition - uses the myst.yml date field
+// edition - uses the `edition` export option verbatim if set,
+// otherwise falls back to the `date` doc field formatted as "Month Year"
+[# if options.edition #]
+  edition: "[-options.edition-]",
+[# endif #]
+[# if not options.edition #]
 [# if doc.date #]
   edition: datetime(year: [-doc.date.year-], month: [-doc.date.month-], day: 1).display("[month repr:long] [year]"),
+[# endif #]
 [# endif #]
 
 // authors

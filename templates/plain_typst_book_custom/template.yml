@@ -44,6 +44,12 @@ options:
     type: string
     description: The "kind" of the content, e.g. "Original Research" - shown as the title of the margin content on the first page
 
+  - id: edition
+    type: string
+    description: >
+      Text shown on the cover page near the authors' names (e.g. "August 2026 edition").
+      Falls back to the `date` doc field (formatted as "Month Year") if not set.
+
 
 # Include a figure at the cover page
   - id: cover
