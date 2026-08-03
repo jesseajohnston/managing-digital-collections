@@ -26,11 +26,47 @@ There are often many existing guides or tutorials for use,
 some of which are extensive and well maintained, so in most
 cases the intent is to explain unique uses, then provide links to those external resources.
 
-## Text as Interface (Using Plaintext and the Command Line)
+## Text as Interface
+
+The developers of the UNIX operating system, particularly Ken Thompson, Dennis Ritchie, and Doug McIlroy,
+articulated many design principles, which have become known as the "[UNIX Philosophy](wiki:Unix_philosophy).
+While many of these are implicit to open source culture, of interest here is
+the directive that UNIX programs should be able to handle plain text input,
+and also to produce plain text outputs.
+Text is sometimes thus referred to as a "universal interface."
+Many of the tools that we will use in our open source cultural heritage projects
+can be manipulated through plain text, whether on the command line,
+searching, or basic formatting conventions of markdown.
+
+:::{hint} Text as an Enduring Interface
+Text interfaces are often critiqued as unintuitive or unappealing
+by those of us accustomed to GUIs (graphical user interfaces).
+However, text presents a highly accessible interface (it can be readily annotated and help text can be added).
+Additionally, it is less ambiguous than graphical interfaces since it is declarative (it says exactly what you want in a given context, rather than "click here" or "click there").
+And, interestingly, text has remained one of the most enduring interfaces.
+Cloud platforms are often accessible through a browser interface or through command line variants.
+Meanwhile, large language models and generative AI tools often use plain text to encode prompts, inputs, and outputs. Text as interface, then, appears to be highly enduring.
+:::
 
 ### The Command Line
 
+TODO: drop in from previous exercises in GH
+
 ### Regular Expressions
+
+TODO: drop in from previous exercises in GH
+
+:::{seealso} More About RegEx
+The following provide more explanation of regex conventions and may be useful in developing and testing regex queries:
+
+- [Library Carpentry's regex lesson](https://librarycarpentry.github.io/lc-data-intro/01-regular-expressions.html)
+- [regularexpressions101](https://regex101.com/) - a highly useful tool to which you can provide text and test complex regex expressions
+
+As noted previously, LLMs are highly capable at processing and producing text.
+They can be very useful for developing regex queries and debugging patterns.
+Before using an AI assistant, however, it is useful to have a basic grasp of how regex works
+so that you can evaluate and test expressions.
+:::
 
 ### Searching through Files (grep)
 
@@ -38,7 +74,7 @@ cases the intent is to explain unique uses, then provide links to those external
 Want to learn more about using `grep`? Check out the [Library Carpentry initiative's episode that covers it](https://librarycarpentry.github.io/lc-shell/05-counting-mining.html#mining-or-searching).
 :::
 
-### Using Basic Markdown
+### Markdown Basics
 
 The concept of _markup_ is relatively widely known in authoring and publishing content on the Web. The concept ties digital publishing to earlier practices of editing and proofreading, where set text was "marked up" to make corrections or identify errors. This was ported to electronic text in the concept of a markup language, which operates by adding annotations (aka "tags") to text to mark certain elements computer readable. 
 
@@ -46,31 +82,40 @@ The most widely used digital markup is the hypertext markup language (HTML). Lik
 
 _Markdown_, on the other hand, uses plain text annotations to indicate text styling and structure. In markdown, instead of marking a paragraph with the `<p>` tag, any text on a new line is recognized as a paragraph and procssed by the system as such. Similarly, lists, text emphasis and weight, headings, tables, and other elements of text setting can be indicated with markdown. As there are different "flavors" (implementations) of regular expressions, so are there different flavors of markdown. For the most part, we will be using markdown that is compatible with GitHub. Markdown files are often identifed by the `.md` file extension.
 
-Here are a few markdown basics that will be useful:
+In [](#md-table), you will find a few basic markdown conventions that will be useful.
+In the left and middle columns, you will see the plain text characters to use,
+while the right-hand column shows the processed HTML result.
+These illustrate some of the most frequently used shortcuts for formatting text,
+embedding links or images, the use of lists, and the convention for short `code` examples.
 
-#### Headings
+:::{table} A few frequently shortcuts for basic formatting in markdown
+:label: md-table
+| Type this, | or this variation | for this result |
+| --- | --- | ------ |
+| `*italics*` | `_italics_` | _italics_ |
+| `**bold**` | `__bold__` | __bold__ |
+| `# Heading 1` | | output enclosed in `<h1>...</h1>` html tags |
+| `## Heading 2` | | output enclosed in `<h2>...</h2>` html tags |
+| etc. for add'l. levels | | |
+| `[link](http://example.url)` | | [link](http://example.url) |
+| `![alt text](http://link.to.source.png)` | | ![alt text](http://link.to.source.png) |
+| `- unordered list item` | `* unordered list item` | <ul><li>unordered list item</li></ul> |
+| `1. ordered list item` | `1) ordered list item` | <ol><li>ordered list item</li></ol> |
+| \`text appears in monospace\` | | `text appears in monospace` |
+:::
 
-Headings are indicated by placing a pound sign at the beginning of the line, then adding the number of pound signs to correspond to the heading level: 
+As noted above, remember that markdown is highly sensitive to spacing.
+Paragraphs are indicated by the presence of blank lines in between them (like the ["block" style of a formal business letter](wiki:Business_letter#Block)).
+Lists and blockquotes must also be preceded by a blank line.
+Likewise image tags are frequently affected by where they are placed within text, on their own line,
+or with blank lines before and after.
 
-```markdown
-# Heading 1
-## Heading 2
-### Heading 3
-```
+#### Fencing
 
-Unordered lists are generally indicated with an asterisk or hyphen at the beginning of each line:
-
-```markdown
-- Item 1
-- Item 2
-```
-
-Text formatting like bold is indicated by surrounding a phrase with double asterisks (`**bold**`), while italics can be indicated with single asterisks (`*italics*`).
-
-A concept described as "fencing" is used in various places in markdown. This technique involves setting off a section by opening (preceding) and closing it with three repeated characters. Code blocks are indicated by fencing with three backticks (` ``` `), and file metadata blocks can be indicated with three hyphens (`---`). This technique is frequently used in plain text templates for static site generators, README files, configuration and other plain-text files that are often used in the platforms discussed in this book.
+An additional markdown convention described as "fencing" is worth noting since it is used in various places in the tools we will be using. This technique involves setting off a section by opening (preceding) and closing it with three repeated characters. Code blocks are indicated by fencing with three backticks (` ``` `), and file metadata blocks can be indicated with three hyphens (`---`). This technique is frequently used in plain text templates for static site generators, README files, configuration and other plain-text files that are often used in the platforms discussed in this book.
 
 :::{seealso} More Markdown Guides
-Here are a few guides that can help you learn more:
+The basics of markdown are quick to learn, but many of the nuances or less frequent conventions, will take some testing. Here are a few guides that can help you learn more:
 
 - [John Gruber's 2004 guide from Daring Fireball](https://daringfireball.net/projects/markdown/)
 - The CommonMark Specification's [Guide to "Learn Markdown in 60 Seconds"](https://commonmark.org/help/) (Nota bene: they also have a longer, interactive tutorial)
