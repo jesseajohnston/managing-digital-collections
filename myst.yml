@@ -56,12 +56,15 @@ project:
       template: ./templates/plain_typst_book_custom #lapreprint-typst #plain_typest_book
       articles:
         #- index.md index file is only used for online version
-        - introduction/index.md
-        - introduction/setup.md #may not be necessary in pdf?
-        - part01/01-open-source-libraries.md
-        - part01/02-brief-history-open-libraries.md
-        - part02/xml-working-with-MODS.ipynb
-        - labs/lab-04-jekyll.md
+        - ./introduction/index.md
+        - ./introduction/setup.md #may not be necessary in pdf?
+        - ./part01/index.md
+        - ./part01/01-open-source-libraries.md
+        - ./part01/02-brief-history-open-libraries.md
+        - ./part02/index.md
+        - ./part02/xml-working-with-MODS.ipynb
+        - ./part03/index.md
+        - ./labs/lab-04-jekyll.md
       output: ./_build/exports/managing-digital-collections-beta.pdf
       id: typst-book-pdf
       show_pagenumber: true
