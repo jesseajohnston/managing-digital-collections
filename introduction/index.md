@@ -93,4 +93,38 @@ For those, however, who have a healthy curiosity, a modicum of  patience in lear
 in trying things out and making them work, I hope that the book will be rewarding.
 For those who have not already learned or worked with the above tools, the next "Getting Started" section offers some basic advice about how to set up your computing environment and outlines the major tools used throughout the book.
 
-***TODO?*** Possibly add an "activity" section, set up your GitHub account activity.
+## Note on Using "AI"
+
+Recent "artificial intelligence" tools, particularly large language models (LLMs)
+and generative tools based on them, can be highly useful for
+seeking technical advice, troubleshooting, and getting insights on platform configuration.
+Such tools are also becoming more widely used in cultural heritage collection workflows
+for significant tasks like transcription, content labeling and description, and metadata creation or evaluation.
+A technical exploration of these tools is well beyond the scope of this book and its author,
+but it is worth noting that these tools are already in wide use in many professional domains, including the development and deployment of library systems and platforms.
+
+While these tools are widely used, and can be useful, I recommend
+avoiding getting too much help from generative AI during class or while you are working on fundamental examples. This book contains plenty of basic code and examples, which are explained and available to use or reuse. You should aim to understand these first, before moving on to develop solely with an LLM.
+As the Library Carpentry suggests, your goal should be first to learn "foundational knowledge and skills . . . by writing and fixing your own" code and tools. This is 
+
+> essential to be able to evaluate the correctness and safety of any answers you receive from other people or a generative AI chatbot. If you choose to use these tools in the future, the expertise you gain from learning and practising these fundamentals on your own will help you use them more effectively.
+> [Library Carpentry, "Introduction to Data Management"](https://librarycarpentry.github.io/lc-data-intro/01-regular-expressions.html#getting-help-with-regular-expressions)
+
+# The Role of AI in Producing this Book
+
+The author did use AI in generating this book. However, AI was used in very specific ways.
+The composition and writing of the book's prose was undertaken entirely by the author,
+using a very human process of drafting, editing, and rewriting.
+All of the text was developed in previous iterations of the course and reflects the author's experience
+teaching these concepts and tools in live teaching settings.
+
+Beyond the text, AI was used to configure the web version of the book,
+which runs on the MyST templating and document engine, as well as the Typst language for
+templating and creating the pdf version.
+In addition, LLMs were used to develop some of the sample code,
+though all of the code developed prior to 2025 was "artisanal" (in the sens of it being
+designed and written by the author, who is not a programmer).
+For all of these tasks, the primary tool was Anthropic's claude (various models, including Sonnet 3.X and 4.X as well as Opus 4.X and 5.X). Some code was also created by earlier models of
+OpenAI's ChatGPT, as accessible through the [University of Michigan's Maizey wrapper](https://its.umich.edu/computing/ai/maizey-in-depth), as available in 2024 and 2025.
+
+***TODO?*** Possibly add an "activity" setion following this, e.g., set up your GitHub account activity.
