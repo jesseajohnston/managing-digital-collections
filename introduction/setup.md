@@ -65,7 +65,7 @@ Unordered lists are generally indicated with an asterisk or hyphen at the beginn
 - Item 2
 ```
 
-Text formatting like bold is indicated by surrounding a phrase with double asterisks (`**bold**`), while italics can be indicated with single asterisks (`*italics*`). 
+Text formatting like bold is indicated by surrounding a phrase with double asterisks (`**bold**`), while italics can be indicated with single asterisks (`*italics*`).
 
 A concept described as "fencing" is used in various places in markdown. This technique involves setting off a section by opening (preceding) and closing it with three repeated characters. Code blocks are indicated by fencing with three backticks (` ``` `), and file metadata blocks can be indicated with three hyphens (`---`). This technique is frequently used in plain text templates for static site generators, README files, configuration and other plain-text files that are often used in the platforms discussed in this book.
 
@@ -73,8 +73,9 @@ A concept described as "fencing" is used in various places in markdown. This tec
 Here are a few guides that can help you learn more:
 
 - [John Gruber's 2004 guide from Daring Fireball](https://daringfireball.net/projects/markdown/)
-- [GitHub Guide to Basic Markdown Formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- The CommonMark Specification's [Guide to "Learn Markdown in 60 Seconds"](https://commonmark.org/help/) (Nota bene: they also have a longer, interactive tutorial)
 - [Markdown Guide's Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- [GitHub Guide to Basic Markdown Formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 :::
 
 ## Version tracking (Git) and Collaboration (GitHub)
