@@ -1,14 +1,16 @@
 ---
-title: Getting Started
+title: "Getting Started: Setting Up Tools and Workspaces"
 ---
 
-# Getting Started
+This section introduces the basic tools, configuration,
+and some of the skills, used throughout the rest of the book.
+The setup covers the following: basics of working with text, including regular expressions and markdown; some useful commands like `grep`; using Git and GitHub for static site publishing; Jupyter notebooks; and what you'll need in your environment.
 
-This page aims to give you an introduction to the basic
-tools, and some of the skills, used throughout the rest
-of the book.
-
-The setup covers the following: basics of working with text, including regular expressions and markdown; some useful commands like `grep`; using Git and GitHub for static site publishing; Jupyter notebooks; and what you'll need in your environment. As of 2026, this book assumes that readers are using Visual Studio Code, aka VS Code, as a development environment, but if you use another text editor or [IDE](wiki:Integrated_development_environment), you may need to make some minor translations into that environment as needed.
+As of 2026, this book assumes that readers are using [Visual Studio Code, aka VS Code](https://code.visualstudio.com/), as a development environment, and screenshots and figures mostly show this editor.
+Though distributed and owned by Microsoft, VS Code is an open source editor ([see the code here](https://github.com/Microsoft/vscode)),
+which is [made available under the MIT License](https://code.visualstudio.com/License).
+Any full-featured text editor, however, can be used to develop or use similar tools.
+If you use another text editor or [IDE](wiki:Integrated_development_environment), you may need to make some minor translations into that environment as needed.
 
 ## A Digital Collections Approach to Tooling
 
