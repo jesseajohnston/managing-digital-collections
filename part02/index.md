@@ -12,3 +12,12 @@ The examples explored here largely use the DublinCore standard [@dcmiterms], sin
 :::{toc}
 :context: children
 :::
+
+***TODO:*** things adding in here
+
+- metadata: what is it, how is it processed by systems, how is it documented?
+- dublincore - overview and examples of qualified dublincore
+- example: using basic and qualified dublincore
+- MODS: a library example
+- Working with XML, XML as a control structure (and can introduce JSON schemas in "Networks" section)
+- Documenting metadata: the MAP as an example: activity, creating a MAP for a digital collection
