@@ -36,7 +36,7 @@ Practice these concepts in [](labs/lab-01-example.md)
 
 The above will pull the lab title and autopopulate the link. This is an inviting way to integrate the assignments, and all of the assignment information will be located in the lab section at the end.
 
-Discussion questions or blocks may use `{hint}` (light bulb icon, green).
+Discussion questions or aside blocks may use `{hint}` (light bulb icon, green).
 
 Activities/tasks/lab boxes may use `{tip}` (pencil on paper icon, green)
 
