@@ -98,7 +98,7 @@ embedding links or images, the use of lists, and the convention for short `code`
 | `## Heading 2` | | output enclosed in `<h2>...</h2>` html tags |
 | etc. for add'l. levels | | |
 | `[link](http://example.url)` | | [link](http://example.url) |
-| `![alt text](http://link.to.source.png)` | | ![alt text](http://link.to.source.png) |
+| `![alt text](http://path.to.source.file)` | | ![alt text](https://upload.wikimedia.org/wikipedia/commons/b/bb/Windows_95_Help_page.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original) |
 | `- unordered list item` | `* unordered list item` | <ul><li>unordered list item</li></ul> |
 | `1. ordered list item` | `1) ordered list item` | <ol><li>ordered list item</li></ol> |
 | \`text appears in monospace\` | | `text appears in monospace` |
