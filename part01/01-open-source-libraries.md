@@ -17,7 +17,7 @@ Thus, being in control of our own platforms and tools means that we as a cultura
 It's important to remember that open source tools do not mean cheaper. For many open projects, the maintenance, configuration and development, and security risks, among other things, become the responsibility of the implementing organization.
 Deciding to use an open source platform often involves a decision to support these sorts of costs, rather than purchasing them from an external provider. Not all organizations want to support such high levels of technical needs.
 
-In many cultural heritage open source projects, community structures have been developed to support tiered levels of involvement rather than the "all or nothing" approach suggested by the open/closed dichotomy. For example, the [ArchivesSpace system](https://archivesspace.org/) for managing and searching archival metadata in finding aids, is maintained by Lyrasis, which maintains a membership consortium, which provides a higher level of support, as well as a hosting option that is managed by Lyrasis.
+In many cultural heritage open source projects, community structures have been developed to support tiered levels of involvement rather than the "all or nothing" approach suggested by the open/closed dichotomy. For example, the ArchivesSpace system [@archivesspaceweb] for managing and searching archival metadata in finding aids, is maintained by Lyrasis, which maintains a membership consortium, which provides a higher level of support, as well as a hosting option that is managed by Lyrasis.
 At the same time, anyone can download, set up and host their own instance if they want to be responsible for all of the maintenance, upgrades, and future developments.
 
 ## Openness
