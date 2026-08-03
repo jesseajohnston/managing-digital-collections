@@ -119,8 +119,10 @@ downstream products or versions also remain open and freely available,
 while credit is also given for any inspiration that this book may offer.
 This is expressed by a [Creative Commons BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/) (as of publication, version 4.0).
 
+[![License: CC BY-NC-SA 4.0](https://shields.io/badge/License-CC_BY--NC--SA-blue)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+## Contact
+
 This book does take inspiration from, and at times reuse, examples and techniques
 promoted or theorized by others. Credit is duly given in all cases.
 Concerns or questions can be routed to _jajohnst_ (at umich dot edu).
-
-[![License: CC BY-NC-SA 4.0](https://shields.io)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
