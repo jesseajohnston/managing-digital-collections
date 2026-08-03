@@ -29,7 +29,7 @@ an active classroom environment, you may find placeholders in some locations.
 If you are seeking to fill those gaps, on digital collections management or other topics, you may be able to find some information about related topics on Wikipedia.
 For example, there are moderately to fully developed articles on related topics including [cultural heritage](wiki:Cultural_heritage), [digital preservation](wiki:digital_preservation), and [collections management](wiki:Collections_management), among other key ideas.
 
-## Structure of the Book
+## Learning Approach
 
 The book aims to give an overview of major functions for managing digital collections.
 Specifically, the book aims to illustrate managing these collections using open source tools,
@@ -46,6 +46,36 @@ In its teaching philosophy, the book hews closely to that of the Carpentries,
 which aims for an inclusive approach to technology instruction, empowering learners
 with "[efficient, open, and reproducible](https://carpentries.org/about-us/)" digital practices.
 
+## Structure of the Book
+
+The book is sequenced in four major content parts, with supplementary materials
+located at the end of sections or in the final Lab part.
+The online version of the book has some additional elements, like a course calendar with additional readings, assignments, and due dates.
+
+As a foundation, _Part 1_ introduces concepts of open source technology and culture
+and links it to parallel work and values in library and archival organizations.
+As an example of open source standards, this section also introduces plain-text data formats
+like CSV, JSON, and XML, as well as some basic techniques for parsing and processing them. These are foundational for the next sections.
+
+In _Part 2_, cultural heritage concepts of metadata are introduced. Specific standards for descriptive and technical information, such as Dublin Core, MODS, and EAD, are used as examples.
+Hands on activities including the review and editing of sample metadata records with programmatic
+tools are used.
+
+_Part 3_, introduces some of the basic concepts of networked computing, including
+a quick discussion of the WWW and its underlying protocols, notable open-source server stacks,
+and progressing to the use of web-accessible APIs to retrieve and manage metadata.
+Although the emphasis of the book's activities remains on tools and systems that can be run
+locally on a laptop, this section also introduces cloud computing and illustrates
+how many cultural collections use platforms and software "as a service" from cloud providers.
+
+Finally, _Part 4_ discusses the presentation and publication of collections on the web.
+As throughout, the emphasis is on open source platforms, including Omeka and CollectionBuilder.
+These two examples illustrate open source approaches, as well as different network architectures,
+which can be locally published or spun up through cloud services.
+The section closes with an overview of similarities and differences that
+may be considered when planning and managing these different service approahces.
+
+Additional supporting material, which provides sample problems and worked examples, is included in the _Labs_ section.
 
 ## Using the Book
 
