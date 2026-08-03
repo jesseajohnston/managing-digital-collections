@@ -31,7 +31,21 @@ For example, there are moderately to fully developed articles on related topics 
 
 ## Structure of the Book
 
-TODO: Note structure here: what are the sections/chapters, and how do they fit together?
+The book aims to give an overview of major functions for managing digital collections.
+Specifically, the book aims to illustrate managing these collections using open source tools,
+shared and open metadata and descriptive standards,
+and to show medium to small sized collections might be managed with readily available software
+that can be managed and configured by a "digitally savvy" collection manager. Just as @lyonetal2018 [pg. 7] have
+described data savvy research management as a "blending of competencies in computer programming
+and software engineering (hacking)" with data management and domain skills, digital collections management
+may be seen as a blending of similar digital skills with library and archival perspectives,
+including (meta)data standards and management, emphasis on trustworthy and ethical access,
+clear and stable identification, and a dedication to reliability.
+
+In its teaching philosophy, the book hews closely to that of the Carpentries,
+which aims for an inclusive approach to technology instruction, empowering learners
+with "[efficient, open, and reproducible](https://carpentries.org/about-us/)" digital practices.
+
 
 ## Using the Book
 
@@ -48,3 +62,5 @@ Given these assumptions, this book may not be equally useful to all readers.
 For those, however, who have a healthy curiosity, a modicum of  patience in learning new digital tools, and tenacity and perserverance
 in trying things out and making them work, I hope that the book will be rewarding.
 For those who have not already learned or worked with the above tools, the next "Getting Started" section offers some basic advice about how to set up your computing environment and outlines the major tools used throughout the book.
+
+***TODO?*** Possibly add an "activity" section, set up your GitHub account activity.
