@@ -98,7 +98,7 @@ embedding links or images, the use of lists, and the convention for short `code`
 | `## Heading 2` | | output enclosed in `<h2>...</h2>` html tags |
 | etc. for add'l. levels | | |
 | `[link](http://example.url)` | | [link](http://example.url) |
-| `![alt text](http://path.to.source.file)` | | ![alt text](https://upload.wikimedia.org/wikipedia/commons/b/bb/Windows_95_Help_page.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original) |
+| `![alt text](http://path.to.source.file)` | | ![Retro Windows 95 image sourced from wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/b/bb/Windows_95_Help_page.png) |
 | `- unordered list item` | `* unordered list item` | <ul><li>unordered list item</li></ul> |
 | `1. ordered list item` | `1) ordered list item` | <ol><li>ordered list item</li></ol> |
 | \`text appears in monospace\` | | `text appears in monospace` |
@@ -107,6 +107,7 @@ embedding links or images, the use of lists, and the convention for short `code`
 As noted above, remember that markdown is highly sensitive to spacing.
 Paragraphs are indicated by the presence of blank lines in between them (like the ["block" style of a formal business letter](wiki:Business_letter#Block)).
 Lists and blockquotes must also be preceded by a blank line.
+The format of links and image syntax must not have spaces between the square brackets and parentheses.
 Likewise image tags are frequently affected by where they are placed within text, on their own line,
 or with blank lines before and after.
 
