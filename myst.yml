@@ -33,8 +33,8 @@ project:
     - file: ./part01/index.md
       title: "Part 1: Libraries and Open Source Culture"
       children:
-        - file: part01/01-open-source-libraries.md
-        - file: part01/02-brief-history-open-libraries.md
+        - file: ./part01/01-open-source-libraries.md
+        - file: ./part01/02-brief-history-open-libraries.md
       # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 1
     - file: ./part02/index.md
       children:
@@ -49,7 +49,7 @@ project:
     - file: ./labs/index.md
       children:
         # a list of labs would go here
-        - file: labs/lab-04-jekyll.md
+        - file: ./labs/lab-04-jekyll.md
           title: "Lab 4: Setting Up CollectionBuilder"
   exports:
     - format: typst
@@ -67,29 +67,29 @@ project:
       show_pagenumber: true
       papersize: us-letter
       edition: August 2026 edition
-    - format: pdf
-      template: plain_latex_book
+#    - format: pdf
+#      template: plain_latex_book
       #date: 2026-07-30
-      articles:
+#      articles:
         #- file: index.md
         #  level: 0 #frontmatter?
-        - file: introduction/index.md
-          level: 0
+#        - file: introduction/index.md
+#          level: 0
         #- file: introduction/setup.md #may not be necessary in pdf?
         #  level: -1
-        - file: part01/01-open-source-libraries.md
-          level: -1
-        - file: part01/02-brief-history-open-libraries.md
-          level: 0
-        - title: Labs and Worked Examples
-          level: -1
-        - file: part02/xml-working-with-MODS.ipynb
-          level: 0
-        - file: labs/lab-04-jekyll.md
-          level: 0
-      output: ./_build/exports/managing-digital-collections-latextpl.pdf
-      id: latex-book-pdf
-      show_pagenumber: true
+#        - file: part01/01-open-source-libraries.md
+#          level: -1
+#        - file: part01/02-brief-history-open-libraries.md
+#          level: 0
+#        - title: Labs and Worked Examples
+#          level: -1
+#        - file: part02/xml-working-with-MODS.ipynb
+#          level: 0
+#        - file: labs/lab-04-jekyll.md
+#          level: 0
+#      output: ./_build/exports/managing-digital-collections-latextpl.pdf
+#      id: latex-book-pdf
+#      show_pagenumber: true
   downloads:
     - id: typst-book-pdf
       title: Download the full book (PDF)
