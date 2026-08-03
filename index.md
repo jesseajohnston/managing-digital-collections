@@ -1,6 +1,6 @@
 ---
 title: Frontmatter
-date: 2026-07-27
+date: 2026-08-03
 site:
   hide_authors: false
 ---
@@ -12,3 +12,8 @@ site:
 Jesse A. Johnston, _Managing Digital Collections: An Open-Source Guide to Digital Cultural Heritage Management with Python_ (Ann Arbor, Michigan: University of Michigan School of Information, 2026).
 
 % possible to insert a TOC here https://mystmd.org/guide/table-of-contents#display-all-pages-in-the-project
+
+:::{toc}
+:context: project
+:depth: 1
+:::
