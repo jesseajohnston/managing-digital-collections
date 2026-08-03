@@ -10,11 +10,12 @@ in the development of digital cultural heritage management.
 To do that, however, it is useful to understand some of the various to and understandings of the variety of things that open source can mean,
 in both software development and in digital cultural heritage, largely as demonstrated in projects and values from libraries.
 
-## Parts in this Section
-
-:::{toc}
-:context: children
-:::
+% comment out sub-section TOC - only want to appear on online version
+%## Parts in this Section
+%
+%:::{toc}
+%:context: children
+%:::
 
 The first part of the section explores various understandings of "open source," as it may be discussed differently in both software and systems development.
 At the same time, different trajectories of openness have developed in libraries and archvies, including pursuits of open access publishing and a long tradition of exchanging bibliographic data.

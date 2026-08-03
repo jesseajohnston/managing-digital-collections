@@ -6,11 +6,12 @@ The third part of the book explores basics of networked computing via the Intern
 with a focus on how metadata can be published and shared with APIs.
 Additionally, as a worked example
 
-## Parts in this Section
-
-:::{toc}
-:context: children
-:::
+% comment out sub-section TOC - only want to appear on online version
+%## Parts in this Section
+%
+%:::{toc}
+%:context: children
+%:::
 
 ***TODO:*** things adding in here
 

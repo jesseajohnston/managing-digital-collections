@@ -11,9 +11,9 @@ site:
 
 Jesse A. Johnston, _Managing Digital Collections: An Open-Source Guide to Digital Cultural Heritage Management with Python_ (Ann Arbor, Michigan: University of Michigan School of Information, 2026).
 
+% comment out sub-section TOC - only want to appear on online version
 % possible to insert a TOC here https://mystmd.org/guide/table-of-contents#display-all-pages-in-the-project
-
-:::{toc}
-:context: project
-:depth: 1
-:::
+%:::{toc}
+%:context: project
+%:depth: 1
+%:::
