@@ -93,8 +93,8 @@ project:
   downloads:
     - id: typst-book-pdf
       title: Download the full book (PDF)
-    - id: latex-book-pdf
-      title: Download the book in PDF (latex template)
+#    - id: latex-book-pdf
+#      title: Download the book in PDF (latex template)
   license: CC-BY-NC-SA-4.0
   open_access: true
 
