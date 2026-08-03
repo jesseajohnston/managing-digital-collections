@@ -105,12 +105,11 @@ but it is worth noting that these tools are already in wide use in many professi
 
 While these tools are widely used, and can be useful, I recommend
 avoiding getting too much help from generative AI during class or while you are working on fundamental examples. This book contains plenty of basic code and examples, which are explained and available to use or reuse. You should aim to understand these first, before moving on to develop solely with an LLM.
-As the Library Carpentry suggests, your goal should be first to learn "foundational knowledge and skills . . . by writing and fixing your own" code and tools. This is 
+As the [authors of the Library Carpentry's data management lesson suggest](https://librarycarpentry.github.io/lc-data-intro/01-regular-expressions.html#getting-help-with-regular-expressions), your goal should be first to learn "foundational knowledge and skills . . . by writing and fixing your own" code and tools. This is
 
 > essential to be able to evaluate the correctness and safety of any answers you receive from other people or a generative AI chatbot. If you choose to use these tools in the future, the expertise you gain from learning and practising these fundamentals on your own will help you use them more effectively.
-> [Library Carpentry, "Introduction to Data Management"](https://librarycarpentry.github.io/lc-data-intro/01-regular-expressions.html#getting-help-with-regular-expressions)
 
-# The Role of AI in Producing this Book
+## The Role of AI in Producing this Book
 
 The author did use AI in generating this book. However, AI was used in very specific ways.
 The composition and writing of the book's prose was undertaken entirely by the author,
