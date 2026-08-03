@@ -26,29 +26,27 @@ project:
   bibliography: references.bib
   toc:
     #- file: cover.md
-    - file: index.md
-    - file: introduction/index.md
-      title: Introduction
+    - file: ./index.md
+    - file: ./introduction/index.md
       children:
-        - file: introduction/setup.md
-          title: Getting Started
-    - file: part01/index.md
+        - file: ./introduction/setup.md
+    - file: ./part01/index.md
       title: "Part 1: Libraries and Open Source Culture"
       children:
         - file: part01/01-open-source-libraries.md
         - file: part01/02-brief-history-open-libraries.md
       # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 1
-    - file: part02/index.md
+    - file: ./part02/index.md
       children:
         - file: part02/xml-working-with-MODS.ipynb
           title: "Using Python for XML: Working with MODS"
-    - title: "Part 3: Working with Networks"
+    - file: ./part03/index.md
       children: []
         # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 3
     - title: "Part 4: Presenting and Managing Collections"
       children: []
         # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 4
-    - title: Labs
+    - file: ./labs/index.md
       children:
         # a list of labs would go here
         - file: labs/lab-04-jekyll.md
