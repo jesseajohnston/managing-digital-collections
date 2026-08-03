@@ -117,9 +117,9 @@ using a very human process of drafting, editing, and rewriting.
 All of the text was developed in previous iterations of the course and reflects the author's experience
 teaching these concepts and tools in live teaching settings.
 
-Beyond the text, AI was used to configure the web version of the book,
-which runs on the MyST templating and document engine, as well as the Typst language for
-templating and creating the pdf version.
+AI was used for some elements beyond writing. This included configuration of the web version of the book,
+which runs on the MyST templating and document engine, as well as modifications to the Typst
+template for creation of the pdf version.
 In addition, LLMs were used to develop some of the sample code,
 though all of the code developed prior to 2025 was "artisanal" (in the sens of it being
 designed and written by the author, who is not a programmer).
