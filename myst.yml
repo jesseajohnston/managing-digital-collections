@@ -38,7 +38,7 @@ project:
       # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 1
     - file: ./part02/index.md
       children:
-        - file: part02/xml-working-with-MODS.ipynb
+        - file: ./part02/xml-working-with-MODS.ipynb
           title: "Using Python for XML: Working with MODS"
     - file: ./part03/index.md
       children: []
