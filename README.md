@@ -53,6 +53,47 @@ Tools/libraries used in this chapter: `lxml`, `requests`.
 :::
 ```
 
+### Providing Code exercises and Code Solutions
+
+Metadata can be added to individual notebook cells to control how they display, which is useful for demonstration purposes and teaching.
+Display of these differs between the HTML display and the PDF display.
+Additionally, the exercise/solution admonition available in MyST can be useful.
+
+#### Code exercises
+
+The admonitions pair `{exercise}` and `{solution}`
+can be added to notebooks in markdown cells.
+In these pairs, the `:label: ` tag of the exercise should match the
+title of the solution exactly.
+These will then be numbered consecutively.
+The display of solution can also be modified to be expandable by
+applying a `drowpdown` class.
+
+A sample pair:
+
+```
+:::{exercise}
+:label: ex-count-xml
+
+Exercise content
+:::
+```
+
+And corresponding solution:
+
+```
+:::{solution} ex-count-xml
+
+Solution content
+:::
+```
+
+#### Code Display (for examples and/or solutions)
+
+In Jupyter notebook files, individual cells can be hidden or toggled to open and close using cell-specific tags. At the draft stage, fully built out code cells that illustrate exercises are given the `hide-cell` tag, which makes the cell expandable in the HTML display, and it hides the cell from the pdf generation.
+
+Code output from a cell can be hidden by using the `hide-output` tag to a cell. This will then display as an expandable element in the HTML display, or be hidden in the generated pdf.
+
 ### Citations
 
 Citations should be recorded in bibtex format, and entered in `references.bib`. Conventions and fields available for bibtex
