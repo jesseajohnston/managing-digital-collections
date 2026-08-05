@@ -70,6 +70,76 @@ The Typst PDF template (`templates/plain_typst_book_custom`) shows two separate 
 - **Edition line** (rendered near the authors' names): set by the top-level `project.edition` field (e.g. `edition: August 2026 edition`), used verbatim. If `edition` isn't set, it falls back to `project.date` (currently commented out at `myst.yml:11`), formatted as "[month] [year]" — set it to a full date, e.g. `date: 2026-07-29`.
 - **Preferred Citation block**: set by `project.venue.date` (`myst.yml:16`, currently `"2026"`). Update this string to change the year/date shown in the citation.
 
+## Data Files
+
+Sample data, which is used in various activities throughout the book, live in a single, top-level `data/` folder:
+
+```
+data/
+  README.md            # index of datasets, with provenance for each
+  lcwa-mods-5.xml      # file names include a collection or identifier to show useful groupings
+  lcwa-mods-25.xml
+output/                # anything the notebooks write; gitignored
+```
+
+Under the main folder, data files are grouped by the source or data type, not according to the book's structure.
+Several data elements are used or reused at different points
+in the book.
+Likewise, some data is used in different
+serializations at various times.
+The structure is designed to group similar data together to show their relatedness.
+
+### Naming Data Files
+
+Use lowercase, hyphenated names of the form `source-schema-count.ext`, for example
+`lcwa-mods-25.xml`. Avoid embedding acquisition years or schema names in capitals; the
+provenance and context information about the data belongs in `data/README.md`, which explains the data in more detail.
+
+Every new data file should be listed in [`data/README.md`](data/README.md). The list, which is updated with automation tools, records data
+source, how any subset was derived, any notable rights information, and any modifications made for
+teaching.
+This documentation about the data provenance is not just
+a management detail. This book is about metadata management,
+and data documentation is an essential practice, using an approach like that demonstrated in the data README files.
+
+### Referencing data from notebooks
+
+The book uses Jupyter notebooks to demonstrate code and data manipulation. Since book content lives one level below the repository root (e.g. `part02/`), executable notebooks reach up and over to the the data folder with `..`.
+Each notebook thus contains a setup cell (this is visible in downloaded notebooks, but it is hidden in the web version and in the pdf version), which builds a file path structure to correctly reference the sample data:
+
+```python
+from pathlib import Path
+
+DATA = Path('..', 'data')
+OUT = Path('..', 'output')
+
+MODS_collection = DATA / 'lcwa-mods-5.xml'
+```
+
+Using `pathlib` rather than string concatenation keeps the notebooks portable across
+operating systems, and gives one place to update if the layout changes.
+
+Note that this assumes notebooks are executed with the working directory set to the
+notebook's own folder. That holds when running a notebook in Jupyter from within its
+part folder. If notebooks are later executed as part of the MyST build, confirm the
+working directory before relying on the relative paths.
+
+### Inputs and outputs
+
+`data/` holds inputs only, and files there should not be modified by a notebook. Anything
+a notebook writes — updated records, exports, intermediate files — goes to `output/`,
+which is gitignored so that re-running the notebooks does not produce spurious changes.
+If the text needs to refer to a specific generated file, save a copy into `data/` under a
+descriptive name and treat it as an input from then on.
+
+### Size
+
+Keep sample files small enough to commit directly to git; a few hundred kilobytes per
+dataset is fine, and smaller files also keep printed output readable in the book. If a
+dataset grows beyond a few megabytes, download it at runtime in a setup cell instead of
+committing it. Avoid Git LFS, which adds a setup step for every reader who clones the
+repository.
+
 ## Running Locally
 
 To test and run the project locally, you will need at least MyST and NPM.
