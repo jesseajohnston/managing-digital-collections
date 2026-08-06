@@ -1,5 +1,5 @@
 ---
-title: Metadata Standards for Digital Collections
+title: Metadata for Digital Collections
 ---
 
 Metadata in the cultural heritage context refers to "structured information about an information resource of any media type or format" [@caplan2003, pg. 3].
@@ -47,6 +47,25 @@ The many roles and functions of metadata, its unclear distinctions from other ki
 At its most basic, however, the functions of metadata in cultural heritage are examples of how we structure and control language in specific ways. As @svenonius2000 [pg. 1] sums it up, "information is organized by describing it using a special-purpose language."
 Learning about using, managing, and creating metadata, then, is about learning how to effectively manage this special purpose language.
 
-Describe schemes: rules for what is valid or invalid
+While metadata definitions are often called _schemas_, in this book I follow Caplan's use of _scheme_ instead. For one thing, this is sensible English usage rather than adopting the redundant Latin and English plural. But also, _schema_ has specific meanings "in relation to computer technology as the formal organization or structure of a database, and another specialized meaning in relation to XML" [@caplan2003, pg. 5].
 
+##TODO Describe schemes: rules for what is valid or invalid. Valid terms, usage, data defintions, etc; good quotes from @mitchell2015 around page 104 or so.
+
+```
+possible figure or table
 Example: DublinCore element? or EAD tag and DACS description to show complexity
+```
+
+This book primarily uses three major metadata schemes: DublinCore metadata, the Metadata for Object Description Schema (MODS) for describing digital library resources, and Encoded Archival Description (EAD) for describing archival collections. Below each of these are introduced and further resources are provided.[^resource-note]
+
+### DublinCore
+
+A lightweight, widely used metadata scheme that developed in the 1990s to be used for digital resources that could be accessed on the web.
+
+:::{seealso}
+Dublin Core is highly documented online at <https://www.dublincore.org/specifications/dublin-core/> [@dcmiterms].
+:::
+
+## MODS
+
+[^resource-note]: The usage of these schemes for describing and managing digital collections is covered in depth by many different projects and tutorials. This section draws particularly on @miller2022 for discussions of Dublin Core and MODS, all three are discussed to some extent in @mitchell2015, and the author's personal use and experience with archival metadata informs the examples using EAD.
