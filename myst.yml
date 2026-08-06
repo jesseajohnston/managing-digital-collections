@@ -38,8 +38,13 @@ project:
       # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 1
     - file: ./part02/index.md
       children:
+        - file: ./part02/plan-for-part-2.md
+        - file: ./part02/01-metadata-for-digital-collections.md
         - file: ./part02/xml-working-with-MODS.ipynb
-          title: "Using Python for XML: Working with MODS"
+          title: "Starting out with MODS: Basic XML Parsing"
+#        - file: ./part02/tbd.ipynb
+#          title: "More with MODS: More Complex XML Parsing"
+#          # then build out validation and XPath
     - file: ./part03/index.md
       children: []
         # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 3
@@ -70,6 +75,10 @@ project:
       show_pagenumber: true
       papersize: us-letter
       edition: August 2026 edition
+      # experimental redesigned ToC, rendered after the standard one for comparison
+      show_ToC2: true
+      ToC2_depth: 2
+      ToC2_title: "Contents (draft)"
 #    - format: pdf
 #      template: plain_latex_book
       #date: 2026-07-30
