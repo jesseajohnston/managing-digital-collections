@@ -68,6 +68,7 @@ project:
         - ./part02/index.md
         - ./part02/xml-working-with-MODS.ipynb
         - ./part03/index.md
+        - ./labs/index.md
         - ./labs/lab-04-jekyll.md
       output: ./_build/exports/managing-digital-collections-beta.pdf
       id: typst-book-pdf
@@ -77,7 +78,7 @@ project:
       # experimental redesigned ToC, rendered after the standard one for comparison
       show_ToC2: true
       ToC2_depth: 2
-      ToC2_title: "Contents (draft)"
+      ToC2_title: "Contents (testing template)"
 #    - format: pdf
 #      template: plain_latex_book
       #date: 2026-07-30
