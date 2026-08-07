@@ -132,7 +132,7 @@
               "label": "Purpose",
               "value": "Exhibit",
               "field": "istruct_caption_purpose"
-            },
+            },  
             {
               "label": "Rights",
               "value": "<p>The University of Michigan Library provides access to these materials for educational and research purposes. These materials are in the public domain. If you have questions about the collection, please contact the <a href=\"mailto:scl-dlps-help@umich.edu\">Special Collections Research Center</a>. If you have concerns about the inclusion of an item in this collection, please contact <a href=\"mailto:LibraryIT-info@umich.edu\">Library Information Technology</a>.</p><p><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\">No Copyright</a>. This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</p>",
