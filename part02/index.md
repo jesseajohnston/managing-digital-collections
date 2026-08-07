@@ -14,11 +14,22 @@ The examples explored here largely use the DublinCore standard [@dcmiterms; @mil
 %:context: children
 %:::
 
-***TODO:*** things adding in here
+***TODO:*** things adding in this section
 
 - metadata: what is it, how is it processed by systems, how is it documented?
-- dublincore - overview and examples of qualified dublincore
-- example: using basic and qualified dublincore
+  - functions
+  - schemes
+    - quality and validation
+  - serialization
+  - transformation
+- dublincore - overview with basic example, and qualified dublincore example
 - MODS: a library example
 - Working with XML, XML as a control structure (and can introduce JSON schemas in "Networks" section)
+  - basics, more advanced: namespaces, schemas and validation
+- transforming metadata - a process for which you can use Python skillz
+  - getting data
+  - crosswalking
+  - implementing a transformation
+  - example: creating basic and qualified dublincore
 - Documenting metadata: the MAP as an example: activity, creating a MAP for a digital collection
+  - exercise: validate the metadata (are the fields valid, proper data; note this won't address metadata quality or accuracy)
