@@ -24,6 +24,11 @@ project:
     - cultural heritage
   github: jesseajohnston/managing-digital-collections
   bibliography: references.bib
+  # this changes the default label for code from program to code block
+  numbering:
+    code:
+      enabled: true
+      template: "Code Block\u00A0%s"
   toc:
     #- file: cover.md
     - file: ./index.md
@@ -31,19 +36,19 @@ project:
       children:
         - file: ./introduction/setup.md
     - file: ./part01/index.md
-      title: "Part 1: Libraries and Open Source Culture"
       children:
         - file: ./part01/01-open-source-libraries.md
         - file: ./part01/02-brief-history-open-libraries.md
-      # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 1
+        - file: ./part01/03-open-standards-on-the-web.md
+        - file: ./part01/04-open-data-formats.md # data formats
+        #- file: example of working with  related to collection builder)
     - file: ./part02/index.md
       children:
         - file: ./part02/01-metadata-for-digital-collections.md
-        - file: ./part02/xml-working-with-MODS.ipynb
-          title: "Starting out with MODS: Basic XML Parsing"
-#        - file: ./part02/tbd.ipynb
-#          title: "More with MODS: More Complex XML Parsing"
-#          # then build out validation and XPath
+        - file: ./part02/02-some-metadata-considerations.md
+        - file: ./part02/xml-01-basics-with-MODS.ipynb
+        - file: ./part02/xml-02-lxml-and-xpath.ipynb
+        - file: ./part02/xml-03-advanced-MODS.ipynb
     - file: ./part03/index.md
       children: []
         # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 3
@@ -60,14 +65,25 @@ project:
       template: ./templates/plain_typst_book_custom #lapreprint-typst #plain_typest_book
       articles:
         #- index.md index file is only used for online version
+        # Introduction
         - ./introduction/index.md
         - ./introduction/setup.md #may not be necessary in pdf?
+        # Part 1
         - ./part01/index.md
         - ./part01/01-open-source-libraries.md
         - ./part01/02-brief-history-open-libraries.md
+        - ./part01/03-open-standards-on-the-web.md
+        - ./part01/04-open-data-formats.md
+        # Part 2
         - ./part02/index.md
-        - ./part02/xml-working-with-MODS.ipynb
+        - ./part02/01-metadata-for-digital-collections.md
+        - ./part02/02-some-metadata-considerations.md
+        - ./part02/xml-01-basics-with-MODS.ipynb
+        - ./part02/xml-02-lxml-and-xpath.ipynb
+        - ./part02/xml-03-advanced-MODS.ipynb
+        # Part 3
         - ./part03/index.md
+        # Labs Section (include?)
         - ./labs/index.md
         - ./labs/lab-04-jekyll.md
       output: ./_build/exports/managing-digital-collections-beta.pdf
@@ -79,6 +95,9 @@ project:
       show_ToC2: true
       ToC2_depth: 2
       ToC2_title: "Contents (testing template)"
+      # top-level groups: "Part N: …" plus the Labs section (single-quoted so
+      # YAML keeps the doubled backslashes Typst needs in a string literal)
+      ToC2_part_pattern: '^\\s*(Part\\s+[0-9IVXLC]+|Labs)\\b'
 #    - format: pdf
 #      template: plain_latex_book
       #date: 2026-07-30
@@ -119,4 +138,5 @@ site:
     logo_text: Managing Digital Collections
     folders: true # maintains folder structure in folders/sections
     hide_authors: true
+    numbered_references: false
     #style: ./custom.css
