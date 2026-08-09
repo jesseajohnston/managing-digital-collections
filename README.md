@@ -40,7 +40,7 @@ Discussion questions or aside blocks may use `{hint}` (light bulb icon, green).
 
 Activities/tasks/lab boxes may use `{tip}` (pencil on paper icon, green)
 
-Chapters should also open with two standard callouts, in this order: `{important}` (lightning bolt, blue) for Learning Outcomes and `{attention}` (megaphone, orange) for Dependencies (tools/libraries used in that chapter). For example:
+Chapters should also open with two standard callouts, in this order: `{important}` (lightning bolt, blue) for Learning Outcomes and `{attention}` (megaphone, orange) for Dependencies (tools/libraries used in that chapter) or `{note}` (info, blue) for skills you will need. For example:
 
 ```
 :::{important} Learning Outcomes
@@ -50,6 +50,10 @@ Chapters should also open with two standard callouts, in this order: `{important
 
 :::{attention} Dependencies
 Tools/libraries used in this chapter: `lxml`, `requests`.
+:::
+
+:::{note} Skills You Need in this Section
+Assumptions or skills needed in a section, like "Using Jupyter Notebooks"
 :::
 ```
 
