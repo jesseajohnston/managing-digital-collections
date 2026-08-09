@@ -96,10 +96,107 @@ If you wanted to find this image, the basic descriptive information might be eno
 The significance and utility of the above image would be significantly reduced, however, if its relationship to these other items was lost, which is largely the purpose of the additional metadata
 that fills in necessary structural, technical, and preservation information, which allows a system to reconstruct, render, and present in context; and allows the owner and user to preserve or demonstrate the integrity of the image over time.
 
-:::{hint} TODO: Use examples
+The online presentation of the turkey plate contains significant and robust
+metadata already. To illustrate the above points, let's take a look at some of the basic information included under the heading _Record Details_ (see [](#turkey-basic-metadata)).
+
+:::{table} Selected information from the _Record Details_ section of the wild turkey item page (note that the source page provides much more information).
+:label: turkey-basic-metadata
+
+| Attribute | Value |
+| --- | ------ |
+| Item ID | B464540 |
+| Image Title | Wild Turkey, Meleagris Gallopavo, Linn. |
+| Work Title | The birds of America; from original drawings by John James Audubon |
+| Comments | Engraved title page. Imprint dates: v. 1, 1827-30; v. 2, 1831-34; v. 3, 1834-35; v. 4, 1835-38, June 20. Originally issued in 87 parts. "The plates were published without any text, to avoid the necessity of furnishing copies gratis to the public libraries in England, agreeably to the law of copyright."--Sabin, A dictionary of books relating to America, v. 1, p. 315. |
+| Creator | Audubon, John James, 1785-1851, (illustrator, publisher) |
+|         | Havell, Robert, 1793-1878, (illustrator, printer of plates.) |
+|         | Lizars, W. H. (William Home), 1788-1859, (illustrator.) |
+| Date    | 1827-1830 |
+| Rights  | The images in this collection are in the public domain and may be used without permission. Kindly provide attribution to the University of Michigan Special Collections Library. |
+| Item Dimensions | 100 x 68 cm. |
+| Medium | Intaglio printing, hand-colored |
+| Subject | Birds |
+| Type | Book |
+
+:::
+
+As described in the section on [data encodings](/part01/04-open-data-formats.md),
+this metadata could easily be understood as a list of _attribute - value_ pairs.
+These might be encoded equally well as a CSV, JSON, or XMl file.
+Although these would look slightly different, the data is equivalent, as demonstrated in the selected examples shown in [](#encoding-comparison) below.
+Note that this example illustrates only five selected fields, `Image Title`,
+`Work Title`, `Subject`, `Type`, and `Rights`. Check the number of fields in the source example to get an idea of the full extent of this metadata.
+
+::::::{tab-set}
+:description: A comparison of metadata about the wild turkey image encoded in different formats. Note that in each column the data should be equivalent even though the formatting is different.
+:caption: A comparison of metadata in different encodings.
+:enumerated: true
+:label: encoding-comparison
+
+:::{tab-item} CSV 1: listed pairs
+:label: encoding-ex-csv1
+```csv
+image_title,"Wild Turkey, Meleagris Gallopavo, Linn."
+work_title,The birds of America; from original drawings by John James Audubon
+subject,birds
+type,book
+rights,public domain
+```
+:::
+
+:::{tab-item} CSV 2: rows & records
+:label: encoding-ex-csv2
+```csv
+image_title,work_title,subject,type,rights
+"Wild Turkey, Meleagris Gallopavo, Linn.",The birds of America; from original drawings by John James Audubon,birds,book,public domain
+```
+:::
+
+:::{tab-item} XML
+:label: encoding-ex-xml
+```xml
+<metadata>
+    <image_title>Wild Turkey, Meleagris Gallopavo, Linn.</image_title>
+    <work_title>The birds of America; from original drawings by John James Audubon</work_title>
+    <subject>birds</subject>
+    <type>book</type>
+    <rights label="Public Domain" type="uri">https://creativecommons.org/publicdomain/mark/1.0/</rights>
+</metadata>
+```
+:::
+
+:::{tab-item} JSON
+:label: encoding-ex-json
+```json
+[{"image_title","Wild Turkey, Meleagris Gallopavo, Linn."},
+{"work_title","The birds of America; from original drawings by John James Audubon"},
+{"subject": "birds"},
+{"type": "book"},
+{"rights":"https://creativecommons.org/publicdomain/mark/1.0/"}]
+```
+:::
+
+::::::
+
+Let's take a quick look at the various encodings. In tab [**CSV 1**](#encoding-ex-csv1)  above, the data is encoded as a single _attribute - value_ pair on each line. This format works for a single record, but it would quickly become unwieldy for multiple records.
+Multiple records would be easier to encode in a style like that shown in the [**CSV 2**](#encoding-ex-csv2) tab,
+which is styled in a _rows & records_ format. In this example, new records could readily be added by adding a new row in the file, which would have the same attributes as outlined in the first row, also known as the _header row_.
+In the [**XML**](#encoding-ex-xml) tab, note how each field is wrapped
+by an opening and closing tag in pointy braces (e.g., `<tag>text</tag>`).
+In addition, the XML structure enables a deeper structure: note how the
+rights tag includes embedded attributes, including the `@label` of `Public Domain` and an indication that the data enclosed in the tag is a URI (`@uri`).
+Finally, the [**JSON**](#encoding-ex-json) tab shows how the data might be encoded in this format.
+We will be discussing and working with JSON much more later, but it is worth noting
+in brief that the entire record here is enclosed in square brackets (`[ ]`),
+which hints that Python can work with this data as a list.
+
+We will see below how the metadata examined here can be encoded more effectively
+in data structures that are more closely defined through specific metadata schemes.
+
+:::{hint} TODO?: Add a complex/multi-file example?
 Example objects that could illustrate metadata examples. Possibly two to illustrate a complex/simple object?
 
-But anyway, mostly use a digital object, and show how some of the metadata might look in different formats. Let's try the turkey from the Audobon book:
+**Possibility:** web archive, such as the Slate example below?
 :::
 
 This book primarily uses three major metadata schemes: DublinCore metadata, the Metadata for Object Description Schema (MODS) for describing digital library resources, and Encoded Archival Description (EAD) for describing archival collections. Below each of these are introduced and further resources are provided.[^resource-fn]
@@ -111,11 +208,15 @@ The basic uses of Dublin Core developed in the late 1990s, when it was developed
 Dublin Core takes its name from Dublin, Ohio, which was the location of a meeting in 1995 at which the intial set of Dublin Core attributes was memorialized.
 The meeting included fifty-two participants and focused on the question "Can a simple metadata record be defined that sufficiently describes a wide range of electronic objects?" The question responded to concerns about the difficulty of finding documents on the early Web, and with an assumption that while standard description could help users locate these resources, a simpler (less laborious approach than bibliographic description) way forward would be more widely adopted and beneficial to the web. The meeting aimed to "achieve consensus on a list of metadata elements that would yield simple descriptions of data in a wide range of subject areas, and to lay the groundwork for achieving further progress in the definition of metadata elements that describe electronic information" [@weibel1995].
 
+TODO: add pomerantz?
+
 DCMES thus produced a "simple set of data elements for describing documents and other objects on the Internet" [@coyle2005, pg. 161]. Those elements were refined into a set of fifteen basic attributes, which were codified in 1998 in a standard issued by the Internet Engineering Task Force as [RFC 2413](http://www.ietf.org/rfc/rfc2413.txt) in 1998 [@rfc2413]. As @coyle2005 [pg. 162] points out, the scheme is easy to use, permissive, and "there are no cataloging rules involved." All of this made the scheme easy to use, and while it did not gain the same level of detail and control as did other metadata schemes, it became a widely used _lingua france_ for digital resource description.
 
-- additional elements have been added, and more granularity possible; this is DCMES/DCTERMS, known as RFC 5013 [@rfc5013]
-- and more recently, a data model and data classes have been added, so that DCMES now functions as a linked-data-capable, robust and highly flexible metadata scheme
-- because it retains its original 
+- additional elements have been added, and more granularity possible; this is DCMES/DCTERMS, known as RFC 5013 [@rfc5013]; as of August 2026 there are 55 defined terms.
+- and more recently, a data model and reference documentation have added classes (types of elements), as well as domains (kinds of data) and ranges (valid type values), so that DCMES now functions as a robust, highly extensible, linked-data-capable metadata scheme;
+- because it retains its original terms, the scheme is backwards compatible to the original 15 elements
+- DCMES is agnostic as far as data encoding, and valid data can be serialized in CSV, XML, or JSON depending on the publisher's needs and preferences;
+- because it remains open, highly documented, and hospitable, the DCMES essentially provides a metadata framework upon which other systems can be built; for example, the [DarwinCore scheme](https://dwc.tdwg.org/) adds standard metadata elements for describing biodiversity data and taxonomies, which are a specialized area beyond DCMES but allows for the use and reuse of the "core" DC terms.
 
 :::{seealso} Learn More about the DCMES
 Dublin Core is highly documented online at <https://www.dublincore.org/specifications/dublin-core/> [@dcmiterms].
@@ -131,7 +232,7 @@ MODS is a much simpler scheme with fewer elements and a less fussy structure; as
 The first version of MODS was formally published in 2002, and the current version, as of 2026, is 3.8.
 
 Although the data can be stored or presented in different ways, this schema
-was designed with XML in mind, and MODS records are always presented in XML.
+was designed with XML in mind [@guentheretal2003], and MODS records are always presented in XML.
 A basic MODS record may look something like the example presented in [](#mods-sample).
 
 ```{code} xml
@@ -215,17 +316,26 @@ An alphabetized list of valid MODS elements, with links to the their usage infor
 
 ### EAD
 
-The
+The Encoded Archival Description scheme (EAD) was developed to work
+with semi-structured text that can describe hierarchically organized collections
+most commonly found in archives. Because these collections often contain
+large amounts of unpublished materials, including manuscripts and business records among many other kinds of content,
+they are only rarely described at the item level.
+Instead, they often describe broad categories, or _series_, of material,
+which are distinguished by function or material form.
 
 Like MODS, EAD was developed with XML in mind and, while current systems
-do not necessarily rely on the XML encoding.
+do not necessarily rely on the XML encoding, this shcme is defined by XML.
+The scheme was developed in [TODO: year?]
 The ArchivesSpace finding aid management system, for example,
 serializes data in a JSON format (more on that later)
 
 Let's talk more about EAD!
 
-:::{seealso}
-Additional EAD resources
+:::{seealso} EAD Resources
+EAD was developed by the Society of American Archivists and is maintained and published by the Library of Congress. The most current definition of the scheme (EAD 4 as of July 2026) can be found at <https://www.loc.gov/ead/v4/EAD4-TL-eng.html>.[^ead-fn]
+
+A highly useful additional resource is [EADiva](https://eadiva.com/elements/), which provides an accessible and comprehensive overview of the scheme, maintained by Ruth Kitchin Tillman.
 :::
 
 ## Metadata Encoding
@@ -247,11 +357,11 @@ Practices and workflows, particularly from the 1990s and early 2000s, often deve
 Thus, in some cases, catalogers and processors transcribed meticulously coded artisanal metadata. Modern systems should support working with this data programatically, which is less dependent on specific encoding structures and, hopefully, less prone to inconsistencies in the future.
 It is therefore no longer so critical to focus on the subtleties of data encoding.
 As @eckard2020 [pg. 76] notes, "it is worth noting that focusing _too much_ on the data standard for format/technical interchange&mdash;as might be the case, for example, if an archivist these days opted to hand-encode XML&mdash;can sometimes indicate a misdirected fixation on the way that metadata standards are serialized."
-
 Effort, instead, should be focused on developing tools that support consistent management and creation of metadata for digital collections, as well as learning and conforming to extant metadata standards.
 
 [^item-fn]: The definition and meaning of _item_ can be confusing in collecting contexts, because it depends on an organization's collecting focus and activities. For some collections, if they collect only one kind of thing, say books, this might be a relatively simple concept. But very few organizations collect only books, and even if one does it would quickly become clear that there are meaningful needs for different types of description based on time period, publisher, region, language, etc. Libraries, archives, and museums collect all manner of things from books to journals to ephemera to rare manuscripts to biological specimens, any of which can be digitized in some way. For collections that collect different kinds of things, which encompasses most libraries and archives, then, the _item_ concept is both a useful category and a term of art. This complexity is only amplified when content is digitized, or born digital, since the digital content has management needs and often its associated metadata may have distinct needs or challenges based on the original item type. To get around this, the PREMIS metadata scheme uses the term "intellectual entity," meaning "a distinct intellectual or artistic creation that is considered relevant to a designated community in the context of digital preservation [@premis2015, pg. 8]. An intellectual entity, which may or may not have any canonic instantiation, is realized in a "representation," which is "the set of files, including structural metadata, needed for a complete rendition of an Intellectual Entity" [@premis2015, pg, 8]. My usage of "item," then, is most closely related to the PREMIS sense of representation. It is worth noting, however, that the concept of _item_ here is distinct from another stream of bibliographic description theory that includes the FRBR WEMI model, in which the term is closer to "intellectual entity." But for now, that distinction and debate is beyond the scope of this project.
 [^resource-fn]: The usage of these schemes for describing and managing digital collections is covered in depth by many different projects and tutorials. This section draws particularly on @miller2022 for discussions of Dublin Core and MODS, all three are discussed to some extent in @mitchell2015, and the author's personal use and experience with archival metadata informs the examples using EAD.
 [^structure-fn]: Note that _data structure_ should not be conflated with _structural metadata_. The terms are unfortunately similar, but they are distinct.
+[^ead-fn]: All discussions as of this writing are based on EAD 3. EAD 4 was released while this book was in production, so it is referenced here as the current version, but its freshness means that no examples herein utilize version 4.
 
 [turkey-permalink]: https://quod.lib.umich.edu/s/sclaudubon/x-b464540/audubon_v1_1_p1
