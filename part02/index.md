@@ -7,6 +7,14 @@ techniques that use programming to design batch operations for working with desc
 The approaches in this section assume that your collection already has some amount of structured data, ideally in a documented and shared metadata standards.
 The examples explored here largely use the DublinCore standard [@dcmiterms; @miller2022, pg. 65 ff.; @mitchell2015, pp. 105&ndash;107], since it is not only lightweight but is also an openly documented standard that has been widely used to describe digital cultural heritage content.
 
+:::{note} Assumptions and Skills in this Section
+This section assumes you:
+
+- Can use python and Jupyter notebooks
+- Can import python libraries
+- Have a basic understanding of markup language syntax, both HTML and XML
+:::
+
 % comment out sub-section TOC - only want to appear on online version
 %## Parts in this Section
 %
