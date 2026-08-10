@@ -53,6 +53,3 @@ Let's talk about XML!
 ## JSON: A Quick Introduction
 
 Let's talk about JSON!
-
-:::{}
-:::
