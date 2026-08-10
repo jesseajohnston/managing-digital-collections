@@ -123,13 +123,13 @@ metadata already. To illustrate the above points, let's take a look at some of t
 As described in the section on [data encodings](/part01/04-open-data-formats.md),
 this metadata could easily be understood as a list of _attribute - value_ pairs.
 These might be encoded equally well as a CSV, JSON, or XMl file.
-Although these would look slightly different, the data is equivalent, as demonstrated in the selected examples shown in [](#encoding-comparison) below.
+Although these would look slightly different, the data is equivalent, as demonstrated in the selected examples of a few data attributes about the wild turkey image. [](#encoding-comparison) below shows how these "same" data would look in different encoding formats.
 Note that this example illustrates only five selected fields, `Image Title`,
 `Work Title`, `Subject`, `Type`, and `Rights`. Check the number of fields in the source example to get an idea of the full extent of this metadata.
 
+% NOTE: `tab-set` accepts only class/label/enumerated/enumerator options. Do not use :description:/:caption: text. What was formerly there is now incorporated into the main prose body.
+
 ::::::{tab-set}
-:description: A comparison of metadata about the wild turkey image encoded in different formats. Note that in each column the data should be equivalent even though the formatting is different.
-:caption: A comparison of metadata in different encodings.
 :enumerated: true
 :label: encoding-comparison
 
@@ -177,6 +177,17 @@ image_title,work_title,subject,type,rights
 :::
 
 ::::::
+
+% mystmd's typst renderer does not emit labels for tabSet/tabItem, so cross-references
+% to the tabs above break the PDF export. These raw typst anchors supply the missing
+% labels; they render nothing in HTML. Remove if mystmd fixes the typst tab renderer.
+:::{raw:typst}
+#metadata("tab-set") <encoding-comparison>
+#metadata("tab-item") <encoding-ex-csv1>
+#metadata("tab-item") <encoding-ex-csv2>
+#metadata("tab-item") <encoding-ex-xml>
+#metadata("tab-item") <encoding-ex-json>
+:::
 
 Let's take a quick look at the various encodings. In tab [**CSV 1**](#encoding-ex-csv1)  above, the data is encoded as a single _attribute - value_ pair on each line. This format works for a single record, but it would quickly become unwieldy for multiple records.
 Multiple records would be easier to encode in a style like that shown in the [**CSV 2**](#encoding-ex-csv2) tab,
