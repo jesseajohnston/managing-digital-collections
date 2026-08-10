@@ -33,3 +33,6 @@ A list of things in a particular collection may have different names in differen
 OAI_PMH uses the collection property to track this.
 BagIt uses manifests
 
+## Validation
+
+## Quality Control
