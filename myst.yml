@@ -46,8 +46,10 @@ project:
       children:
         - file: ./part02/01-metadata-for-digital-collections.md
         - file: ./part02/02-some-metadata-considerations.md
-        - file: ./part02/xml-01-basics-with-MODS.ipynb
-        - file: ./part02/xml-02-lxml-and-xpath.ipynb
+        - file: ./part02/xml-01-basics-with-BS4.ipynb #make optional?
+        # here add intro with ET and EAD . . . https://github.com/morskyjezek/si676-2025-data/blob/main/examples/xml-intro-basic-functions-ET.ipynb
+        - file: ./part02/xml-02-xpath.ipynb
+          title: Searching with XPath
         - file: ./part02/xml-03-advanced-MODS.ipynb
     - file: ./part03/index.md
       children: []
@@ -77,9 +79,11 @@ project:
         # Part 2
         - ./part02/index.md
         - ./part02/01-metadata-for-digital-collections.md
-        - ./part02/02-some-metadata-considerations.md
-        - ./part02/xml-01-basics-with-MODS.ipynb
-        - ./part02/xml-02-lxml-and-xpath.ipynb
+        #- ./part02/02-some-metadata-considerations.md
+        - ./part02/xml-01-basics-with-BS4.ipynb #make optional?
+        # here add an additional basics with ET, to highlight native XML
+        - file: ./part02/xml-02-xpath.ipynb
+          title: Introduction to XPath
         - ./part02/xml-03-advanced-MODS.ipynb
         # Part 3
         - ./part03/index.md
