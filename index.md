@@ -1,6 +1,6 @@
 ---
 title: Frontmatter
-date: 2026-08-03
+date: 2026-08-11
 site:
   hide_authors: false
 ---
