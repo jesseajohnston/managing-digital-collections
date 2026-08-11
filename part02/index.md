@@ -7,6 +7,9 @@ techniques that use programming to design batch operations for working with desc
 The approaches in this section assume that your collection already has some amount of structured data, ideally in a documented and shared metadata standards.
 The examples explored here largely use the DublinCore standard [@dcmiterms; @miller2022, pg. 65 ff.; @mitchell2015, pp. 105&ndash;107], since it is not only lightweight but is also an openly documented standard that has been widely used to describe digital cultural heritage content.
 
+Following the discussion of metadata, this part turns to XML as a common, open data encoding structure for metadata.
+Interactive examples demonstrate how to use Python to interact with XML, search and query an XML structure, modifying and write XML documents, and how to validate against external standards. This section provides a full toolbox that supports working with, analyzing, and modifying XML.
+
 :::{note} Assumptions and Skills in this Section
 This section assumes you:
 
@@ -24,20 +27,25 @@ This section assumes you:
 
 ***TODO:*** things adding in this section
 
-- metadata: what is it, how is it processed by systems, how is it documented?
+- [x] metadata: what is it, how is it processed by systems, how is it documented?
   - functions
   - schemes
     - quality and validation
   - serialization
   - transformation
-- dublincore - overview with basic example, and qualified dublincore example
-- MODS: a library example
-- Working with XML, XML as a control structure (and can introduce JSON schemas in "Networks" section)
-  - basics, more advanced: namespaces, schemas and validation
-- transforming metadata - a process for which you can use Python skillz
-  - getting data
+- [~] Introduce basic flavors we'll use!
+  - [~] dublincore - overview with basic example, and qualified dublincore example - in progress
+  - [X] MODS: a library example
+  - [~] EAD - more details, though currently in progress
+- [x] Working with XML, XML as a control structure (and can introduce JSON schemas in "Networks" section)
+  - [x] basics with `ElementTree`
+  - [ ] more advanced: namespaces, Xpath
+  - [ ] maniuplating and writing
+  - [ ] advanced (requries lxm`l): validate, shcemas the metadata (are the fields valid, proper data; note this won't address metadata quality or accuracy)
+- [ ] Final ACTIVITY transforming metadata - a process for which you can use Python skillz
   - crosswalking
   - implementing a transformation
   - example: creating basic and qualified dublincore
-- Documenting metadata: the MAP as an example: activity, creating a MAP for a digital collection
-  - exercise: validate the metadata (are the fields valid, proper data; note this won't address metadata quality or accuracy)
+  - Documenting metadata: the MAP as an example: activity, creating a MAP for a digital collection
+    - use a basic object to create dublincore (the MAP), then write it to XML (transformation)
+    - ASSIGNMENT: identify a digital object (from UM or LOC), extract the metadata (put it in a table, that also labels metadata as different functions descrip/tech/admin); then, map and document to create a transformation (table), and write a clean XML version
