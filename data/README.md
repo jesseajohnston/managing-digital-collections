@@ -14,14 +14,23 @@ conventions and for how notebooks should reference these paths.
 
 ## Data Samples
 
+### True Samples
+
+These are files that were created only to provide examples. They don't really have any "real world" correlate.
+The naming convention is to begin filenames with `sample-`, then to provide data format and any other useful information.
+
+| File | Records | Used in |
+| --- | --- | --- |
+| `sample-ead-superior.xml` | | Part 2, introductory parsing XML example |
+
 ### Library of Congress Web Archives (LCWA): sample MODS records
 
 MODS records describing archived websites, used in Part 2 to introduce XML parsing.
 
 | File | Records | Used in |
 | --- | --- | --- |
-| `lcwa-mods-5.xml` | 5 | Part 2, introductory parsing |
-| `lcwa-mods-25.xml` | 25 | Part 2, subject analysis and record modification |
+| `lcwa-mods-5.xml` | 5 | Part 2, introductory parsing of XML and MODS |
+| `lcwa-mods-25.xml` | 25 | Part 2, advanced XML for subject analysis and record modification |
 
 The 5-record file is a subset of the same collection as the 25-record file, kept small
 so that printed output stays readable in the book.
