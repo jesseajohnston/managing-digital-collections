@@ -35,6 +35,14 @@ so that printed output stays readable in the book.
   `<!-- TODO: Insert name authority here -->` placeholders that appear inside some `<subject>`
   elements.
 
+### Bentley Historical Library (BHL): sample EAD finding aids
+
+Finding aids retrieved from University of Michigan's online search at https://findingaids.lib.umich.edu/catalog/umich-bhl-9744.
+
+| File | Records | Used in |
+| --- | --- | --- |
+| `bhl-ead-toy-papers.xml` | 1 | Extensive EAD finding aid, for ET introduction |
+
 <!--
 ### `<next-collection>/` — short title
 
