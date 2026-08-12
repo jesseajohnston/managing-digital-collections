@@ -20,4 +20,5 @@ Additionally, as a worked example
 - An Example of Open, Networked Library Data: the LOC API - an example,
   - Looking at LOC APi, and OAIPMH (XML-based)
   - Activity: setting up Omeka S
-- RDF and linked data? (but may be better in "networks" section)
+- Data format: JSON, using the Omeka S API
+- An activity with RDF and linked data?
