@@ -46,11 +46,14 @@ project:
       children:
         - file: ./part02/01-metadata-for-digital-collections.md
         - file: ./part02/02-some-metadata-considerations.md
-        - file: ./part02/xml-01-basics-with-BS4.ipynb #make optional?
-        # here add intro with ET and EAD . . . https://github.com/morskyjezek/si676-2025-data/blob/main/examples/xml-intro-basic-functions-ET.ipynb
+        - file: ./part02/xml-01-basics-with-ET.ipynb
         - file: ./part02/xml-02-xpath.ipynb
-          title: Searching with XPath
+        - file: ./part02/xml-03-manipulating-data.ipynb
+        - file: ./part02/xml-04-validation.ipynb
+        - file: ./part02/xml-01-basics-with-BS4.ipynb #make optional?
+        # is there any other element? 
         - file: ./part02/xml-03-advanced-MODS.ipynb
+          title: Working with MODS [OLD, to REMOVE]
     - file: ./part03/index.md
       children: []
         # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 3
@@ -77,13 +80,15 @@ project:
         - ./part01/03-open-standards-on-the-web.md
         - ./part01/04-open-data-formats.md
         # Part 2
+        #- title: "Part 2: Working with Metadata" # theoretically this creates a heading in TOC, but this only generates a blank page in current typst
         - ./part02/index.md
         - ./part02/01-metadata-for-digital-collections.md
-        #- ./part02/02-some-metadata-considerations.md
+        - ./part02/02-some-metadata-considerations.md
+        - ./part02/xml-01-basics-with-ET.ipynb
+        - ./part02/xml-02-xpath.ipynb
+        - ./part02/xml-03-manipulating-data.ipynb
+        - ./part02/xml-04-validation.ipynb
         - ./part02/xml-01-basics-with-BS4.ipynb #make optional?
-        # here add an additional basics with ET, to highlight native XML
-        - file: ./part02/xml-02-xpath.ipynb
-          title: Introduction to XPath
         - ./part02/xml-03-advanced-MODS.ipynb
         # Part 3
         - ./part03/index.md
