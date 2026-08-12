@@ -50,6 +50,55 @@ As discussed previously, the CSV structure is a good example of a serialization 
 
 Let's talk about XML!
 
+```{code} xml
+:label: xml-sample
+:linenos:
+:emphasize-lines: 
+:caption: A snippet that illustrates basic features of the XML structure.
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://example-library-schema.org" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <book id="B464540" available="true">
+        <dc:title xml:lang="en">The birds of America; from original drawings by John James Audubon</dc:title>
+        <author id="JJA" surname="Audubon">
+            <name>John James Audubon</name>
+            <born>1785</born>
+            <died>1851</died>
+        </author>
+        <dc:subject>birds</dc:subject>
+    </book>
+</library>
+```
+
 ## JSON: A Quick Introduction
 
 Let's talk about JSON!
+
+```{code} json
+:label: json-sample
+:linenos:
+:emphasize-lines: 
+:caption: A snippet that illustrates basic features of the JSON structure.
+{
+    "Items" : 2,
+    "collectionType" : "library",
+    "books": [
+        {
+            "id": "B464540",
+            "availalbe" : true,
+            "dc:title": "The birds of America; from original drawings by John James Audubon",
+            "language": "en",
+            "author": {"id": "JJA"},
+            "dc:subject": "birds"
+        }
+    ],
+    "authors": [
+        {
+            "id": "JJA",
+            "surname": "Audubon",
+            "name": "John James Audubon",
+            "born": "1785",
+            "died": "1851"
+        }
+    ]
+}
+```
