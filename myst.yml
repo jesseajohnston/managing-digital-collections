@@ -40,7 +40,7 @@ project:
         - file: ./part01/01-open-source-libraries.md
         - file: ./part01/02-brief-history-open-libraries.md
         - file: ./part01/03-open-standards-on-the-web.md
-        - file: ./part01/04-open-data-formats.md # data formats
+        - file: ./part01/04-open-metadata.md # data formats
         #- file: example of working with  related to collection builder)
     - file: ./part02/index.md
       children:
@@ -65,6 +65,7 @@ project:
         # a list of labs would go here
         - file: ./labs/lab-04-jekyll.md
           title: "Lab 4: Setting Up CollectionBuilder"
+        - file: ./labs/asst-05-digital-collections-of-interest.md
   exports:
     - format: typst
       template: ./templates/plain_typst_book_custom #lapreprint-typst #plain_typest_book
@@ -78,7 +79,7 @@ project:
         - ./part01/01-open-source-libraries.md
         - ./part01/02-brief-history-open-libraries.md
         - ./part01/03-open-standards-on-the-web.md
-        - ./part01/04-open-data-formats.md
+        - ./part01/04-open-metadata.md
         # Part 2
         #- title: "Part 2: Working with Metadata" # theoretically this creates a heading in TOC, but this only generates a blank page in current typst
         - ./part02/index.md

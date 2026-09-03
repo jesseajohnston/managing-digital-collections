@@ -1,5 +1,5 @@
 ---
-title: Encoding Data in Open Formats
+title: Open Metadata
 ---
 
 :::{warning}
@@ -7,6 +7,9 @@ This fits with the "openness" section, right?
 
 TODO: This file is not completed. Remove this box when the file is drafted.
 :::
+
+This section was originally titled "Encoding Data in Open Formats,"
+but as the open metadata movement has grown, it became clear that this section was about open metadata.
 
 This is a placeholder for a page that will introduce
 open data encoding formats, including CSV, XML, and JSON.
