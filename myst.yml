@@ -35,7 +35,7 @@ project:
     - file: ./teaching/index.md
       children:
         - file: ./teaching/schedule-2026.md
-        - file: ./labs/asst-05-digital-collections-of-interest.md
+        - file: ./teaching/digital-collections-of-interest.md
     - file: ./introduction/index.md
       title: The Book
       children:
