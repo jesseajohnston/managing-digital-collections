@@ -17,6 +17,7 @@ and some level of descriptive metadata. Some are available via APIs, but some wi
 | [Library of Congress "Free to Use"](https://www.loc.gov/free-to-use) | {abbr}`🟢 Yes (Open API, no key required)` | {abbr}`🟢 None noted (Items are selected for reuse without known copyright restrictions)` | Images | More than 100 sets of images that are available for reuse and to "add to your own projects." Each set is curated around a theme or visual topic. |
 | [New York Public Library Digital Collections](https://digitalcollections.nypl.org/) | {abbr}`🟡 Key required (Register for an API token at api.repo.nypl.org)` | {abbr}`🟡 Varies (Rights status differs from item to item)` | Digitized texts, images, and more | Past SI 676 projects have used collections from NYPL. The digital collections include over one million items, many organized into thematic collections. |
 | [Mackinac Bridge Authority Historical Album](https://www.mackinacbridge.org/history/historical-construction-album/) | {abbr}`🔴 No (Images must be harvested from the web pages)` | {abbr}`⚪ Unknown (No rights statement published with the album)` | Images | A beautiful collection that lacks a lot of context but could be of interest. |
+| [U-M Digital Collections](https://www.lib.umich.edu/collections/digital-collections/) | {abbr}`🔴 No` | {abbr}`⚪ Unknown (varies)` | Images, text | More than 200 thematic collections, some of which could be suitable, all interesting topics |
 :::
 
 The status columns in [](#dig-collex-list) use a consistent set of markers:
