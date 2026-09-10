@@ -4,6 +4,8 @@ site:
   hide_outline: true
 ---
 
++++ { "class": "col-page-right" }
+
 | Week | Date        | Topic                                          | Readings                               | Tasks |
 | --- | --- | --- | ------ | --- |
 | 1 | Sep 4 | Orientation and Initial Readings (**asynchronous**) | Wikipedia, "[Open-Source Software Movement](wiki:Open-source_software_movement)" | <ul><li><a href="https://docs.google.com/document/d/1vPvOUMJmgxxPQ7TB33avBUWx_jWiyX-Y-jSSIuGrT5w/edit?usp=sharing">Review the syllabus</a></li><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfI7san_aMiJIUO5z5AU9IDJpI-IE8mqSM1R8L8uhNyIOOS4Q/viewform?usp=dialog">Complete the Course Survey</a></li></ul> |
@@ -22,3 +24,5 @@ site:
 | - | Dec 4 | NO CLASS (working on final projects) | | |
 | 12 | Dec 11 | Linked Open Data, Wikidata, and Open Metadata; Wrapping Up | <ul><li>Gonzales, "Linking libraries to the web: Linked data and the future of the bibliographic record," *ITAL* 33 (2014) — *Canvas*</li><li>Erxleben et al., "Introducing Wikidata to the Linked Data Web," *ISWC 2014*</li><li>Young, "[JSON-LD: Building Meaningful Data APIs](https://www.cloudbees.com/blog/json-ld-building-meaningful-data-apis)" (2016)</li><li>[RESOURCE] [JSON-LD](https://json-ld.org/) (skim); National Library of Wales, "[An Introduction to Wikidata](https://www.youtube.com/watch?v=m_9_23jXPoE)"; Fernandez, "[Wikidata Introduction](https://www.youtube.com/watch?v=-pFTxOoiuYI)" (LD4, 2020)</li><li>[RESOURCE] [rdflib.Graph() examples](https://www.programcreek.com/python/example/7319/rdflib.Graph); [Info216 Python examples](https://wiki.uib.no/info216/index.php/Python_Examples#Lecture_2:_RDF_programming)</li></ul> | <ul><li><a href="">Lab: TBD</a></li><li><a href="">Final project discussion and co-working (hybrid format)</a></li></ul> |
 | - | Dec 18 | All assignments due | | |
+
++++
