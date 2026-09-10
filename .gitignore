@@ -29,5 +29,8 @@ Thumbs.db
 !*credentials*template*.json
 .env
 
+# Files written by the notebooks (regenerable - see data/README.md)
+output/
+
 # Specific files for this project
 plan_changing_to_book_update_202607.md
