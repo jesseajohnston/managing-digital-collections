@@ -65,8 +65,9 @@ project:
     - file: ./labs/index.md
       children:
         # a list of labs would go here
-        - file: ./labs/lab-04-jekyll.md
-          title: "Lab 4: Setting Up CollectionBuilder"
+        - file: ./labs/lab-01-regex-python.ipynb
+        - file: ./labs/lab-02-jekyll.md
+          title: "Lab 2: Static Sites and CollectionBuilder"
   exports:
     - format: typst
       template: ./templates/plain_typst_book_custom #lapreprint-typst #plain_typest_book
