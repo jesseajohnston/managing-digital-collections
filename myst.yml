@@ -36,6 +36,13 @@ project:
       children:
         - file: ./teaching/schedule-2026.md
         - file: ./teaching/digital-collections-of-interest.md
+    - file: ./labs/index.md
+      children:
+        # a list of labs would go here
+        - file: ./labs/lab-01-regex-python.ipynb
+          title: "Lab 1: RegEx with Python"
+        - file: ./labs/lab-02-jekyll.md
+          title: "Lab 2: Static Sites and CollectionBuilder"
     - file: ./introduction/index.md
       title: The Book
       children:
@@ -62,13 +69,6 @@ project:
     - title: "Part 4: Presenting and Managing Collections"
       children: []
         # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 4
-    - file: ./labs/index.md
-      children:
-        # a list of labs would go here
-        - file: ./labs/lab-01-regex-python.ipynb
-          title: "Lab 1: RegEx with Python"
-        - file: ./labs/lab-02-jekyll.md
-          title: "Lab 2: Static Sites and CollectionBuilder"
   exports:
     - format: typst
       template: ./templates/plain_typst_book_custom #lapreprint-typst #plain_typest_book
