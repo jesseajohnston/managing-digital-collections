@@ -17,10 +17,22 @@ information organization schemes are generally much more controlled and rule-bou
 
 ## Retaining Semantic Distinctions
 
-While there are many common properties for describing things, there are frequently important semantic
-differences even between things with similar names across multiple schemes. In XML, this is called "namespace collisions." Consider, for example, the concept _title_. For a cultural work or collection item, a Title is generally considered a formal, known name. In finding resources, it's often useful to be able to search for things by a known title. Yet while _title_ is a common property, it operates differently in different contexts.
+While there are many common properties for describing things, there are frequently semantic nuances
+even between things with similar names when they are used in different practices or contexts.
+This is also true between metadata schemes. Consider, for example, the concept of _title_. For a published work, a Title is a formal, known name; book publications frequently have a "title page" near the beginning on which the formal title is clearly written out. For an archival collection, which generally brings together a set of records or materials from a common source, or provenance, there is no formal title or title page to be found. In this case, archivists follow the guidelines set forth in a content standard like Describing Archives: A Content Standard (DACS), which stipulates how to create a title for an archival collection. When searching for either type of resource, a publication or an archival fonds, it's often useful to be able to search for things by their title, but the specific meaning and source of information in the metadata is quite different. Namespacing, or developing a process to specifically state what realm of knowledge a term has meaning within, is one technique that metadata design can use to retain distinctions between similar terms.
 
-Consider, for example, the Dublin Core `title` [property](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#title), the EAD `<title>` [tag](https://www.loc.gov/ead/v4/EAD4-TL-eng.html#elem-title), and the MODS `<title>` [tag](https://www.loc.gov/standards/mods/userguide/titleinfo.html#title).
+### Differentiating Namespaces
+
+As noted above, the property of _title_ is common across different types of resources, and although it connotes an overall name for a resource, it can mean different things in different contexts. In XML, this use of a similar name but in a different context is sometimes called a "namespace collision." An XML _namespace_ refers to the definition of terms, definitions, and usage that may be considered appropriate or valid in a given kind of XML.
+In order to differentiate between the different usages, XML defines what namespace each tag is derived from using a qualified name, or QName for short.
+
+Consider, for example, three different senses of _title_ in different metadata schemes:
+
+- in Dublin Core, the [`title` property](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#title) is defined as "a name given to the resource."
+- in Encoded Archival Description (EAD), the [`<title>` tag](https://www.loc.gov/ead/v4/EAD4-TL-eng.html#elem-title) is defined as "an element for encoding the formal name of a finding aid."
+- in the Metadata Object Description Schema (MODS), the [`<title>` tag](https://www.loc.gov/standards/mods/userguide/titleinfo.html#title) is "a word, phrase, character, or group of characters that constitutes the chief title of a resource, i.e., the title normally used when citing the resource."
+
+
 
 ## Collection Inventory
 
