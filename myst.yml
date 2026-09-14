@@ -38,7 +38,7 @@ project:
         - file: ./teaching/digital-collections-of-interest.md
     - file: ./labs/index.md
       children:
-        # a list of labs would go here
+        # list labs etc below
         - file: ./labs/lab-01-regex-python.ipynb
           title: "Lab 1: RegEx with Python"
 #        - file: ./labs/lab-02-jekyll.md
