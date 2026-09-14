@@ -30,7 +30,7 @@ Consider, for example, three different senses of _title_ in different metadata s
 
 - in Dublin Core, the [`title` property](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#title) is defined as "a name given to the resource."
 - in Encoded Archival Description (EAD), the [`<title>` tag](https://www.loc.gov/ead/v4/EAD4-TL-eng.html#elem-title) is defined as "an element for encoding the formal name of a finding aid."
-- in the Metadata Object Description Schema (MODS), the [`<title>` tag](https://www.loc.gov/standards/mods/userguide/titleinfo.html#title) is "a word, phrase, character, or group of characters that constitutes the chief title of a resource, i.e., the title normally used when citing the resource."
+- in the Metadata Object Description Schema (MODS), the [`<title>` tag](https://www.loc.gov/standards/mods/userguide/titleinfo.html#title) denotes "a word, phrase, character, or group of characters that constitutes the chief title of a resource, i.e., the title normally used when citing the resource."
 
 While similar, there are slight differences. Dublin Core appears to be the most permissive,
 suggesting the title could be any name applied to a resource. In EAD, the title is defined technically,
