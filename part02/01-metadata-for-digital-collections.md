@@ -14,7 +14,7 @@ Tracing the development of the term _metadata_ suggests that calling resource ma
 
 ## Metadata and Digital Cultural Heritage Management
 
-Just as cataloging provided a basis for collection organization, management, and preservation, metadata work is essential to the management of digital collections. Frequently noted [e.g., @caplan2003; @mayernik2020; @johnston2024] are three general distinctions about the functions of metadata in cultural collections:
+Just as cataloging provides a basis for collection organization, management, and preservation, metadata work is essential to the management of digital collections. Frequently noted [e.g., @caplan2003; @mayernik2020; @johnston2024] are three general distinctions about the functions of metadata in cultural collections:
 
 Descriptive metadata
 : This is information that serves "the purposes of discover (how one finds a resource), identification (how a resource can be distinguished from other, similar resources), and selection (how to determine that a resource fills a particular need)" [@caplan2003, pg. 3]. This maps closely onto the basic objectives of many bibliographic organization systems to find, identify, select, and obtain desired information resources [see @svenonius2000, pg. 15 ff.].
