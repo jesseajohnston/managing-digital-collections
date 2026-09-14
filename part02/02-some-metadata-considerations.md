@@ -32,7 +32,15 @@ Consider, for example, three different senses of _title_ in different metadata s
 - in Encoded Archival Description (EAD), the [`<title>` tag](https://www.loc.gov/ead/v4/EAD4-TL-eng.html#elem-title) is defined as "an element for encoding the formal name of a finding aid."
 - in the Metadata Object Description Schema (MODS), the [`<title>` tag](https://www.loc.gov/standards/mods/userguide/titleinfo.html#title) is "a word, phrase, character, or group of characters that constitutes the chief title of a resource, i.e., the title normally used when citing the resource."
 
+While similar, there are slight differences. Dublin Core appears to be the most permissive,
+suggesting the title could be any name applied to a resource. In EAD, the title is defined technically,
+specifying that it is an element (that is, a specific piece of the XML) used to "encode" a "formal name."
+As noted above, an archival collection's name is often formulated by an archivist during the description process,
+not determined by intrinsic information or defined in the resource itself. Finally, a MODS title
+defines both the language structure but also suggests this is "the chief title" for a resource.
+Both MODS and EAD _title_ properties have specific information about the formulation and role of a title, while Dublin Core suggests this could be any name. These properties are similar, but they may not be exactly interchangeable.
 
+For the most part, this type of semantic disambiguation is not needed. When moving data from one structure to another, however, it is important to know if the fields are indeed interchangeable even if they have "the same" name. In this case, while both MODS and EAD titles might be converted into Dublin Core titles, additional steps would be required when going the other direction, from DC to MODS or EAD, since the data might go elsewhere. For example, in MODS there is also a `subTitle` field which might require a portion of a DC title.
 
 ## Collection Inventory
 
