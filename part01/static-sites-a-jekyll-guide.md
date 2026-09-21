@@ -29,7 +29,7 @@ Now you can use Jekyll to create a new directory and set up all the basic elemen
 jekyll new test-jekyll-site
 ```
 
-## 4. Move to that directory, look around, change, or serve your site
+## Move to that directory, look around, change, or serve your site
 
 Move to the directory using `cd test-jekyll-site`.
 
@@ -43,13 +43,16 @@ or by creating new markdown or HTML files.
 
 To test your site and "serve" it locally, use the serve command from the terminal:
 
-```rb
+```{code} ruby
 bundle exec jekyll serve
 ```
 
 If things are working well, you should see something like this print on your terminal window:
 
-```
+```{code} bash
+:label: serve-jekyll
+:caption: A response similar to this will appear when the Jekyll serve command successfully runs.
+:linenos:
       Generating... 
        Jekyll Feed: Generating feed for posts
                     done in 0.19 seconds.
