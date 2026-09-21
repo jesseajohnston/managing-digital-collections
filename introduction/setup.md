@@ -165,6 +165,8 @@ No commits yet
 nothing to commit (create/copy files and use "git add" to track)
 ```
 
+This indicates a blank repository. 
+
 #### Commiting Changes and Updating a repo
 
 The basic process of tracking changes in Git is called a _commit_.
