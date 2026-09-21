@@ -5,17 +5,18 @@ title:  "Getting Started with Static Sites"
 One of this book's projects will be to set up a site using an open source framework called Collection Builder.
 Like many open projects, however, this is built on a stack of other open source tools.
 In this case, collection builder works with a framework called Jekyll, which requires the open source Ruby language.
-All of this publishes through a static sites framewokr.
-This page walks through the process of creating and setting up a Jekyll-based site, then publishing it with GitHub.
+All of this publishes through a static sites framework, which means that you write all of the content, the site generator creates well-formed HTML, then that content is served to the web by a publishing platform (in this case, GitHub) without any direct server configuration or maintenance.
 
-## Installing and Setting Up a Blank Jekyll Site 
+## Installing and Setting Up a Blank Jekyll Site
+
+The next sections demonstrate the process of creating and setting up a Jekyll-based site, then publishing it with GitHub.
 
 ### Confirm you have the required dependencies
 
 Jekyll runs on Ruby, and it requires Ruby, Ruby Gems, and a few other helper programs.
 These are all described at the Jekyll documentation under "[Requirements](https://jekyllrb.com/docs/installation/#requirements)".
 
-## Before you use Jekyll, install it
+### Before you use Jekyll, install it
 
 This step installs Jekyll and also uses the Ruby "bundler," which helps create and serve the site later. If you have already done this, you don't need to do it again.
 
@@ -23,7 +24,7 @@ This step installs Jekyll and also uses the Ruby "bundler," which helps create a
 gem install jekyll bundler
 ```
 
-## Create a New Jekyll site in an Empty Folder
+### Create a New Jekyll site in an Empty Folder
 
 Now you can use Jekyll to create a new directory and set up all the basic elements for your Jekyll site. This will create the basic directory structure and many of the configuration files you need. In this example, you can install at a directory in your current terminal location called "test-jekyll-site" (that is, `./test-jekyll-site`).
 
@@ -31,7 +32,7 @@ Now you can use Jekyll to create a new directory and set up all the basic elemen
 jekyll new test-jekyll-site
 ```
 
-## Move to that directory, look around, change, or serve your site
+### Look around, change, and serve your site
 
 Move to the directory using `cd test-jekyll-site`.
 
@@ -64,6 +65,10 @@ If things are working well, you should see something like this print on your ter
 ```
 
 Copy and paste the server address (above, `https://127.0.0.1:4000/`) into a browser window, and you should see your site. To stop the server, press `Ctrl + C`.
+
+## Publish Your Site
+
+Once the site looks good locally, you can publish it using a GitHub feature called _Pages_. GitHub Pages allows you to publish static HTML files to a unique URL, which will look like a published website, rather than a code repository.
 
 ## Some Challenges that You Might Encounter
 
