@@ -98,7 +98,7 @@ embedding links or images, the use of lists, and the convention for short `code`
 | `## Heading 2` | | output enclosed in `<h2>...</h2>` html tags |
 | etc. for add'l. levels | | |
 | `[link](http://example.url)` | | [link](http://example.url) |
-| `![alt text](http://path.to.source.file)` | | <img src="/assets/Windows_95_Help_page.png" height="150px" alt="Windows 95 Help image, Microsoft sourced from wikimedia commons"/> |
+| `![alt text](http://path.to.source.file)` | | <img src="/assets/Windows_95_Help_page.png" height="50px" alt="Windows 95 Help image, Microsoft sourced from wikimedia commons"/> |
 | `- unordered list item` | `* unordered list item` | <ul><li>unordered list item</li></ul> |
 | `1. ordered list item` | `1) ordered list item` | <ol><li>ordered list item</li></ol> |
 | \`text appears in monospace\` | | `text appears in monospace` |
@@ -125,6 +125,8 @@ The basics of markdown are quick to learn, but many of the nuances or less frequ
 :::
 
 ## Version tracking (Git) and Collaboration (GitHub)
+
+One challenging 
 
 :::{seealso}
 Want to learn more about Git? Check out the [Library Carpentry initiative's lesson and setup guide for Git](https://librarycarpentry.github.io/lc-git/).
