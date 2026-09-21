@@ -157,7 +157,24 @@ Because local Git repos typically operate within a folder, you may want to check
 
 In addition to the tracking folder, Git creates a "branch," which is called `main` by default. When working in the main branch, all changes are grouped together. Additional branches can be created to track work on different elements or by different users as work becomes more complicated. For now, it is sufficient to run `git status` and note that you are on the main branch. You will see a message like
 
-```git
+:::{tip} Initialize a New Git Repo
+To initialize a repo, start with a new directory. In a bash terminal, you can use the `mkdir` command:
+
+```bash
+$ mkdir test-test
+```
+
+Move the terminal to `test-test`, then run `git init`. The response will look something like this:
+
+```bash
+$ git init
+Initialized empty Git repository in ~/Desktop/test-test/.git/
+```
+
+To learn more about the new repo, run `git status`:
+
+```bash
+$ git status
 On branch main
 
 No commits yet
@@ -165,7 +182,8 @@ No commits yet
 nothing to commit (create/copy files and use "git add" to track)
 ```
 
-This indicates a blank repository. 
+This indicates a blank repository.
+:::
 
 #### Commiting Changes and Updating a repo
 
@@ -218,7 +236,7 @@ Finally, it confirms that the new files have been created in the log and lists t
 
 To illustrate the "remote" use of Git, this book assumes that the reader is using GitHub. To use GitHub, you need to create an account (free) using an email address. You will need this to log in to track your changes and update them in the remote repository.
 
-#### Creating a linking a remote repo
+#### Creating and linking a remote repo
 
 To connect your local repo to a remote, you need to create a repo in the remote system. In GitHub, you can create a repo with the same name as the local folder. Although you can create a repo with any name, it is easiser to track the connections later if the names are the same or similar.
 
