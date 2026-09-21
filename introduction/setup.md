@@ -151,7 +151,7 @@ To start tracking a project with Git, first check to ensure you are not already 
 
 If you initialized a Git repo in an empty directory, you will see a message like `Initialized empty Git repository` and the location of the repo.
 
-:::{attention}
+:::{attention} Avoid Recursive Git Repos (aka, repos in repos)
 Because local Git repos typically operate within a folder, you may want to check to make sure that you are not initiating a Git repo inside an already existing one! That will create complications in updating or linking repos. So if you're not sure whether you're in a Git repo, always run `git status` before initiating a new repository. If you see a response like `fatal: not a git repository`, then it should be okay to inituate a new repo.
 :::
 
