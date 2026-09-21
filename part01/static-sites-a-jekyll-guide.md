@@ -1,5 +1,5 @@
 ---
-title:  "Getting Started with Static Sites and Jekyll"
+title:  "Getting Started with Static Sites"
 ---
 
 One of this book's projects will be to set up a site using an open source framework called Collection Builder.
@@ -8,7 +8,9 @@ In this case, collection builder works with a framework called Jekyll, which req
 All of this publishes through a static sites framewokr.
 This page walks through the process of creating and setting up a Jekyll-based site, then publishing it with GitHub.
 
-## Confirm you have the required dependencies
+## Installing and Setting Up a Blank Jekyll Site 
+
+### Confirm you have the required dependencies
 
 Jekyll runs on Ruby, and it requires Ruby, Ruby Gems, and a few other helper programs.
 These are all described at the Jekyll documentation under "[Requirements](https://jekyllrb.com/docs/installation/#requirements)".
