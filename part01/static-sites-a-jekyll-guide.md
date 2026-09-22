@@ -50,7 +50,7 @@ To test your site and "serve" it locally, use the serve command from the termina
 bundle exec jekyll serve
 ```
 
-If things are working, you should see something like this print on your terminal window:
+If things are working, you should see something like this print to your terminal window:
 
 ```{code} bash
 :label: serve-jekyll
