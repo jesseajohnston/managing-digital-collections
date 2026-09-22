@@ -50,7 +50,7 @@ To test your site and "serve" it locally, use the serve command from the termina
 bundle exec jekyll serve
 ```
 
-If things are working well, you should see something like this print on your terminal window:
+If things are working, you should see something like this print on your terminal window:
 
 ```{code} bash
 :label: serve-jekyll
@@ -69,6 +69,12 @@ Copy and paste the server address (above, `https://127.0.0.1:4000/`) into a brow
 ## Publish Your Site
 
 Once the site looks good locally, you can publish it using a GitHub feature called _Pages_. GitHub Pages allows you to publish static HTML files to a unique URL, which will look like a published website, rather than a code repository.
+
+### Set up Pages
+
+### Set up Actions
+
+### Publish: Link your local repo to the remote
 
 ## Some Challenges that You Might Encounter
 
