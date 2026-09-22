@@ -64,7 +64,7 @@ If things are working, you should see something like this print to your terminal
   Server running... press ctrl-c to stop.
 ```
 
-Copy and paste the server address (above, `https://127.0.0.1:4000/`) into a browser window, and you should see your site. To stop the server, press `Ctrl + C`.
+The output contains useful information to review and evaluate your site contents and desing. To view the site, copy and paste the server address ([shown above on line 5](#serve-jekyll)) into a browser's navigation bar, and you should see your site. To stop the site generator, press `Ctrl + C`.
 
 ## Publish Your Site
 
