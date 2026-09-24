@@ -13,12 +13,14 @@ The next sections demonstrate the process of creating and setting up a Jekyll-ba
 
 ### Confirm you have the required dependencies
 
-Jekyll runs on Ruby, and it requires Ruby, Ruby Gems, and a few other helper programs.
+Jekyll runs on Ruby, which is an open source programming language widely used for web applications.
+Jekyll requires Ruby, Ruby Gems, and a few other helper programs.
 These are all described at the Jekyll documentation under "[Requirements](https://jekyllrb.com/docs/installation/#requirements)".
 
 ### Before you use Jekyll, install it
 
-This step installs Jekyll and also uses the Ruby "bundler," which helps create and serve the site later. If you have already done this, you don't need to do it again.
+This step installs two "gems," Jekyll and bundler, which will both run to create and serve the site.
+If you have already installed Jekyll and bundler, you don't need to do it again.
 
 ```
 gem install jekyll bundler
@@ -26,7 +28,7 @@ gem install jekyll bundler
 
 ### Create a New Jekyll site in an Empty Folder
 
-Now you can use Jekyll to create a new directory and set up all the basic elements for your Jekyll site. This will create the basic directory structure and many of the configuration files you need. In this example, you can install at a directory in your current terminal location called "test-jekyll-site" (that is, `./test-jekyll-site`).
+Now you can use Jekyll to create a new directory and set up all the basic elements for your Jekyll site. This will create the basic directory structure and many of the configuration files you need. In this example, you can install at a directory within your current terminal location called "test-jekyll-site" (that is, `./test-jekyll-site`).
 
 ```
 jekyll new test-jekyll-site
@@ -65,6 +67,16 @@ If things are working, you should see something like this print to your terminal
 ```
 
 The output contains useful information to review and evaluate your site contents and desing. To view the site, copy and paste the server address ([shown above on line 5](#serve-jekyll)) into a browser's navigation bar, and you should see your site. To stop the site generator, press `Ctrl + C`.
+
+## Add and Configure a Blank Jekyll Site
+
+### Add a Post
+
+### Update the `_config.yml`
+
+### Add a Page
+
+### Add Data
 
 ## Publish Your Site
 
