@@ -360,6 +360,12 @@ url: "https://managing-digital-collections.github.io" # the base hostname & prot
 Now, the repo is ready to push to GitHub!
 When the publication workflow completes successfully, you'll find your new site serving at the `github.io` domain (see [](#jekyll-add-gh-pages-url)) for the project! 🤞
 
+:::{figure} /assets/part02-github-about-add-url.png
+:label: jekyll-add-gh-pages-url
+
+The form that displays when you select the repo's "About" settings. To automatically include the correct `github.io` URL for the project, click "Use your GitHub Pages website".
+:::
+
 ### Publish: Push your local repo to the remote
 
 To publish your site, push from the local repository to the remote.
@@ -367,14 +373,14 @@ When the push arrives on the branch specified in the Pages Actions publication w
 the site will update.
 If you visit your repo on GitHub, you will see the status of the publication workflow.
 If there is a yellow circle (🟡) next to the commit, then the workflow is still in progress.
-If a green check mark (✅) displays, the workflow has completed successfully.
+If a green check mark (✅) displays [](#jekyll-gh-pages-published), the workflow has completed successfully.
 Shortly, the updates will be live on the web.
 If a red cross mark (❌) displays, then the workflow has stopped without completing, and further investigation will be required.
 
-:::{figure} /assets/part02-github-about-add-url.png
-:label: jekyll-add-gh-pages-url
+:::{figure} /assets/part02-github-gh-pages-published.png
+:label: jekyll-gh-pages-published
 
-The form that displays when you select the repo's "About" settings. To automatically include the correct `github.io` URL for the project, click "Use your GitHub Pages website".
+The small green check mark indicates that the last push initiated the publish workflow, and that the publish workflow completed successfully. The latest changes that were committed should now also be reflected in the re-deployed site at the repo's GH pages URL.
 :::
 
 ## Some Challenges that You Might Encounter
