@@ -148,7 +148,7 @@ which is contained in the invisible `.github/workflows/` directory, as shown bel
 Screenshot of suggested default Actions workflow created by GitHub when the Pages feature is set up.
 ```
 
-### Publish: Link your local repo to the remote
+### Publish: Push your local repo to the remote
 
 To publish your site, push from the local repository to the remote.
 When the push arrives on the branch specified in the Pages Actions publication workflow,
