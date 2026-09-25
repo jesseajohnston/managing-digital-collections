@@ -150,9 +150,68 @@ adding data files, and basic techniques for data display.
 
 ### Add site information (updating `_config.yml`)
 
+The `_config.yml` file contains all of the information that is used to control preferences for the entire site.
+As such, there are many options. This section only investigates a few changes, which will customize the site
+title, creator information, and the description. 
+
+The `_config.yml` file is writte in YAML, which is a general `key: value` structure.
+Sub-properties are indicated by indentation. Below is a [snippet of principal site information from the config file](#jekyll-sample-config).
+These fields may be modified to include a site name, creator, and description.
+The values inserted in the config will appear in many places throughout the site. 
+
+```{code} yaml
+:label: jekyll-sample-config
+:caption: A simple config file, which specifies a title, description, and creator inforamtion for an imagined Jekyll site.
+:linenos:
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+```
+
 ### Add a Post
 
+Posts are intended for blog-like content, which might be added frequently or for which sorting by date is a primary concern.
+Post can be categorized using keywords, called categories and tags.
+Posts are generally composed in markdown. The files are stored in the `_posts` directory, and they are usually titled using date and the basic title. Although [basic text from the default post is offered above](#jekyll-sample-post), here is a sample idea for a planet page named `2026-09-25-mars.md`.
+
+```{code} markdown
+---
+layout: post
+title: Mars
+author: Jesse Johnston
+---
+This page is about Mars, the red planet.
+```
+
 ### Add a Page
+
+Pages, which in the default `minima` theme appear in the main navigation bar,
+may be composed in HTMl or markdown, and they appear in the top level of the directory.
+Note that page files can be grouped in another directory for ease of organization in large sites,
+but in general these pages are stored at the top level. Recall that every page requires content metadata to display.
+
+A sample "Planet List" page appears in the [code sample below](#jekyll-sample-page):
+
+```{code} markdown
+:label: jekyll-sample-page
+:caption: Sample markdown code for a basic page. This might be saved in a file named `about.md`.
+---
+layout: page
+title: Planets List
+date: 2026-09-25
+---
+
+This page provides information about the extensive planet list documented on this site! 
+```
 
 ### Add Data
 
