@@ -41,7 +41,8 @@ project:
         # list labs etc below
         - file: ./labs/lab-01-regex-python.ipynb
           title: "Lab 1: RegEx with Python"
-#        - file: ./labs/lab-02-jekyll.md
+        - file: ./labs/lab-02-static-site-jekyll-setup.md
+          title: "Lab 2: Setting Up and Publishing a Jekyll Static Site"
         - file: ./labs/lab-03-collectionbuilder-setup.md
           title: "Lab 3: Static Sites and CollectionBuilder"
         - file: ./labs/quiz-01-regex-solutions.ipynb
