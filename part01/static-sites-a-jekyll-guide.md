@@ -111,11 +111,22 @@ adding data files, and basic techniques for data display.
 
 ## Publish Your Site
 
+This section describes how to publish your site so it is available on the Web!
 Once the site looks good locally, you can publish it using a GitHub feature called _Pages_. GitHub Pages allows you to publish static HTML files to a unique URL, which will look like a published website, rather than a code repository.
 
-### Set up Pages
+### Set up GitHub Pages
 
-### Set up Actions
+### Set up an Actions Workflow
+
+To notify your GitHub repo that you want it to publish the site when you push updates,
+set up a GitHub Actions workflow. This is a special YAML file, which GitHub will generate for you,
+which is contained in the invisible `.github/workflows/` directory, as shown below in [](#fig-gh-actions).
+
+```{figure} assets/part02-github-actions-deploy.png
+:label: fig-gh-actions
+:alt: Screenshot of suggested default Actions workflow created by GitHub when the Pages feature is set up.
+:caption: Screenshot of suggested default Actions workflow created by GitHub when the Pages feature is set up.
+```
 
 ### Publish: Link your local repo to the remote
 
