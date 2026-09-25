@@ -332,7 +332,7 @@ gem "github-pages", group: :jekyll_plugins
 :::
 
 Now, the repo is ready to push to GitHub!
-When the publication workflow completes successfully, you'll find your new site serving at the `github.io` domain for the project! 🤞
+When the publication workflow completes successfully, you'll find your new site serving at the `github.io` domain (see [](#jekyll-add-gh-pages-url)) for the project! 🤞
 
 ### Publish: Push your local repo to the remote
 
@@ -344,6 +344,12 @@ If there is a yellow circle (🟡) next to the commit, then the workflow is stil
 If a green check mark (✅) displays, the workflow has completed successfully.
 Shortly, the updates will be live on the web.
 If a red cross mark (❌) displays, then the workflow has stopped without completing, and further investigation will be required.
+
+:::{figure} /assets/part02-github-about-add-url.png
+:label: jekyll-add-gh-pages-url
+
+The form that displays when you select the repo's "About" settings. To automatically include the correct `github.io` URL for the project, click "Use your GitHub Pages website".
+:::
 
 ## Some Challenges that You Might Encounter
 
