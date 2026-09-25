@@ -144,7 +144,8 @@ which is contained in the invisible `.github/workflows/` directory, as shown bel
 ```{figure} /assets/part02-github-actions-deploy.png
 :label: fig-gh-actions
 :alt: Screenshot of suggested default Actions workflow created by GitHub when the Pages feature is set up.
-:caption: Screenshot of suggested default Actions workflow created by GitHub when the Pages feature is set up.
+
+Screenshot of suggested default Actions workflow created by GitHub when the Pages feature is set up.
 ```
 
 ### Publish: Link your local repo to the remote
