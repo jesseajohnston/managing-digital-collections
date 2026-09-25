@@ -2,10 +2,32 @@
 title:  "Getting Started with Static Sites"
 ---
 
-One of this book's projects will be to set up a site using an open source framework called Collection Builder.
-Like many open projects, however, this is built on a stack of other open source tools.
-In this case, collection builder works with a framework called Jekyll, which requires the open source Ruby language.
-All of this publishes through a static sites framework, which means that you write all of the content, the site generator creates well-formed HTML, then that content is served to the web by a publishing platform (in this case, GitHub) without any direct server configuration or maintenance.
+This book illustrates digital collections management through multiple tasks and projects that
+help you to set up a site using an open source frameworks.
+The first of these is called Collection Builder, which uses a "static site" framework to publish
+collections to a website. The architecture of static sites will be discussed more in [Part 3](/part03/index.html).
+
+For now, the Jekyll framework for publishing a static site serves as an illustration of open source software.
+Like many open source projects, Jekyll relies on a series, or _stack_, of other open source tools.
+Setting up a basic Jekyll site illustrates how the framework functions,
+and as you work toward setting up Collection Builder, this will be helpful knowledge.
+Both Jekyll, and Collection Builder, draw on the open-source programming language called [Ruby](https://www.ruby-lang.org/en/),
+a widely used language for web and app programming.
+
+Once the stack is set up, both Jekyll and Collection Builder publish fully formed websites on a "static site" architecture.
+This means that you write all of the content, usually in plain text or data files (like CSV and JSON),
+then the site generator creates HTML that can be displayed by browsers on the web. That content is served to the web by a publishing platform (in our case, GitHub) without any direct server configuration or maintenance.
+While you can add data files to a site, there is no underlying database, and all the pages
+are generated in advance, none are generated on demand (that's what makes it "static").
+
+The rest of this section walks through the process of setting up a basic Jekyll site.
+
+:::{attention} Prerequisites / Dependencies
+This page assumes that you have already set up a blank (or minimal) local Git repository.
+It also assumes at the publishing stage that you have a GitHub account and can connect your local repository to a remote repo on GitHub.
+In addition, the process assumes that you have installed and can run an up-to-date version of Ruby and Jekyll;
+if you are not sure about those steps, consult [this helpful page on installation at the Jekyll documentation]().
+:::
 
 ## Installing and Setting Up a Blank Jekyll Site
 
