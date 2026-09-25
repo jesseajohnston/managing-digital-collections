@@ -26,7 +26,7 @@ The next sections demonstrate the process of creating and setting up a Jekyll-ba
 This page assumes that you have already set up a blank (or minimal) local Git repository.
 It also assumes at the publishing stage that you have a GitHub account and can connect your local repository to a remote repo on GitHub.
 In addition, the process assumes that you have installed and can run an up-to-date version of Ruby and Jekyll;
-if you are not sure about those steps, consult [this helpful page on installation at the Jekyll documentation]().
+if you are not sure about those steps, consult [this helpful page on installation at the Jekyll documentation](https://jekyllrb.com/docs/installation/).
 :::
 
 ## Installing and Setting Up a Blank Jekyll Site
