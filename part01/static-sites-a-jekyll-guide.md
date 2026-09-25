@@ -57,7 +57,7 @@ Now you can use Jekyll to create a new directory and set up all the basic elemen
 jekyll new test-jekyll-site
 ```
 
-### Look around and serve your site
+### Look around Your Site
 
 Move to the directory using `cd test-jekyll-site`. When you view the structure, you will see something like [](#jekyll-basic-structure).
 
@@ -113,6 +113,10 @@ For any new pages, make sure you add page front matter gated by a three-hyphen l
 `permalink`, `date`, and `layout`, though every page will vary based on the content type and your site design.
 :::
 
+### Serve Your Site Locally
+
+As you develop the site and add content, you can "serve" it locally,
+meaning that you can see how the site looks before you publish it to the public web.
 To test your site and "serve" it locally, use the serve command from the terminal:
 
 ```{code} ruby
@@ -125,6 +129,7 @@ If things are working, you should see something like this print to your terminal
 :label: serve-jekyll
 :caption: A response similar to this will appear when the Jekyll serve command successfully runs.
 :linenos:
+:emphasize-lines: 5
       Generating... 
        Jekyll Feed: Generating feed for posts
                     done in 0.19 seconds.
