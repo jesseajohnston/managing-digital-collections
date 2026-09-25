@@ -331,6 +331,19 @@ gem "minima", "~> 2.5"
 gem "github-pages", group: :jekyll_plugins
 :::
 
+### Update `baseurl` and `url`
+
+Finally, to help Jekyll ensure that it can make correct references between the published site and necessary files, like CSS for styles and other related assets, [update](#jekyll-update-baseurl) the `baseurl` and `url` information in `_config.yml`.
+While these are not needed to serve locally, GitHub pages needs them.
+Note that when you serve the site locally, the `localhost` URL will now include `planets-test/` (or the name of your base URL) in the address.
+
+:::{code}
+:label: jekyll-update-baseurl
+:caption: Update the `baseurl` and `url` variables so that Jekyll can create correct references between pages on the site when it goes live.
+baseurl: "/planets-test" # the subpath of your site, e.g. /blog
+url: "https://managing-digital-collections.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+:::
+
 Now, the repo is ready to push to GitHub!
 When the publication workflow completes successfully, you'll find your new site serving at the `github.io` domain (see [](#jekyll-add-gh-pages-url)) for the project! 🤞
 
