@@ -57,11 +57,29 @@ Now you can use Jekyll to create a new directory and set up all the basic elemen
 jekyll new test-jekyll-site
 ```
 
-### Look around, change, and serve your site
+### Look around and serve your site
 
-Move to the directory using `cd test-jekyll-site`.
+Move to the directory using `cd test-jekyll-site`. When you view the structure, you will see something like [](#jekyll-basic-structure).
 
-Once there, look for the basic folders, such as `_posts` or `_data`.
+```{code} bash
+:label: jekyll-basic-structure
+:caption: The basic files and folder structure created by the `jekyll new .` command when run in a a blank directory.
+:linenos:
+.
+├── _config.yml
+├── _posts
+│   └── 2026-09-24-welcome-to-jekyll.markdown
+├── 404.html
+├── about.markdown
+├── Gemfile
+├── Gemfile.lock
+└── index.markdown
+```
+
+Take a look around at structure that Jekyll has created.
+In the basic default Jekyll structure, you will note one directory called `_posts`.
+This 
+ basic folders, such as `_posts` or `_data`.
 Depending on the Jekyll version and theme, you may not see all of the folders.
 New pages can be created by copying from the `index.markdown` file
 or by creating new markdown or HTML files.
@@ -97,16 +115,17 @@ This section illustrates some of the basic set up tasks that you may want to und
 including configuration of site information, adding new content (posts and pages),
 adding data files, and basic techniques for data display.
 
-### Add a Post
+### Add site information (updating `_config.yml`)
 
-### Update the `_config.yml`
+
+
+### Add a Post
 
 ### Add a Page
 
 ### Add Data
 
 ### Display data with an include
-
 
 
 ## Publish Your Site
@@ -122,7 +141,7 @@ To notify your GitHub repo that you want it to publish the site when you push up
 set up a GitHub Actions workflow. This is a special YAML file, which GitHub will generate for you,
 which is contained in the invisible `.github/workflows/` directory, as shown below in [](#fig-gh-actions).
 
-```{figure} assets/part02-github-actions-deploy.png
+```{figure} ./assets/part02-github-actions-deploy.png
 :label: fig-gh-actions
 :alt: Screenshot of suggested default Actions workflow created by GitHub when the Pages feature is set up.
 :caption: Screenshot of suggested default Actions workflow created by GitHub when the Pages feature is set up.
@@ -141,15 +160,15 @@ If a red cross mark (❌) displays, then the workflow has stopped without comple
 
 ## Some Challenges that You Might Encounter
 
-* If you previously published a site in the repository using a file called `index.html`,
+- If you previously published a site in the repository using a file called `index.html`,
   you may find that nothing appears to change when you have started up and configured Jekyll.
   For example if you typed "Hello, World!" on the html page, and you still see plain
   text saying "Hello, World!" than you are likely in this situation.
   The 'old' index file is still publishing to your GitHub Pages site,
   and you should delete the old index file and push the changes to your remote repo.
   Hopefully you'll now see the updated Jekyll site.
-* You will probably have `minima` as the default theme. You can change this if you'd like to experiment with the theming aspect of Jekyll. (For the purposes of SI 676, though, we won't work much with theming since Web design is beyond the scope of our course.) However, if you want to make changes in `minima`, or any other "gem based" theme (meaning the files are located in the Ruby package, and referenced when Jekyll builds the site, rather than the files being in your repo directory), [refer to this guide to find out where to find the theme files and how to import them for modification or customization](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes).
-* The GitHub Pages guide to Jekyll has useful information about publishing your site to your GitHub repo, and ultimately on how to publish it live to the web. Before you get to that point, however, it may be easier to work from the Jekyll documentation, which offers lightweight ["Quickstart" instructions that are more streamlined and useful for initiating, setting up, serving, and configuring your site locally and for testing prior to publishing](https://jekyllrb.com/docs/).
+- The default Jekyll theme is called `minima`. You can change this if you'd like to experiment with the theming aspect of Jekyll. (For the purposes of SI 676, though, we won't work much with theming since Web design is beyond the scope of our course.) However, if you want to make changes in `minima`, or any other "gem based" theme (meaning the files are located in the Ruby package, and referenced when Jekyll builds the site, rather than the files being in your repo directory), [refer to this guide to find out where to find the theme files and how to import them for modification or customization](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes).
+- The GitHub Pages guide to Jekyll has useful information about publishing your site to your GitHub repo, and ultimately on how to publish it live to the web. Before you get to that point, however, it may be easier to work from the Jekyll documentation, which offers lightweight ["Quickstart" instructions that are more streamlined and useful for initiating, setting up, serving, and configuring your site locally and for testing prior to publishing](https://jekyllrb.com/docs/).
 
 :::{seealso} More Jekyll Resources
 - How to Install Jekyll (locally), [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
