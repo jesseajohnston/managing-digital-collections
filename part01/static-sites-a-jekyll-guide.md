@@ -159,7 +159,7 @@ adding data files, and basic techniques for data display.
 Data can be added in tabular formats like CSV or text formats like JSON. Data files are often used to provide support for list-like things, including navigation menus, personnel lists, and much more.
 To add data, it must be placed in the `_data` folder. Data files are then referenced using a basic dot notation,
 like `site.data.data-file-name-without-extension`.
-If you were creating a list of planet attributes, for example, you might create the following in a `planets-list.csv` file:
+If you were creating a list of planet attributes, for example, you might create the following in a `_data/planets-list.csv` file:
 
 ```{code} csv
 :label: jekyll-sample-data
