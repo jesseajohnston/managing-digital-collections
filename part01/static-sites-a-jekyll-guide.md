@@ -290,6 +290,18 @@ Once the site looks good locally, you can publish it using a GitHub feature call
 
 ### Set up GitHub Pages
 
+Begin by preparing your remote repo for publishing. To do this, visit your repo's GitHub page, and look for the main `Settings` option in the navigation bar near the top of the page.
+In the Settings, look on the navigation bar to the left for the `Pages` option.
+At Pages, choose "GitHub Actions" for the Source option under the **Build and Deployment** heading.
+When you choose the Actions option, you will see a button to "Configure" for GitHub Pages Jekyll ()[#jekyll-github-actions-configure];
+click this option, which begins the Action worklow step.
+
+:::{figure} /assets/part02-github-actions-configure.png
+:label: jekyll-github-actions-configure
+
+Choose GitHub Actions for your Pages source, then click to Configure for Jekyll.
+:::
+
 ### Set up an Actions Workflow
 
 To notify your GitHub repo that you want it to publish the site when you push updates,
