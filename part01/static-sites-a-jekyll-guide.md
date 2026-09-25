@@ -101,6 +101,9 @@ Jekyll requires blog post files to be named according to the following format:
 Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 ```
 
+Note the post structure follows a pattern that is standard for Jekyll content pages: the first lines (in [](#jekyll-basic-post), lines 1&ndash;6) contain metadata, and the following lines contain the page content.
+The content is formatted in markdown, which is rendered in HTML by Jekyll.
+
 In the main directory, you will see files that generate the main site pages. These include `about.markdown` and `index.markdown`. Inspecting these files, note the standard file metadata, and the content of each page. Note that the `index.markdown` page displays at the site root when served, while the `about.markdown` is a similar page but appears in teh site's navigation menu. **Note:** the files that begin with `Gemfile` pertain to Ruby dependencies.
 New pages can be created by copying from the `index.markdown` file
 or by creating new markdown or HTML files.
