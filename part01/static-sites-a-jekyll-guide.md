@@ -148,16 +148,70 @@ adding data files, and basic techniques for data display.
 
 ### Add site information (updating `_config.yml`)
 
-
-
 ### Add a Post
 
 ### Add a Page
 
 ### Add Data
 
+Data can be added in tabular formats like CSV or text formats like JSON. Data files are often used to provide support for list-like things, including navigation menus, personnel lists, and much more.
+To add data, it must be placed in the `_data` folder. Data files are then referenced using a basic dot notation,
+like `site.data.data-file-name-without-extension`.
+If you were creating a list of planet attributes, for example, you might create the following in a `planets-list.csv` file:
+
+```{code} csv
+:label: jekyll-sample-data
+:caption: A basic CSV file for a list of data about two planets. The first line is a list of column headers.
+:linenos:
+name,atmosphere,color
+earth,oxygen-nitrogen,blue
+mars,,red
+```
+
 ### Display data with an include
 
+Layouts and page snippets can be modified through the `_layouts` and `_includes` directories, respectively.
+The layout feature offers a sophisticated templating system for different types of content display,
+which is selected using the `layout:` attribute in page or post metadata. In most themes, the `post` and `page` layouts are included.
+
+Rather than getting into layout here, we will only look at the `include` feature. This Jekyll feature allows
+for the creation of snippets or page sections, which can be composed in HTML or markdown, and then inserted
+into a specific page using an include shortcut. Let's take a closer look.
+
+Includes and layout can insert data variables using a templating language called [liquid](https://shopify.github.io/liquid/).
+In basic use, liquid tags allow for logic control, variable assignment, and even basic data processing in some cases.
+A liquid tag expression is indicated by a set of curly braces with percent symbols in between,
+such as `{% liquid_expression_here %}`. Data variables can be directly inserted by typing their name
+in between a set of curly braces, such as `{{ item.variable-value }}`.
+
+Putting this all together, you might aim to create a list of the planets in your dataset,
+which could be output as a list or table. The following code would produce those elements.
+Include files are snippets, so they do not need gated metadata, and they may be composed in HTML or markdown.
+
+```{code} liquid
+:label: jekyll-basic-include
+:caption: Example of an _include_ snippet, which references the site planet list data file, then outputs each row in a list and table.
+<!-- display an unordered list of the planet data -->
+<ul>
+{% for planet in site.data.planet-list %}
+  <li><strong>{{ planet.name }}</strong> has color {{ planet.color }}</li>
+{% endfor %}
+</ul>
+
+<!-- display a table of the planet data -->
+<table>
+    <thead><th>Planet</th><th>Atmosphere</th><th>Color</th></thead>
+    <tbody>
+        {% for planet in site.data.planet-list %}
+        <tr>
+            <td>{{ planet.name }}</td>
+            <td>{% if planet.atmosphere %}{{ planet.atmosphere }}{% endif %}</td>
+            <td>{{ planet.color }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+```
 
 ## Publish Your Site
 
