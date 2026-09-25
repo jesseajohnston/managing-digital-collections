@@ -20,7 +20,7 @@ then the site generator creates HTML that can be displayed by browsers on the we
 While you can add data files to a site, there is no underlying database, and all the pages
 are generated in advance, none are generated on demand (that's what makes it "static").
 
-The rest of this section walks through the process of setting up a basic Jekyll site.
+The next sections demonstrate the process of creating and setting up a Jekyll-based site, then publishing it with GitHub.
 
 :::{attention} Prerequisites / Dependencies
 This page assumes that you have already set up a blank (or minimal) local Git repository.
@@ -31,7 +31,8 @@ if you are not sure about those steps, consult [this helpful page on installatio
 
 ## Installing and Setting Up a Blank Jekyll Site
 
-The next sections demonstrate the process of creating and setting up a Jekyll-based site, then publishing it with GitHub.
+This section begins with the process of setting up a basic Jekyll site,
+which you can run and test locally.
 
 ### Confirm you have the required dependencies
 
