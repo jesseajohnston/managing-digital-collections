@@ -10,7 +10,7 @@ This lab activity accompanies the [Guide to Getting Started with Static Sites](/
 
 _**NOTE:** The workflow outlined here differs from the steps outlined on GitHub's pages. These are, nonetheless, functionally the same process. You can use either sequence of steps to accomplish the task._
 
-1. Create a new folder/directory on your local computer. This will be the location you use for building and developing your Jekyll site. It's likely you won't want to keep this around long term, so give it a name like `jekyll-test-site-1` (or something similarly generic)
+1. Create a new folder/directory on your local computer. This will be the location you use for building and developing your Jekyll site. It's likely you may keep this around long term, so give it a name like `jekyll-test-site-1` (or something similarly generic).
 1. Initiate Jekyll in your local folder. To do this, navigate your command prompt to the folder you just created (use the `cd`) command. Then, create your Jekyll shell using the command `jekyll new --skip-bundle .`. This will create the Jekyll site within the current directory.
 3. Configure your Jekyll site:
   * Visit the `_config.yml` file, change the site name, description, and contact information.
