@@ -60,6 +60,7 @@ project:
         - file: ./part01/04-open-metadata.md # data formats
         #- file: example of working with related to collection builder)
         - file: ./part01/05-working-with-csv.ipynb
+        - file: ./part01/06-working-with-json.ipynb
         - file: ./part01/static-sites-a-jekyll-guide.md
     - file: ./part02/index.md
       children:
