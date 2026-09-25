@@ -40,10 +40,10 @@ Jekyll runs on Ruby, which is an open source programming language widely used fo
 Jekyll requires Ruby, Ruby Gems, and a few other helper programs.
 These are all described at the Jekyll documentation under "[Requirements](https://jekyllrb.com/docs/installation/#requirements)".
 
-### Before you use Jekyll, install it
+### Confirm or Install Jekyll
 
 This step installs two "gems," Jekyll and bundler, which will both run to create and serve the site.
-If you have already installed Jekyll and bundler, you don't need to do it again.
+If you have already installed Jekyll and bundler, you don't need to do it again. The following command will install both tools:
 
 ```
 gem install jekyll bundler
@@ -64,7 +64,6 @@ Move to the directory using `cd test-jekyll-site`. When you view the structure, 
 ```{code} bash
 :label: jekyll-basic-structure
 :caption: The basic files and folder structure created by the `jekyll new .` command when run in a a blank directory.
-:linenos:
 .
 ├── _config.yml
 ├── _posts
@@ -78,11 +77,29 @@ Move to the directory using `cd test-jekyll-site`. When you view the structure, 
 
 Take a look around at structure that Jekyll has created.
 In the basic default Jekyll structure, you will note one directory called `_posts`.
-This 
- basic folders, such as `_posts` or `_data`.
-Depending on the Jekyll version and theme, you may not see all of the folders.
+This directory contains files that generate "posts," which are displayed in reverse chronological order by date.
+The default site contains a basic post dated when the `new` command was run, titled with the date (in ISO format and the title "Welcome to Jekyll", see [](#jekyll-basic-post)).
 New pages can be created by copying from the `index.markdown` file
 or by creating new markdown or HTML files.
+
+```{code} markdown
+:label: jekyll-basic-post
+:caption: The first thirteen lines of the default "Welcome to Jekyll" post, here dated on 24 September 2026.
+:linenos:
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2026-09-24 21:30:00 -0400
+categories: jekyll update
+---
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+```
 
 ***Tip:*** For any new pages, make sure you add page front matter gated by a three-hyphen line (`---`). You can copy this from existing pages or create your own. Common elements are `title`,
 `permalink`, `date`, and `layout`, though every page will vary based on the content type and your site design.
