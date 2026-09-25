@@ -130,6 +130,15 @@ which is contained in the invisible `.github/workflows/` directory, as shown bel
 
 ### Publish: Link your local repo to the remote
 
+To publish your site, push from the local repository to the remote.
+When the push arrives on the branch specified in the Pages Actions publication workflow,
+the site will update.
+If you visit your repo on GitHub, you will see the status of the publication workflow.
+If there is a yellow circle (🟡) next to the commit, then the workflow is still in progress.
+If a green check mark (✅) displays, the workflow has completed successfully.
+Shortly, the updates will be live on the web.
+If a red cross mark (❌) displays, then the workflow has stopped without completing, and further investigation will be required.
+
 ## Some Challenges that You Might Encounter
 
 * If you previously published a site in the repository using a file called `index.html`,
