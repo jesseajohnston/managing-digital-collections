@@ -339,7 +339,7 @@ Note that when you serve the site locally, the `localhost` URL will now include 
 
 :::{code}
 :label: jekyll-update-baseurl
-:caption: Update the `baseurl` and `url` variables so that Jekyll can create correct references between pages on the site when it goes live.
+:caption: Update the `baseurl` and `url` variables so that Jekyll can create correct references between pages on the site when it goes live. Use the name of your repo for `baseurl` and the appropriate username and `github.io` information for your site. This code would only work for `planets-test` published by `managing-digital-collections`.
 baseurl: "/planets-test" # the subpath of your site, e.g. /blog
 url: "https://managing-digital-collections.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 :::
