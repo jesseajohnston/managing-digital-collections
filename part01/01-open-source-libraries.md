@@ -52,6 +52,10 @@ and formalizing open architectures through existing organizational formations [@
 % at one point considered mysts exercise/solution structure here (main points, etc, and suggested solutions)
 % upon writing, this seems like something that could be better handled as a "Discussion Questions" or portion at the end of the section
 
+Ellen Euler (keynote at WOLFCon 2026) - open source matters not because it is somehow morally superior but because it is more sustainable; openness is about sustainability and stewardship; it is important as a governance question (open code, open knowledge) can be captured, commercially and politically; for cultural heritage entities, it is necessary to be part of the open source community; noted some tensions/provocations (e.g., extraction -> reciprocity) Look for slides
+
+open metadata (standards, content, systems): https://openmetadatastandards.org/getting-started/introduction/ 
+
 :::{hint} For Discussion
 1. Using examples and concepts from the readings, and the article above, discuss how open source software and culture relates to or diverges from archives/library vaules and software.
 2. What are some of the main ways in which open source communities and projects are organized? Are you surprised at the variations? Name some examples of open source initiatives in the LAM community.
