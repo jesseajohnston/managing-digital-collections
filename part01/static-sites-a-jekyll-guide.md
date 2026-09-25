@@ -181,9 +181,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 Posts are intended for blog-like content, which might be added frequently or for which sorting by date is a primary concern.
 Post can be categorized using keywords, called categories and tags.
-Posts are generally composed in markdown. The files are stored in the `_posts` directory, and they are usually titled using date and the basic title. Although [basic text from the default post is offered above](#jekyll-basic-post), here is a sample idea for a planet page named `2026-09-25-mars.md`.
+Posts are generally composed in markdown. The files are stored in the `_posts` directory, and they are usually titled using date and the basic title. Although [basic text from the default post is offered above](#jekyll-basic-post), here is a [sample idea for a planet post named `2026-09-25-mars.md`](#jekyll-post-idea).
 
-```{code} markdown
+```{code}
+:label: jekyll-post-idea
 ---
 layout: post
 title: Mars
