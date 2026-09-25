@@ -302,6 +302,34 @@ which is contained in the invisible `.github/workflows/` directory, as shown bel
 Screenshot of suggested default Actions workflow created by GitHub when the Pages feature is set up.
 ```
 
+### Configure Gemfile for GH Pages
+
+Although your site may look fine when serving locally, GitHub has a different process of referencing different elements of the Jekyll ruby gem packages. To ensure that your site publishes correctly,
+[update the Gemfile as noted in the comments](#jekyll-update-gemfile-to-publish); in essence, deactivate (comment out with a `#`) line 10
+and activate (uncomment) line 15. Then run `bundle update github-pages` in your Jekyll site's directory.
+
+:::{code} ruby
+:label: jekyll-update-gemfile-to-publish
+:caption: Modify the default `Gemfile` according to the instructions in the comments; your file should be similar to what appears in this example.
+:linenos:
+:emphasize-lines: 10,15
+source "https://rubygems.org"
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
+# This will help ensure the proper Jekyll version is running.
+# Happy Jekylling!
+# gem "jekyll", "~> 4.4.1"
+# This is the default theme for new Jekyll sites. You may change this to anything you like.
+gem "minima", "~> 2.5"
+# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+gem "github-pages", group: :jekyll_plugins
+:::
+
 ### Publish: Push your local repo to the remote
 
 To publish your site, push from the local repository to the remote.
