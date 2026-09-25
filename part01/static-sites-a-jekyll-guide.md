@@ -111,6 +111,8 @@ or by creating new markdown or HTML files.
 :::{important} Don't forget page metadata
 For any new pages, make sure you add page front matter gated by a three-hyphen line (`---`). You can copy this from existing pages or create your own. Common elements are `title`,
 `permalink`, `date`, and `layout`, though every page will vary based on the content type and your site design.
+
+Basic metadata is illustrated in [the post code sample above, lines 1&ndash;6](#jekyll-basic-post).
 :::
 
 ### Serve Your Site Locally
