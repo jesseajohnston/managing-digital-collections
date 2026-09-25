@@ -6,7 +6,7 @@ _**NOTE:** If you already published your site during class, there may not be muc
 
 This lab activity accompanies the [Guide to Getting Started with Static Sites](/part01/static-sites-a-jekyll-guide.md).
 
-## Task 1: Set Up Jekyll and Publish Your Site
+## Set Up Jekyll and Publish Your Site
 
 _**NOTE:** The workflow outlined here differs from the steps outlined on GitHub's pages. These are, nonetheless, functionally the same process. You can use either sequence of steps to accomplish the task._
 
@@ -18,7 +18,7 @@ _**NOTE:** The workflow outlined here differs from the steps outlined on GitHub'
   * Add at least one "post" (more like a blog site): <https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-post-to-your-site>
 4. To see how your site looks and if things are working, run `bundle exec jekyll serve` and paste the provided location and port and in your browser's navigation bar. 
 
-## GitHub Pages
+## Publish with GitHub Pages
 
 Once you have a working Jekyll-based site, you can publish it as a live website using GitHub's "Pages" settings.
 Follow these steps to set up a new GitHub repository and connect it to a repo on your local machine.
@@ -29,9 +29,9 @@ Follow these steps to set up a new GitHub repository and connect it to a repo on
 4. Invite GitHub user `@morskyjezek` to your repo as a collaborator.
 5. To complete the assignment, please provide the URL to the live Jekyll site with your changes.
 
-### Additional Resources
-  
-  * How to Install Jekyll (locally), [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
-  * Ruby 101 (as much as you need to know), [https://jekyllrb.com/docs/ruby-101/](https://jekyllrb.com/docs/ruby-101/)
-  * Serve and test your site locally [https://jekyllrb.com/docs/](https://jekyllrb.com/docs/)
-  * Information on using Jekyll with GitHub pages (follows a slightly different workflow but accomplishes the same task of setting up and publishing a Jekyll static site) <https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll> - choose options for your operating system!
+:::{seealso} Additional Resources  
+- How to Install Jekyll (locally), [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
+- Ruby 101 (as much as you need to know), [https://jekyllrb.com/docs/ruby-101/](https://jekyllrb.com/docs/ruby-101/)
+- Serve and test your site locally [https://jekyllrb.com/docs/](https://jekyllrb.com/docs/)
+- Information on using Jekyll with GitHub pages (follows a slightly different workflow but accomplishes the same task of setting up and publishing a Jekyll static site) <https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll> - choose options for your operating system!
+:::
