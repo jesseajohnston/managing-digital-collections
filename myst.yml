@@ -41,10 +41,12 @@ project:
         # list labs etc below
         - file: ./labs/lab-01-regex-python.ipynb
           title: "Lab 1: RegEx with Python"
-        - file: ./labs/lab-02-static-site-jekyll-setup.md
-          title: "Lab 2: Setting Up and Publishing a Jekyll Static Site"
-        - file: ./labs/lab-03-collectionbuilder-setup.md
-          title: "Lab 3: Static Sites and CollectionBuilder"
+        - file: ./labs/lab-02-github-collaboration.md
+          title: "Lab 2: Basic Collaboration on GitHub"
+        - file: ./labs/lab-03-static-site-jekyll-setup.md
+          title: "Lab 3: Setting Up and Publishing a Jekyll Static Site"
+        - file: ./labs/lab-04-collectionbuilder-setup.md
+          title: "Lab 4: Static Sites and CollectionBuilder"
         - file: ./labs/quiz-01-regex-solutions.ipynb
     - file: ./introduction/index.md
       title: The Book
