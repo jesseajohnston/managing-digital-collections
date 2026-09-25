@@ -59,7 +59,7 @@ jekyll new test-jekyll-site
 
 ### Look around Your Site
 
-Move to the directory using `cd test-jekyll-site`. When you view the structure, you will see something like [](#jekyll-basic-structure).
+Move to the directory using `cd test-jekyll-site`. When you view the structure, you will see something like [the directory structure schematic shown below](#jekyll-basic-structure).
 
 ```{code} bash
 :label: jekyll-basic-structure
@@ -191,6 +191,7 @@ Include files are snippets, so they do not need gated metadata, and they may be 
 ```{code} liquid
 :label: jekyll-basic-include
 :caption: Example of an _include_ snippet, which references the site planet list data file, then outputs each row in a list and table.
+:linenos:
 <!-- display an unordered list of the planet data -->
 <ul>
 {% for planet in site.data.planet-list %}
