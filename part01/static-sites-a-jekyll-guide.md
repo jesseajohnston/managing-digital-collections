@@ -91,7 +91,11 @@ If things are working, you should see something like this print to your terminal
 
 The output contains useful information to review and evaluate your site contents and desing. To view the site, copy and paste the server address ([shown above on line 5](#serve-jekyll)) into a browser's navigation bar, and you should see your site. To stop the site generator, press `Ctrl + C`.
 
-## Add and Configure a Blank Jekyll Site
+## Configure and Add Content in a Blank Jekyll Site
+
+This section illustrates some of the basic set up tasks that you may want to undertake,
+including configuration of site information, adding new content (posts and pages),
+adding data files, and basic techniques for data display.
 
 ### Add a Post
 
@@ -100,6 +104,10 @@ The output contains useful information to review and evaluate your site contents
 ### Add a Page
 
 ### Add Data
+
+### Display data with an include
+
+
 
 ## Publish Your Site
 
