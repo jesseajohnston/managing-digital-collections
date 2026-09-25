@@ -79,13 +79,12 @@ Take a look around at structure that Jekyll has created.
 In the basic default Jekyll structure, you will note one directory called `_posts`.
 This directory contains files that generate "posts," which are displayed in reverse chronological order by date.
 The default site contains a basic post dated when the `new` command was run, titled with the date (in ISO format and the title "Welcome to Jekyll", see [](#jekyll-basic-post)).
-New pages can be created by copying from the `index.markdown` file
-or by creating new markdown or HTML files.
 
 ```{code} markdown
 :label: jekyll-basic-post
 :caption: The first thirteen lines of the default "Welcome to Jekyll" post, here dated on 24 September 2026.
 :linenos:
+:emphasize-lines: 1-6
 ---
 layout: post
 title:  "Welcome to Jekyll!"
@@ -100,6 +99,10 @@ Jekyll requires blog post files to be named according to the following format:
 
 Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 ```
+
+In the main directory, you will see files that generate the main site pages. These include `about.markdown` and `index.markdown`. Inspecting these files, note the standard file metadata, and the content of each page. Note that the `index.markdown` page displays at the site root when served, while the `about.markdown` is a similar page but appears in teh site's navigation menu. **Note:** the files that begin with `Gemfile` pertain to Ruby dependencies.
+New pages can be created by copying from the `index.markdown` file
+or by creating new markdown or HTML files.
 
 ***Tip:*** For any new pages, make sure you add page front matter gated by a three-hyphen line (`---`). You can copy this from existing pages or create your own. Common elements are `title`,
 `permalink`, `date`, and `layout`, though every page will vary based on the content type and your site design.
