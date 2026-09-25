@@ -275,6 +275,13 @@ Include files are snippets, so they do not need gated metadata, and they may be 
 </table>
 ```
 
+:::{seealso} Many ways to use Data files
+The above approach to use an include template for publishing your data is only one way to do this.
+Data files may also be referenced in page layout templates, pages, posts, and probably elsewhere.
+They are great for publishing tables, lists, or creating series of posts that have consistent content.
+More [information about using data files can be found at the Jekyll documentation](https://jekyllrb.com/docs/datafiles/).
+:::
+
 ## Publish Your Site
 
 This section describes how to publish your site so it is available on the Web!
