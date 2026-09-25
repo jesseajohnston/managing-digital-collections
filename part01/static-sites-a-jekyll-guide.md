@@ -79,7 +79,7 @@ Take a look around at structure that Jekyll has created.
 In the basic default Jekyll structure, you will note one directory called `_posts`.
 This directory contains files that generate "posts," which are displayed in reverse chronological order by date.
 The default site contains a basic post dated when the `new` command was run.
-The post is a markdown file, titled with the date and the post title in [kebab case](wiki:kebab_case) (here, "Welcome to Jekyll", see [](#jekyll-basic-post)).
+The post is a markdown file, titled with the date and the post title in [kebab case](wiki:kebab_case) (here, "Welcome to Jekyll", see [the sample code from the beginning of the default post below](#jekyll-basic-post)).
 
 ```{code} markdown
 :label: jekyll-basic-post
