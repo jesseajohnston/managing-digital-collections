@@ -108,8 +108,10 @@ In the main directory, you will see files that generate the main site pages. The
 New pages can be created by copying from the `index.markdown` file
 or by creating new markdown or HTML files.
 
-***Tip:*** For any new pages, make sure you add page front matter gated by a three-hyphen line (`---`). You can copy this from existing pages or create your own. Common elements are `title`,
+:::{important} Don't forget page metadata
+For any new pages, make sure you add page front matter gated by a three-hyphen line (`---`). You can copy this from existing pages or create your own. Common elements are `title`,
 `permalink`, `date`, and `layout`, though every page will vary based on the content type and your site design.
+:::
 
 To test your site and "serve" it locally, use the serve command from the terminal:
 
