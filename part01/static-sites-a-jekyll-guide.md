@@ -324,7 +324,7 @@ in your Jekyll site's directory for your site to serve locally.
 
 :::{code} ruby
 :label: jekyll-update-gemfile-to-publish
-:caption: Modify the default `Gemfile` according to the instructions in the comments; your file should be similar to what appears in this example.
+:caption: Modify the default `Gemfile` according to the instructions in the comments; your file should be similar to what appears in this example. Note that this is only a snippet, there is much more code following line 15, which may remain unchanged.
 :linenos:
 :emphasize-lines: 10,15
 source "https://rubygems.org"
