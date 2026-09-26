@@ -397,10 +397,12 @@ here are a few that have been noted multiple times in the recent past:
 - The default Jekyll theme is called `minima`. You can change this if you'd like to experiment with the theming aspect of Jekyll. (For the purposes of SI 676, though, we won't work much with theming since Web design is beyond the scope of our course.) However, if you want to make changes in `minima`, or any other "gem based" theme (meaning the files are located in the Ruby package, and referenced when Jekyll builds the site, rather than the files being in your repo directory), [refer to this guide to find out where to find the theme files and how to import them for modification or customization](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes).
 - When you update to publish using GitHub pages, you may need to clear the earlier `Gemfile.lock` file. That file shows all of the current dependencies that the `bundle` command runs when it builds the jekyll site. Updating to the `github-pages` gem can create incompatibilities with other gem versions. To remove these, delete the old lock file, then run `bundle clean --force` and, to update the gem dependencies and create a new lock file, run `bundle install` again. This will update the packages for GH Pages deployment.
 - The GitHub Pages guide to Jekyll has useful information about publishing your site to your GitHub repo, and ultimately on how to publish it live to the web. Before you get to that point, however, it may be easier to work from the Jekyll documentation, which offers lightweight ["Quickstart" instructions that are more streamlined and useful for initiating, setting up, serving, and configuring your site locally and for testing prior to publishing](https://jekyllrb.com/docs/).
-- **Themes.** While there are many Jekyll theme sites (find some [sources for openly available themes at the Jekyll documentation](https://jekyllrb.com/docs/themes/#pick-up-a-theme)), and they are possible to generate yourself or with a coding assistant, GitHub Pages supports a few [basic themes that are relatively easy to use and modify](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll#supported-themes). When using these (e.g., `minima` as in this demonstration), many of the theme files, including layouts, styling, includes, among other things, are provided automatically with a Ruby gem hosted by GitHub. If you want to modify or extend the existing themes, it may be necessary to locate or find those files. You can overwrite default behavior by creating and adding to your repo a file of the same name. To locate information about any given theme (or other gem package), you can run `bundle info GEMNAME` ([where GEMNAME is replaced with the name of the gem](#jekyll-bundle-info)); similarly, if you are looking for files in a particular place, you can run the `gem contents GEMNAME` for a list of all the files in the gem. For example, if you want to find the layout options in `minima`:
+- **Themes.** While there are many Jekyll theme sites (find some [sources for openly available themes at the Jekyll documentation](https://jekyllrb.com/docs/themes/#pick-up-a-theme)), and they are possible to generate yourself or with a coding assistant, GitHub Pages supports a few [basic themes that are relatively easy to use and modify](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll#supported-themes). When using these (e.g., `minima` as in this demonstration), many of the theme files, including layouts, styling, includes, among other things, are provided automatically with a Ruby gem hosted by GitHub. If you want to modify or extend the existing themes, it may be necessary to locate or find those files. You can overwrite default behavior by creating and adding to your repo a file of the same name. To locate information about any given theme (or other gem package), you can run `bundle info GEMNAME` ([where GEMNAME is replaced with the name of the gem](#jekyll-bundle-info)); similarly, if you are looking for files in a particular place, you can [run the `gem contents GEMNAME` for a list](#jekyll-gem-contents) of all the files in the gem. For example, if you want to find the layout options in `minima`:
 
 :::{code} bash
 :label: jekyll-bundle-info
+:caption: Running the `bundle info` command can help to locate remote gem files. Note the `Homepage` URL here. 
+:emphasize-lines: 4
 $ bundle info minima
   * minima (2.5.1)
 	Summary: A beautiful, minimal theme for Jekyll.
@@ -410,6 +412,16 @@ $ bundle info minima
 		github-pages (232) depends on minima (= 2.5.1)
 :::
 
+:::{code} bash
+:label: jekyll-gem-contents
+:caption: The `gem contents` command lists all the files in a gem. If you know information about the structure of the gem, you can use `grep` to search for specific path locations. For example, here the command returns the options for the `_layout` directory of the minima theme.
+$ gem contents minima | grep _layouts
+
+~/.gem/ruby/3.4.1/gems/minima-2.5.1/_layouts/default.html
+~/.gem/ruby/3.4.1/gems/minima-2.5.1/_layouts/home.html
+~/.gem/ruby/3.4.1/gems/minima-2.5.1/_layouts/page.html
+~/.gem/ruby/3.4.1/gems/minima-2.5.1/_layouts/post.html
+:::
 
 :::{seealso} More Jekyll Resources
 - How to Install Jekyll (locally), [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
