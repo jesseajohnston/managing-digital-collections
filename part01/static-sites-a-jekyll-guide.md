@@ -401,7 +401,8 @@ here are a few that have been noted multiple times in the recent past:
 
 :::{code} bash
 :label: jekyll-bundle-info
-:caption: Running the `bundle info` command can help to locate remote gem files. Note the `Homepage` URL here. 
+:caption: Running the `bundle info` command can help to locate remote gem files. Note the `Homepage` URL here.
+:linenos:
 :emphasize-lines: 4
 $ bundle info minima
   * minima (2.5.1)
