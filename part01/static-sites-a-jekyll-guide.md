@@ -344,6 +344,11 @@ gem "minima", "~> 2.5"
 gem "github-pages", group: :jekyll_plugins
 :::
 
+:::{tip} Deploying the Site and the Gemfile
+The [Jekyll documentation contains more information about the role and purpose of the `Gemfile`](https://jekyllrb.com/docs/step-by-step/10-deployment/#gemfile),
+which may be useful to consult if you are encountering issues during deployment.
+:::
+
 ### Update `baseurl` and `url`
 
 Finally, to help Jekyll ensure that it can make correct references between the published site and necessary files, like CSS for styles and other related assets, [update](#jekyll-update-baseurl) the `baseurl` and `url` information in `_config.yml`.
@@ -392,6 +397,7 @@ here are a few that have been noted multiple times in the recent past:
 - The default Jekyll theme is called `minima`. You can change this if you'd like to experiment with the theming aspect of Jekyll. (For the purposes of SI 676, though, we won't work much with theming since Web design is beyond the scope of our course.) However, if you want to make changes in `minima`, or any other "gem based" theme (meaning the files are located in the Ruby package, and referenced when Jekyll builds the site, rather than the files being in your repo directory), [refer to this guide to find out where to find the theme files and how to import them for modification or customization](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes).
 - When you update to publish using GitHub pages, you may need to clear the earlier `Gemfile.lock` file. That file shows all of the current dependencies that the `bundle` command runs when it builds the jekyll site. Updating to the `github-pages` gem can create incompatibilities with other gem versions. To remove these, delete the old lock file, then run `bundle clean --force` and, to update the gem dependencies and create a new lock file, run `bundle install` again. This will update the packages for GH Pages deployment.
 - The GitHub Pages guide to Jekyll has useful information about publishing your site to your GitHub repo, and ultimately on how to publish it live to the web. Before you get to that point, however, it may be easier to work from the Jekyll documentation, which offers lightweight ["Quickstart" instructions that are more streamlined and useful for initiating, setting up, serving, and configuring your site locally and for testing prior to publishing](https://jekyllrb.com/docs/).
+- **Themes.** While there are many Jekyll theme sites, and they are possible to generate yourself or with a coding assistant, GitHub Pages supports a few common themes. When using these (e.g., `minima` as in this demonstration), many of the theme files, including layouts, styling, and includes, among other things, are provided automatically with a Ruby import process. If you want to modify or extend the existing themes, it may be necessary to locate or find those files. You can overwrite default behavior by creating and adding to your repo a file of the same name. 
 
 :::{seealso} More Jekyll Resources
 - How to Install Jekyll (locally), [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
