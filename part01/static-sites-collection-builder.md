@@ -25,7 +25,7 @@ This section offers some more detailed information about these aspects of Collec
 
 ```{figure} /assets/part02-cb-item-page.jpg
 :label: cb-item-page
-:alt: Screenshot of a Collection Builder site front page
+:alt: Screenshot of a Collection Builder site image page
 
 Screenshot that shows an item page on a CollectionBuilder site.
 ```
