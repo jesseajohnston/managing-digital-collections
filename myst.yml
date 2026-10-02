@@ -62,6 +62,7 @@ project:
         - file: ./part01/05-working-with-csv.ipynb
         - file: ./part01/06-working-with-json.ipynb
         - file: ./part01/static-sites-a-jekyll-guide.md
+        - file: ./part01/static-sites-collection-builder.md
     - file: ./part02/index.md
       children:
         - file: ./part02/01-metadata-for-digital-collections.md
