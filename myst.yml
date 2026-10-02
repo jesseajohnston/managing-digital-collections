@@ -45,8 +45,9 @@ project:
           title: "Lab 2: Basic Collaboration on GitHub"
         - file: ./labs/lab-03-static-site-jekyll-setup.md
           title: "Lab 3: Setting Up and Publishing a Jekyll Static Site"
-        - file: ./labs/lab-04-collectionbuilder-setup.md
-          title: "Lab 4: Static Sites and CollectionBuilder"
+        - file: ./labs/lab-04-artisanal-metadata.md
+        - file: ./labs/project-01-collectionbuilder-setup.md
+          title: "Project: Static Sites and CollectionBuilder"
         - file: ./labs/quiz-01-regex-solutions.ipynb
     - file: ./introduction/index.md
       title: The Book
