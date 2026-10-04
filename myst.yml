@@ -108,7 +108,6 @@ project:
         - ./part03/index.md
         # Labs Section (include?)
         - ./labs/index.md
-        - ./labs/lab-04-jekyll.md
       output: ./_build/exports/managing-digital-collections-beta.pdf
       id: typst-book-pdf
       show_pagenumber: true
