@@ -73,6 +73,13 @@ For now, use your repo path, meaning that if my repo was named `SI_676`, my digi
 :linenos:
 ```
 
+:::{hint} Editing a CSV
+You can edit a CSV file as a plain text file, or with a spreadsheet program.
+To work with CSV in VS Code, it is useful to install an extention, such as Rainbow CSV.
+However, if you are making extensive data modifications, it may be easier
+to use a spreadsheet program like Libre Office, Google Sheets, or Excel.
+:::
+
 ## Lab 4: Deliverables
 
 - A CSV with the metadata for your resources
