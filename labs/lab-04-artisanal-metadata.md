@@ -1,5 +1,5 @@
 ---
-title: "Lab 04: Gather Five Collection Items"
+title: "Lab 4: Gather Five Collection Items"
 ---
 
 In this lab, you will create "artisanal metadata" for five collection items.
