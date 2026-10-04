@@ -41,7 +41,7 @@ your SI 676 github repo folder. You should have at least five digital files
 that represent your digital object. For the purposes of simplicity,
 the demo at this point assumes each resource has one file.
 
-:::{tip} Complex Digital Objects (Objects with Multiple Files)
+:::{hint} Complex Digital Objects (Objects with Multiple Files)
 Keep in mind that many digital objects are comprised of multiple files.
 So, you may have more than five individual files.
 If you choose a resource that has multiple files,
