@@ -68,9 +68,9 @@ For now, the most important one is `object_location` which is required
 and must include the correct path to the digital object.
 For now, use your repo path, meaning that if my repo was named `SI_676`, my digital object path would be `/SI-676/lab_04/nc_001.jpg`. This path must be exact in the metadata spreadsheet (it won't matter for your gathering activity, but it will matter when you want to publish your CB site).
 
-```{literalinclude} ./data/cb-csv-metadata-template.csv
+```{literalinclude} /data/cb-csv-metadata-template.csv
 :label: cb-csv-metadata-template
-
+:linenos:
 ```
 
 ## Lab 4: Deliverables
