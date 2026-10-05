@@ -288,9 +288,28 @@ More [information about using data files can be found at the Jekyll documentatio
 This section describes how to publish your site so it is available on the Web!
 Once the site looks good locally, you can publish it using a GitHub feature called _Pages_. GitHub Pages allows you to publish static HTML files to a unique URL, which will look like a published website, rather than a code repository.
 
+### Set Up a Git Repo
+
+Begin by making your local folder with the Jekyll site a Git repo.
+Instructions on initiating a Git repo, adding files to it,
+and connecting that repo to a remote repo on GitHub,
+are detailed at [](/introduction/tools-git.md).
+
+:::{attention} Attend to Your Git Repo's Structure
+**Avoid recursive repos:** Make sure that your new Jekyll site repo is not in a
+folder that already has an existing Git repo. If you
+initialize Git in a folder within a repo, you may encounter
+weird problems with recursive repos, which can be difficult to address later.
+
+**Folder structure:** The process outline below assumes your Jekyll
+site is publishing from a `_config.yml` and index file that are at the top
+folder level. If your site is located in a different place in the repository,
+you may need to choose a different publishing option than the GH Actions workflow outlined below.
+:::
+
 ### Set up GitHub Pages
 
-Begin by preparing your remote repo for publishing. To do this, visit your repo's GitHub page, and look for the main `Settings` option in the navigation bar near the top of the page.
+Next, prepare your remote repo for publishing. To do this, visit your repo's GitHub page, and look for the main `Settings` option in the navigation bar near the top of the page.
 In the Settings, look on the navigation bar to the left for the `Pages` option.
 At Pages, choose "GitHub Actions" for the Source option under the **Build and Deployment** heading.
 When you choose the Actions option, you will see a button to "Configure" for GitHub Pages Jekyll [](#jekyll-github-actions-configure);
