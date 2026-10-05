@@ -53,6 +53,7 @@ project:
       title: The Book
       children:
         - file: ./introduction/setup.md
+        - file: ./introduction/tools-git.md
     - file: ./part01/index.md
       children:
         - file: ./part01/01-open-source-libraries.md
