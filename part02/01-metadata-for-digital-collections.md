@@ -346,7 +346,7 @@ serializes data in a JSON format (more on that later)
 
 Let's talk more about EAD!
 
-:::{seealso} EAD Resources
+:::{seealso} Learn More about EAD
 EAD was developed by the Society of American Archivists and is maintained and published by the Library of Congress. The most current definition of the scheme (EAD 4 as of July 2026) can be found at <https://www.loc.gov/ead/v4/EAD4-TL-eng.html>.[^ead-fn]
 
 A highly useful additional resource is [EADiva](https://eadiva.com/elements/), which provides an accessible and comprehensive overview of the scheme, maintained by Ruth Kitchin Tillman.
