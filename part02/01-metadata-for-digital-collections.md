@@ -213,6 +213,8 @@ Example objects that could illustrate metadata examples. Possibly two to illustr
 **Possibility:** web archive, such as the Slate example below?
 :::
 
+## A Brief Tour: Three Metadata Schemes for Describing Digital Collections
+
 This book primarily uses three major metadata schemes: DublinCore metadata, the Metadata for Object Description Schema (MODS) for describing digital library resources, and Encoded Archival Description (EAD) for describing archival collections. Below each of these are introduced and further resources are provided.[^resource-fn]
 
 ### Dublin Core / DCMES
@@ -351,6 +353,8 @@ EAD was developed by the Society of American Archivists and is maintained and pu
 
 A highly useful additional resource is [EADiva](https://eadiva.com/elements/), which provides an accessible and comprehensive overview of the scheme, maintained by Ruth Kitchin Tillman.
 :::
+
+% TODO: Add METS!!!
 
 ## Metadata Encoding
 
