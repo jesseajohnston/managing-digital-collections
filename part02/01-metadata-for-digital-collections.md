@@ -47,7 +47,8 @@ That said, however, technical and preservation information is essential for
 managing digital content.
 In part, this is because digital "items" have many distinct but inter-related components.
 If you ask conservators about caring for a printed book, they would note it is a complex object with various material challenges that can differ because of the individual components and how they interact, ranging from
-paper composition, types of ink(s) used, binding materials, printing methods, and other componentsway whatever corresponds to a book
+paper composition, types of ink(s) used, binding materials, printing methods, and other components that correspond to "a book."
+% this callout could use another look ...
 :::
 
 While the above distinctions are useful in thinking about what the metadata "does" in a given system or use case,
