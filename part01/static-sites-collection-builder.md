@@ -12,7 +12,7 @@ While the guide can be used standalone, it will be helpful if you have already
 gained a familiarity with the [Jekyll static site platform](/part01/static-sites-a-jekyll-guide.md).
 
 Information on this page enhances the already detailed guides provided by Collection Builder.
-In particular, the steps outlined here build on the process of [setting up CollectionBuilder with customeized CSV metadata](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/csv-walkthrough/).
+In particular, the steps outlined here build on the CollectionBuilder guide to [setting up CollectionBuilder with customeized CSV metadata](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/csv-walkthrough/), which explains how to create a new repo by forking the CB project.
 
 ## Item Metadata
 
