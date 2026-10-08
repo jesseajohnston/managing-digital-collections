@@ -34,10 +34,8 @@ Beyond these types, @mitchell2015 [pg. 105] and others note additional metadata 
 
 These are both essential to the management and maintenance of digital collections, and are outlined in a more technical way by the PREservation Metadata: An Implementation Standard (PREMIS).
 
-:::{seealso} The typology is a simplification
+:::{seealso} Why does metadata matter for digital collections?
 Whatever metadata's function in a collection, this book focuses on its importance and uses for resources in digital collections. Canonic views on the subject, including @gilliland2016 and @svenonius2000, note that metadata is critical for all types of collections to allow for greater access, sharing, publication, tracking versions, preserving, validating, searching and locating [@gilliland2016; see also @bacaed2016; @eckard2020].
-
-***Why does this matter?***
 
 Reliable and consistent metadata are even more important in an age of AI and absolutely compounding copies and misinformation, particularly for digital collections.
 
