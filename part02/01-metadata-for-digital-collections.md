@@ -25,10 +25,17 @@ Administrative metadata
 Structural metadata
 : This information reflects how a resource is laid out and how its parts relate to one another. While this might be as basic as "225 pages, with figures and index" for a printed book, it is often much more critical for digital objects, which often have multiple component files. As @caplan2003 [pg. 5] notes, this kind of data "can be though of as the glue that holds compound digital objects together," like a list of files that represent pages, chapters, images, or fonts.
 
-@mitchell2015 [pg. 105] and others note two additional metadata types include **preservation metadata**, which is particularly salient in tracking the preservation management of digital materials, and **technical metadata**, which is often managed by systems for resource and content management.
+As @gilliland2016 notes, the above typology mirrors the conventions of the Metadata Encoding and Transmission Standard (METS), which defines how these elements may be encoded and structured in a system-actionable way for managing complex digital objects.
 
-:::{warning} TODO: Revise above section & typology
-**Revise above** - metadata functions should be focused on digital content. Descrip/admin/struct = METS convention [@gilliland2016]. Preservation and technical essentially tied in digital metadata to PREMIS, bring this to Mitchell's point. Additionally, use @gilliland2016 and @svenonius2000 to note that metadata is critical to allow for greater access, sharing, publication, tracking versions, preserving, validating, searching and locating [@gilliland2016; see also @bacaed2016; @eckard2020].
+Beyond these types, @mitchell2015 [pg. 105] and others note additional metadata types. These include:
+
+1. **preservation metadata**, which is particularly salient in tracking the preservation management of digital materials; and
+2. **technical metadata**, which is often managed by systems for resource and content management.
+
+These are both essential to the management and maintenance of digital collections, and are outlined in a more technical way by the PREservation Metadata: An Implementation Standard (PREMIS).
+
+:::{seealso} The typology is a simplification
+Whatever metadata's function in a collection, this book focuses on its importance and uses for resources in digital collections. Canonic views on the subject, including @gilliland2016 and @svenonius2000, note that metadata is critical for all types of collections to allow for greater access, sharing, publication, tracking versions, preserving, validating, searching and locating [@gilliland2016; see also @bacaed2016; @eckard2020].
 
 ***Why does this matter?***
 
