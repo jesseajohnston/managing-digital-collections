@@ -36,7 +36,6 @@ project:
       children:
         - file: ./teaching/schedule-2026.md
         - file: ./teaching/digital-collections-of-interest.md
-        - file: ./teaching/asst01a-collectionbuilder.md
     - file: ./labs/index.md
       children:
         # list labs etc below
@@ -48,7 +47,7 @@ project:
           title: "Lab 3: Setting Up and Publishing a Jekyll Static Site"
         - file: ./labs/lab-04-artisanal-metadata.md
 #        - file: ./labs/project-01-collectionbuilder-setup.md #moved to assignments under course tab
-#          title: "Project: Static Sites and CollectionBuilder"
+        - file: ./labs/project-01a-collectionbuilder.md
         - file: ./labs/quiz-01-regex-solutions.ipynb
     - file: ./introduction/index.md
       title: The Book
