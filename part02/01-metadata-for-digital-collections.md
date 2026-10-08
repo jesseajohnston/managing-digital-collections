@@ -73,12 +73,9 @@ Learning about using, managing, and creating metadata, then, is about learning h
 
 While metadata definitions are often called _schemas_, in this book I follow Caplan's use of _scheme_ instead. For one thing, this is sensible English usage rather than adopting the redundant Latin and English plural. But also, _schema_ has specific meanings "in relation to computer technology as the formal organization or structure of a database, and another specialized meaning in relation to XML" [@caplan2003, pg. 5].
 
-##TODO Describe schemes: rules for what is valid or invalid. Valid terms, usage, data defintions, etc; good quotes from @mitchell2015 around page 104 or so.
+% ##TODO Describe schemes: rules for what is valid or invalid. Valid terms, usage, data defintions, etc; good quotes from @mitchell2015 around page 104 or so.
 
-```
-possible figure or table
-Example: DublinCore element? or EAD tag and DACS description to show complexity
-```
+% possible figure or table: Example: DublinCore element? or EAD tag and DACS description to show complexity
 
 ### An Example Item: An Image File and Metadata
 
@@ -210,7 +207,7 @@ which hints that Python can work with this data as a list.
 We will see below how the metadata examined here can be encoded more effectively
 in data structures that are more closely defined through specific metadata schemes.
 
-:::{hint} TODO?: Add a complex/multi-file example?
+:::{hint} TODO: Add a complex/multi-file example
 Example objects that could illustrate metadata examples. Possibly two to illustrate a complex/simple object?
 
 **Possibility:** web archive, such as the Slate example below?
