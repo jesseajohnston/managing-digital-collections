@@ -136,9 +136,12 @@ Although developed to manage source code, many projects now use Git and various 
 - The BitCurator project uses GitHub to publish and collaborate on the maintenance of its documentation of the BitCurator Environment. Find [the published docs here](https://bitcurator.github.io/documentation/) and the [source GitHub repository here](https://github.com/BitCurator/documentation).
 - The Library Carpentry project, an initiative of The Carpentries, which supports open educational resources for technical tools of interest to librarians and archivists, maintains its lessons via GitHub. Their lesson on Git, for example, is [readable and accessible as a standalone website](https://librarycarpentry.github.io/lc-git/), but the source is managed through [this GitHub repository](https://github.com/librarycarpentry/lc-git/).
 
-*Challenge:* Find a site that is published and managed using Git and GitHub!
+**Challenge:** Find a site that is published and managed using Git and GitHub!
 :::
 
 :::{seealso} Additional Git Resources
-Want to learn more about Git? Check out the [Library Carpentry initiative's lesson and setup guide for Git](https://librarycarpentry.github.io/lc-git/).
+Want to learn more about Git? A few useful resources to check out:
+
+- The [Library Carpentry initiative's lesson and setup guide for Git](https://librarycarpentry.github.io/lc-git/)
+- GitHub Education offers a [one-page "cheat sheet" with common Git operations and commands](https://education.github.com/git-cheat-sheet-education.pdf)
 :::
