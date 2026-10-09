@@ -135,9 +135,20 @@ Although developed to manage source code, many projects now use Git and various 
 - The Society of American Archivists uses GitHub to publish and track changes for _Describing Archives: A Content Standard_ (DACS), the standard documenting archival description. Find the [published version of DACS here](https://saa-ts-dacs.github.io/), and the [source GitHub repository here](https://github.com/saa-ts-dacs/saa-ts-dacs.github.io).
 - The BitCurator project uses GitHub to publish and collaborate on the maintenance of its documentation of the BitCurator Environment. Find [the published docs here](https://bitcurator.github.io/documentation/) and the [source GitHub repository here](https://github.com/BitCurator/documentation).
 - The Library Carpentry project, an initiative of The Carpentries, which supports open educational resources for technical tools of interest to librarians and archivists, maintains its lessons via GitHub. Their lesson on Git, for example, is [readable and accessible as a standalone website](https://librarycarpentry.github.io/lc-git/), but the source is managed through [this GitHub repository](https://github.com/librarycarpentry/lc-git/).
-
-**Challenge:** Find a site that is published and managed using Git and GitHub!
 :::
+
+```{exercise}
+:label: git-challenge
+**Challenge:** Find a site that is published and managed using Git and GitHub!
+```
+
+```{solution} git-challenge
+:label:
+:class: dropdown
+Many sites are published this way. One indicator is a URL that contains `github.io`, which is the default domain for sites published with GH Pages.
+Other indicators are a clickable GitHub icon, which may link to the source repo.
+Or you may recognize that a site is a Jekyll (or other static site generator) theme or template, then look for its source.  
+```
 
 :::{seealso} Additional Git Resources
 Want to learn more about Git? A few useful resources to check out:
