@@ -139,6 +139,6 @@ Although developed to manage source code, many projects now use Git and various 
 *Challenge:* Find a site that is published and managed using Git and GitHub!
 :::
 
-:::{seealso}
+:::{seealso} Additional Git Resources
 Want to learn more about Git? Check out the [Library Carpentry initiative's lesson and setup guide for Git](https://librarycarpentry.github.io/lc-git/).
 :::
