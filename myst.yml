@@ -47,6 +47,7 @@ project:
           title: "Lab 3: Setting Up and Publishing a Jekyll Static Site"
         - file: ./labs/lab-04-artisanal-metadata.md
 #        - file: ./labs/project-01-collectionbuilder-setup.md #moved to assignments under course tab
+        - file: ./labs/lab-05-python-urls-requests-json.md
         - file: ./labs/project-01a-collectionbuilder.md
         - file: ./labs/quiz-01-regex-solutions.ipynb
     - file: ./introduction/index.md
