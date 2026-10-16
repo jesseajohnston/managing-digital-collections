@@ -78,8 +78,9 @@ project:
         - file: ./part02/xml-more-with-MODS-lxml.ipynb
 #        - file: ./part02/xml-01-basics-with-BS4.ipynb #make optional?
     - file: ./part03/index.md
-      children: []
+      children:
         # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 3
+        - file: ./part03/apis-01-calling-rest-api-requests-json.ipynb
     - title: "Part 4: Presenting and Managing Collections"
       children: []
         # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 4
