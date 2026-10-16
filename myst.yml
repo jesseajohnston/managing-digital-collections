@@ -49,6 +49,7 @@ project:
 #        - file: ./labs/project-01-collectionbuilder-setup.md #moved to assignments under course tab
         - file: ./labs/lab-05-python-urls-requests-json.md
         - file: ./labs/project-01a-collectionbuilder.md
+        - file: ./labs/project-02-map.md
         - file: ./labs/quiz-01-regex-solutions.ipynb
     - file: ./introduction/index.md
       title: The Book
