@@ -87,7 +87,7 @@ Let's talk about JSON!
     "books": [
         {
             "id": "B464540",
-            "availalbe" : true,
+            "available" : true,
             "dc:title": "The birds of America; from original drawings by John James Audubon",
             "language": "en",
             "author": {"id": "JJA"},
