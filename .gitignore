@@ -32,5 +32,6 @@ Thumbs.db
 # Files written by the notebooks (regenerable - see data/README.md)
 output/
 
-# Specific files for this project
+# Specific files for this project and Claudia
 plan_changing_to_book_update_202607.md
+AGENTS.md
