@@ -63,7 +63,5 @@ You can find some examples of MAPs at [link to the DLF's MAP "clearinghouse" pro
 ### Resources
 
 - [Assignment submission on Canvas](https://umich.instructure.com/courses/858493/assignments/3288741)
-- [Sample MAP Planning (Jupyter notebook)][sample-map-planner-ipynb]
+- Section TBD
 - [Sample MAP Planning (Google Sheet used in class)](https://docs.google.com/spreadsheets/d/1qQvWRJ7Ki_yZx0dLKedljyfyTvp1981VnhxWRW-NrVI/edit?usp=drive_link)
-
-[sample-map-planner-ipynb]: https://github.com/morskyjezek/si676-2025-data/blob/main/examples/assignment-transform-1-design-metadata-profile.ipynb
