@@ -25,12 +25,12 @@ To the extent possible, your destination fields should come from standardized (o
 
 Here are some additional schemes to consider, with links to their description and documentation:
 
-- [DublinCore Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) ([Wikipedia](https://en.wikipedia.org/wiki/Dublin_Core))
-- [MODS](http://www.loc.gov/standards/mods/) ([Metadata Standards Catalog entry](https://rdamsc.bath.ac.uk/msc/m97), Wikipedia)
-- The *schema.org* ontologies ([download ontology files here](https://schema.org/docs/developers.html), [Wikipedia](https://en.wikipedia.org/wiki/Schema.org))
-- [Nomenclature](https://page.nomenclature.info/apropos-about.app?lang=en) for Museum Cataloging (indexed within Omeka S Value Suggest module, [Wikipedia](), [ISKO article](https://www.isko.org/cyclo/nomenclature))
-- [LIDO](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/lido-schema/) (Metadata Standards Catalog, [Wikipedia](https://en.wikipedia.org/wiki/LIDO))
-- [CCO (Cataloging Cultural Objects)](https://www.vraweb.org/cco) ([Wikipedia](https://en.wikipedia.org/wiki/Visual_Resources_Association#Cataloguing_Cultural_Objects_(CCO)))
+- [DublinCore Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) ([Wikipedia](wiki:Dublin_Core))
+- [MODS](http://www.loc.gov/standards/mods/) ([Metadata Standards Catalog entry](https://rdamsc.bath.ac.uk/msc/m97), [Wikipedia](wiki:Metadata_Object_Description_Schema))
+- The *schema.org* ontologies ([download ontology files here](https://schema.org/docs/developers.html), [Wikipedia](wiki:Schema.org))
+- [Nomenclature](https://page.nomenclature.info/apropos-about.app?lang=en) for Museum Cataloging (indexed within Omeka S Value Suggest module, [ISKO article](https://www.isko.org/cyclo/nomenclature))
+- [LIDO](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/lido-schema/) (Metadata Standards Catalog, [Wikipedia](wiki:LIDO))
+- [CCO (Cataloging Cultural Objects)](https://www.vraweb.org/cco) ([Wikipedia](wiki:Visual_Resources_Association#Cataloguing_Cultural_Objects_(CCO)))
 
 An additional resource that may be of use in researching schemes and other metadata fields
 is the [Linked Open Vocabularies (LOV) database](https://lov.linkeddata.es/dataset/lov),
