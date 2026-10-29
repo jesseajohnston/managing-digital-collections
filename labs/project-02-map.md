@@ -53,7 +53,7 @@ Each resulting field in your target site should be illustrated with a table that
 
 Taking as an example the date fields noted above, a sample MAP entry of the first type might look something like the table below (see [](#table-map-term-example)).
 
-:::{table} Sample MAP table for a metadata field called `title`.
+:::{table} Sample MAP table for a metadata field called `date`.
 :label: table-map-term-example
 
 | **Element Name** | **Date** |
