@@ -26,6 +26,29 @@ See []() for a full discussion of how to pull data from an API (with the loc.gov
 
 Questions will undoubtedly arise as you are working with the data. Feel free to use the shared slack channel to pose questions as you're working.
 
+### Sample term table
+
+You already developed a crosswalking approach while recording the descriptive information (metadata) for your small digital collection (see [](/labs/lab-04-artisanal-metadata.md)).
+Now, your task is to document the decisions that you made in that process.
+Each resulting field in your target site should be illustrated with a table that includes information about what it is, where it came from, and what it does in the new collection site. (In the previous lab, you worked with CollectionBuilder, but this should also be possible to adapt to Omeka S, or any other collections platform.)
+
+:::{table} A sample MAP table describing the decisions regarding a metadata field called `title`.
+:label: sample-map-term-table
+
+| Table Label | Is this value required? | Description of what's in the field |
+| --- | --- | ------ |
+| Element Name in My Collection | Required | The label that will appear when the information is displayed on the collection site |
+| Source collection element | Optional | The label that was used by the source collection (note: may be the same as or very similar to the element name in your site); this field should include a specific notation of how to find the information in response retrieved from the source collection (likely a JSON object, though may be in other formats) |
+| Status | Required | Explain if the field is required, recommended, or optional |
+| Description | Required | A plain-language explanation of the what this element describes in your collection site |
+| Source scheme element | Optional | Most terms that you choose to include should correspond to an existing element in Dublin Core, MODS, or another standard scheme |
+| Repeatable | Required | Explain whether this field may occur more than once (Yes), or only once (No), in the description of the item |
+| Syntax | Optional | Explain if there are any rules that constrain how the data is formatted (such as, it is a string or a number), or if there are any external standards like a controlled vocabulary the field should follow |
+| Notes | Optional | Any notes about what the field contains, how it is created from the source data, any conventions (e.g., name order), or other information about the field that you consider to be useful |
+| Example(s) | Required | Provide an example of what the field might contain |
+
+:::
+
 ## Researching metadata schemes
 
 To the extent possible, your destination fields should come from standardized (or at least known) chosen from extant metadata schemes, which you predict will be useful in your new digital collection presentation platform. A large majority of these can come from Dublin Core, but you will find that DublinCore does not have the granularity to accurately describe many of the terms you'll want to use. You should therefore investigate fields from at least one other scheme.
