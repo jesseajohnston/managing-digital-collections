@@ -21,7 +21,7 @@ Questions will undoubtedly arise as you are working with the data. Feel free to 
 
 ## Researching metadata schemes
 
-To the extent possible, your destination fields should come from standardized (or at least known) extant metadata schemes. A large majority of these can come from DublinCore, but you will find that DublinCore does not have the granularity to accurately describe all of the terms in the museum data. You should therefore investigate fields from at least one other scheme.
+To the extent possible, your destination fields should come from standardized (or at least known) extant metadata schemes. A large majority of these can come from DublinCore, but you will find that DublinCore does not have the granularity to accurately describe many of the terms you'll want to use. You should therefore investigate fields from at least one other scheme.
 
 Here are some additional schemes to consider, with links to their description and documentation:
 
