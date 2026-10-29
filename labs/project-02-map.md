@@ -63,7 +63,7 @@ Taking as an example the date fields noted above, a sample MAP entry of the firs
 | --- | ------ |
 | Source | Descriptive metadata for item JSON at loc.gov.
 | Label in My New Collection | Date of Creation |
-| Element Name in My New Collection | dcterms:date |
+| Element and Namespace in My New Collection | dcterms:created |
 | Description | This is a date extracted from the LOC's original metadata, which indicates when the original resource was scanned or digitized |
 | Required? | No. Optional, but unless no date was provided in original item, this is strongly encouraged |
 | Repeatable? | No |
@@ -71,7 +71,7 @@ Taking as an example the date fields noted above, a sample MAP entry of the firs
 | Data Type | literal (a plain string value with ISO-8601 formatting) |
 | Example Entry | 1916 |
 | Source (LOC) Attribute Name | date |
-| DC Mapping | dcterms:date |
+| DC Mapping | dcterms:created |
 
 :::
 
