@@ -5,7 +5,7 @@ categories: activities assignments metadata map
 
 **Assignment Due: October 30**
 
-A **metadata application profile (MAP)** is a technical document that documents and expresses all of the types of items and the descriptive information about them that you plan to collect. It documents whe the information comes from (in most cases, these descriptions will be from already extant schemas), how they are used in your local site, what is valid or invalid, whether they are required or not required, and whether they are repeatable.
+A **metadata application profile (MAP)** is a technical document that documents and expresses all of the types of items and the descriptive information about them that you plan to collect. It documents where the information comes from (in most cases, these descriptions will be from already extant schemas), how they are used in your local site, what is valid or invalid, whether they are required or not required, and whether they are repeatable.
 
 ## Assignment Background and Resources
 
