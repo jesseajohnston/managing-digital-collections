@@ -47,7 +47,7 @@ in a formal schema definition or ontology. The term search can be found directly
 
 ## MAP Examples / Templates
 
-You can find some examples of MAPs at [link to the DLF's MAP "clearinghouse" project](https://dlfmetadataassessment.github.io/MetadataSpecsClearinghouse/).
+You can find some examples of MAPs at the [DLF's MAP "clearinghouse" project](https://dlfmetadataassessment.github.io/MetadataSpecsClearinghouse/).
 
 - For example, the PA Digital Metadata Guidelines 1.2 is a very clear example: [https://dlfmetadataassessment.github.io/assets/maps/PA\_Digital\_Metadata\_Guidelines-v1.2(August\_2018).pdf](https://dlfmetadataassessment.github.io/assets/maps/PA_Digital_Metadata_Guidelines-v1.2(August_2018).pdf).
 - Likewise, the Empire State Digital Network Metadata Guidelines: [https://dlfmetadataassessment.github.io/assets/maps/ESDN\_Metadata\_Best\_Practices\_and\_Guidelines.pdf](https://dlfmetadataassessment.github.io/assets/maps/ESDN_Metadata_Best_Practices_and_Guidelines.pdf).  
