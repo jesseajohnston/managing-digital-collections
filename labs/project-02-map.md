@@ -36,7 +36,7 @@ Each resulting field in your target site should be illustrated with a table that
 :label: sample-map-term-table
 
 | Table Label | Is this value required? | Description of what's in the field |
-| --- | --- | ------ |
+| ---- | -- | ------ |
 | Element Name in My Collection | Required | The label that will appear when the information is displayed on the collection site |
 | Source collection element | Optional | The label that was used by the source collection (note: may be the same as or very similar to the element name in your site); this field should include a specific notation of how to find the information in response retrieved from the source collection (likely a JSON object, though may be in other formats) |
 | Status | Required | Explain if the field is required, recommended, or optional |
