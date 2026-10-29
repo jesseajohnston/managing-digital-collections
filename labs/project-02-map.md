@@ -51,12 +51,25 @@ Each resulting field in your target site should be illustrated with a table that
 
 ### Sample term table
 
-See the table below for an example of a completed MAP element table.
+Taking as an example the date fields noted above, a sample MAP entry of the first type might look something like the table below (see [](#table-map-term-example)).
 
 :::{table} Sample MAP table for a metadata field called `title`.
 :label: table-map-term-example
 
-|
+| **Element Name** | **Date** |
+| --- | ------ |
+| Source | Descriptive metadata for item JSON at loc.gov, .
+| Label in My New Collection | Date of Creation |
+| Element Name in My New Collection | dcterms:date |
+| Description | This is a date extracted from the LOC's original metadata, which indicates when the original resource was scanned or digitized |
+| Required? | No. Optional, but unless no date was provided in original item, this is strongly encouraged |
+| Repeatable? | No |
+| Entry Rules | Use ISO-8601 Date formatting; format should be `YYYY`, `YYYY-MM`, or `YYYY-MM-DD` |
+| Data Type | literal (a plain string value with ISO-8601 formatting) |
+| Example Entry | 1916 |
+| Source (LOC) Attribute Name | date |
+| DC Mapping | dcterms:date |
+
 :::
 
 ## Researching metadata schemes
