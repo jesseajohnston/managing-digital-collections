@@ -58,7 +58,7 @@ Taking as an example the date fields noted above, a sample MAP entry of the firs
 
 | **Element Name** | **Date** |
 | --- | ------ |
-| Source | Descriptive metadata for item JSON at loc.gov, .
+| Source | Descriptive metadata for item JSON at loc.gov.
 | Label in My New Collection | Date of Creation |
 | Element Name in My New Collection | dcterms:date |
 | Description | This is a date extracted from the LOC's original metadata, which indicates when the original resource was scanned or digitized |
