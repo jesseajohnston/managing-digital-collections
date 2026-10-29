@@ -19,6 +19,9 @@ The MAPs will be similar in form and content, but each person/collection's MAP s
 
 While individual item metadata may vary slightly, your MAP needs to accommodate general patterns across the collection. For example, it's likely that all items will have a title or description field, but only items digitized from films would have information about frame rate or substrate media. Similarly, all digital image files will have a format designation, but only images representing multi-page or complex documents will need page numbers. You're looking for the commonalities, and edge cases can be added later or in an appendix.
 
+For the purposes of beginning the assignment, assume your source data is digitized images, similar to those represented in the "[Free to Use Libraries](https://www.loc.gov/free-to-use/libraries/)" set from the Library of Congress.
+See []() for a full discussion of how to pull data from an API (with the loc.gov collectiosn as an example), as well as an overview of what is contained in the JSON response for an item with one corresponding digital image.
+
 % insert full metadata table, e.g., from https://www.loc.gov/resource/rbcmil.scrp7005601/?sp=1&__cf_chl_tk=RPQTylaRowAbxsbf3S1zQ2Od8iITcsWAwgiR5.E8b_Q-1790893816-1.0.1.1-jWI5QfZoSC2ZzWxOtZfnX.HE0bbbLCAsJ_Mq_yp1G_k
 
 Questions will undoubtedly arise as you are working with the data. Feel free to use the shared slack channel to pose questions as you're working.
