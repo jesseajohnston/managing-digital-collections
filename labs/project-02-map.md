@@ -26,14 +26,14 @@ See []() for a full discussion of how to pull data from an API (with the loc.gov
 
 Questions will undoubtedly arise as you are working with the data. Feel free to use the shared slack channel to pose questions as you're working.
 
-### Sample term table
+### Term table template
 
 You already developed a crosswalking approach while recording the descriptive information (metadata) for your small digital collection (see [](/labs/lab-04-artisanal-metadata.md)).
 Now, your task is to document the decisions that you made in that process.
-Each resulting field in your target site should be illustrated with a table that includes information about what it is, where it came from, and what it does in the new collection site. (In the previous lab, you worked with CollectionBuilder, but this should also be possible to adapt to Omeka S, or any other collections platform.)
+Each resulting field in your target site should be illustrated with a table that includes information about what it is, where it came from, and what it does in the new collection site. See [](#table-map-term-template) for a template. (In the previous lab, you worked with CollectionBuilder, but this should also be possible to adapt to Omeka S, or any other collections platform.)
 
-:::{table} A sample MAP table describing the decisions regarding a metadata field called `title`.
-:label: sample-map-term-table
+:::{table} A MAP term table template describing the information that should be included for each term for each element in the collection.
+:label: table-map-term-template
 
 | Table Label | Is this value required? | Description of what's in the field |
 | ---- | -- | ------ |
@@ -47,6 +47,16 @@ Each resulting field in your target site should be illustrated with a table that
 | Notes | Optional | Any notes about what the field contains, how it is created from the source data, any conventions (e.g., name order), or other information about the field that you consider to be useful |
 | Example(s) | Required | Provide an example of what the field might contain |
 
+:::
+
+### Sample term table
+
+See the table below for an example of a completed MAP element table.
+
+:::{table} Sample MAP table for a metadata field called `title`.
+:label: table-map-term-example
+
+|
 :::
 
 ## Researching metadata schemes
