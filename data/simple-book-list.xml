@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books xmlns="http://www.nogood.com/Book" Results="2">
+    <book isPrinted="true">
+        <title>Gone with the Wind</title>
+        <author sort="mitchell">Mitchell</author>
+    </book>
+    <book isPrinted="true">
+        <title>Wuthering Heights</title>
+        <author sort="bronte">Brontë</author>
+    </book>
+</books>

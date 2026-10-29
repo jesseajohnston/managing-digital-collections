@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books results="2">
+    <book isPrinted="true">
+        <title>Gone with the Wind</title>
+        <author sort="mitchell">Margaret Mitchell</author>
+    </book>
+</books>
