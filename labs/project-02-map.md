@@ -15,13 +15,17 @@ The essential requires you to understand and model the metadata you're receiving
 
 The MAPs will be similar in form and content, but each person/collection's MAP should be unique, based on the content of the collection. Start by determining the full range of fields associated with your main object types. You can start with one exemplar object, and adapt as further object types are added.
 
+### Source Data
+
+While individual item metadata may vary slightly, your MAP needs to accommodate general patterns across the collection. For example, it's likely that all items will have a title or description field, but only items digitized from films would have information about frame rate or substrate media. Similarly, all digital image files will have a format designation, but only images representing multi-page or complex documents will need page numbers. You're looking for the commonalities, and edge cases can be added later or in an appendix.
+
 % insert full metadata table, e.g., from https://www.loc.gov/resource/rbcmil.scrp7005601/?sp=1&__cf_chl_tk=RPQTylaRowAbxsbf3S1zQ2Od8iITcsWAwgiR5.E8b_Q-1790893816-1.0.1.1-jWI5QfZoSC2ZzWxOtZfnX.HE0bbbLCAsJ_Mq_yp1G_k
 
 Questions will undoubtedly arise as you are working with the data. Feel free to use the shared slack channel to pose questions as you're working.
 
 ## Researching metadata schemes
 
-To the extent possible, your destination fields should come from standardized (or at least known) extant metadata schemes. A large majority of these can come from DublinCore, but you will find that DublinCore does not have the granularity to accurately describe many of the terms you'll want to use. You should therefore investigate fields from at least one other scheme.
+To the extent possible, your destination fields should come from standardized (or at least known) chosen from extant metadata schemes, which you predict will be useful in your new digital collection presentation platform. A large majority of these can come from Dublin Core, but you will find that DublinCore does not have the granularity to accurately describe many of the terms you'll want to use. You should therefore investigate fields from at least one other scheme.
 
 Here are some additional schemes to consider, with links to their description and documentation:
 
