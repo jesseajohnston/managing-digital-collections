@@ -83,7 +83,7 @@ project:
         - file: ./part03/apis-01-calling-rest-api-requests-json.ipynb
         - file: ./part03/apis-02-harvesting-metadata.ipynb
         - file: ./part03/apis-03-harvesting-item-metadata.ipynb
-        #- file: ./part03/apis-04-map-design.ipynb
+        - file: ./part03/apis-04-map-design.ipynb
         # consider json schema, see plan file; would support 
         # - file: ./part03/lamp-exploring-the-server.md
         # - file: ./part03/lamp-setting-up-omeka-s.md
