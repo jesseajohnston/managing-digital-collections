@@ -169,13 +169,14 @@ In the area of rectangle `2.`, you have a file browser window that shows files o
 The area of rectangle `3.` shows a similar file browser. This file browser, however, shows the files on your server. (At least, it will show those files when you are logged in.) Note the path bar above that rectangle is labelled "Remote site:".
 
 ```{figure} /assets/part03-servers-filezilla-site-manager-window.jpg
+:label: servers-filezilla-site-manager
 :alt: Screenshot of the Site Manager window to log in to your server following dual factor authentication
 :align: center
 
 Filezilla Site Manager window
 ```
 
-Second, locate the "Site Manager..." window (as shown in the above screenshot). This should be found near the top of the "File" menu.
+Second, locate the "Site Manager..." window (as shown in [](#servers-filezilla-site-manager)). This should be found near the top of Filezilla's "File" menu.
 Use this window to set up your login. In the box with the "Host:" label, type your server's URL.
 Choose "Interactive" in the "Logon Type:" so that you can navigate through the dual-factor authentication process.
 Finally, in the box labeled "User:", type your uniqname. When this information is completed, click the "Connect" button.
