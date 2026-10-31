@@ -54,7 +54,7 @@ To do this, click on “MySQL Databases” under “Databases” in cPanel. In t
 :alt: Creating a new database for your Omeka S install
 :align: center
 
-Creating a new database for your Omeka S install
+Creating a new database for your Omeka S install.
 ```
 
 #### Create a database User Agent (username and password)
@@ -66,18 +66,19 @@ Scrolling down in the databases tool, create a username and password combination
 :alt: Creating a new user agent for your database
 :align: center
 
-Creating a new user agent for your database
+Creating a new user agent for your database.
 ```
 
 #### Assign the user to the database
 
-Finally, assign the user to the database. This makes use of the “Add User to Database” section of the database tools. Here, select the user you created, then select the database, and click “Add.” In the screen that follows, select all of the permissions (you want this user to be able to do all the things with the databases that Omeka S will need!):
+Finally, assign the user to the database. This makes use of the “Add User to Database” section of the database tools. Here, select the user you created, then select the database, and click “Add.” In the screen that follows, select all of the permissions (you want this user to be able to do all the things with the databases that Omeka S will need!). See [](#servers-omeka-assignuserdb).
 
 ```{figure} /assets/part03-servers-omekas-assignuserdb.jpg
+:label: servers-omeka-assignuserdb
 :alt: Adding user to the database
 :align: center
 
-Adding user to the database
+Adding the user to the database.
 ```
 
 ### Configure the Omeka S files
