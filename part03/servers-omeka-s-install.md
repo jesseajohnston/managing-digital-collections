@@ -102,7 +102,7 @@ You can open this file as a plain text file using VSCode, or any other text edit
 :alt: Configure the database connection
 :align: center
 
-Configure the database connection
+Configure the database connection.
 ```
 
 Enter the information from the database that you previously created on the server. This will vary based on the names that you chose, the host name should always be “localhost”. Thus, the information should look something like this, if your user was `omekas_umsimumsi`:
