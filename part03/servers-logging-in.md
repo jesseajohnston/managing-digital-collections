@@ -173,7 +173,7 @@ The area of rectangle `3.` shows a similar file browser. This file browser, howe
 :alt: Screenshot of the Site Manager window to log in to your server following dual factor authentication
 :align: center
 
-Filezilla Site Manager window
+Screenshot of the Site Manager window to log in to your server following dual factor authentication.
 ```
 
 Second, locate the "Site Manager..." window (as shown in [](#servers-filezilla-site-manager)). This should be found near the top of Filezilla's "File" menu.
