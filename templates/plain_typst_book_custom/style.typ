@@ -1,4 +1,5 @@
-  
+#import "toc_alt.typ": alt_outline
+
 #let leftCaption(it) = {
   set text(size: 8pt)
   set align(left)
@@ -37,6 +38,13 @@
   // TOC
   ToC_depth: 2,
   show_ToC: true,
+
+  // EXPERIMENTAL second TOC (see toc_alt.typ), rendered after the built-in one
+  show_ToC2: false,
+  ToC2_depth: 2,
+  ToC2_title: "Contents",
+  ToC2_part_pattern: "^\\s*Part\\s+[0-9IVXLC]+\\b",
+  ToC2_reset_pattern: "^\\s*(References|Bibliography|Index|Glossary|Colophon)\\b",
 
   // PREFACE
   preface: none,
@@ -182,6 +190,18 @@
     indent: auto,
   )
 
+  }
+
+//EXPERIMENTAL ALTERNATE OUTLINE (parts as groups, chapters nested, no numbering)
+  if show_ToC2 == true {
+    pagebreak()
+    alt_outline(
+      title: ToC2_title,
+      theme: theme,
+      depth: ToC2_depth,
+      part_pattern: ToC2_part_pattern,
+      reset_pattern: ToC2_reset_pattern,
+    )
   }
 
 //PARTS (frontmatter, after ToC, before numbered content)
