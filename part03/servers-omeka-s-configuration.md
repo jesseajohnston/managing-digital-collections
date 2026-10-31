@@ -32,10 +32,7 @@ These instructions assume that you already have a working Omeka S instance, and 
 7. Create at least one site (Omeka S allows you to administer multiple sites/collections)
   - Create an about page, with at least one image asset attached and a descriptive statement.
 
-## Resources
+## Related Resources
 
-- [Related slide deck introducing the servers & Omeka S][related-slide-deck]
-- [Guide to logging in to your server](/part03/servers-logging-in.md)
-- Omeka S install TODO
-
-[related-slide-deck]: TODO
+- [](/part03/servers-logging-in.md)
+- [](/part03/servers-logging-in.md)
