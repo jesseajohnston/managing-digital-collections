@@ -78,7 +78,7 @@ Finally, assign the user to the database. This makes use of the “Add User to D
 :alt: Adding user to the database
 :align: center
 
-Adding the user to the database.
+Screenshot showing confirmation that the user agent is assigned to the database and showing permissions.
 ```
 
 ### Configure the Omeka S files
