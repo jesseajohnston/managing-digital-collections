@@ -58,27 +58,29 @@ and provides all of the functions you will need (without learning additional com
 
 ## Logging in to cPanel
 
-Log in to cPanel at your server using port `2083`.
+Log in to cPanel by navigating to your site's URL, then requesting port `2083`.
 
 1. Open a web browser and use the following template for your URL: `https://YOUR-UNIQNAME.si676.si.umich.edu`
 2. At this page, you should see the unconfigured server page (basically, like a listing of files available there.
 3. To access the server, you can use the cPanel tools. To do this, access the above url with port 2083. To do this, append a colon (`:`) to the end of the URL and the number `2083`. For example, if your uniqname was `umsimumsi`, you would use the following URL to access cPanel: `https://umsimumsi.si676.si.umich.edu:2083`.
-4. The page that opens will prompt you for your login credentials. **Your username is your uniqname. Your password is your 8-digit UMID number followed by `-Fall2025`.** So, if `umsimumsi`'s UMID was 12345678, their password would be `12345678-Fall2025`. Here's how the login page will look:
+4. The page that opens will prompt you for your login credentials. The login page will look similar to [](#servers-cpanel-login).
 
 ```{figure} /assets/part03-servers-cpanel-login-port2083.jpg
+:label: servers-cpanel-login
 :alt: Screenshot of cPanel login page at port 2083
 :align: center
 
-cPanel login via port 2083
+Screenshot of cPanel, logging in via port 2083.
 ```
 
-When you log in, you should see a screen that looks something like the screenshot below. Notice: at the right, you will see your user information, the name of the domain that connects to your server, the IP address, the path to your home directory (that will be where to add files when we access the server using terminal), and some other information about the setup of cPanel. See below for a screenshot:
+When you log in, you should see a screen that looks something like the screenshot below. Notice: at the right, you will see your user information, the name of the domain that connects to your server, the IP address, the path to your home directory (that will be where to add files when we access the server using terminal), and some other information about the setup of cPanel. See ()[#servers-cpanel-logged-in].
 
 ```{figure} /assets/part03-servers-cpanel-databases.jpg
+:label: servers-cpanel-logged-in
 :alt: Screenshot of cPanel when logged in
 :align: center
 
-cPanel logged in view
+Screenshot of cPanel, logged in view.
 ```
 
 ## SSH via the Terminal
