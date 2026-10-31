@@ -133,9 +133,9 @@ After the file transfer process is complete, you should be able to navigate in t
 Install Omeka S - first user.
 ```
 
-### Omeka S is Ready to Go
+### Omeka S is Ready to Configure
 
-If you are seeing a page like the one above, then your Omeka S instance should be ready to go. To get started, fill in the initial user form and click the “Submit” button at the bottom of the page.
+If you are seeing a page like [](#servers-omeka-firstuser), then your Omeka S instance should be ready to go. To get started, fill in the initial user form and click the “Submit” button at the bottom of the page.
 
 There is more work to do to get sites and collections running, but if you completed the above, then your Omeka S platform is ready to go. The next steps will be to configure Omeka S so it can publish new sites, modules, users, and the collection content. These are described in [](/part03/servers-omeka-s-configuration.md).
 
