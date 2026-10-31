@@ -111,9 +111,10 @@ Logging in to `ssh` in the terminal.
 When you run the command, you will be prompted for your password.
 When you type the password, you will not see the response,
 which can make it difficult to know if you have typed the right information.
-But type carefully, then press enter. If your login is successful, you should see a page notifying you of University of Michigan's IT policies, which will also ask you to select a dual-factor login method. Use the method that you are most comfortable with.
+**Type carefully**, then press `Enter` (Windows) or `return` (Mac). If your login is successful, you should see a page notifying you of server policies, which will also ask you to select a dual-factor login method (see [](#servers-ssh-authentication)). Use the method that you are most comfortable with.
 
 ```{figure} /assets/part03-servers-ssh-login-dualfactor.jpg
+:label: servers-ssh-authentication
 :alt: Screenshot of a command shell window requesting dual factor authentication
 :align: center
 
