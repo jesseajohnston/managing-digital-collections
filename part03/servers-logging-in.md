@@ -1,16 +1,42 @@
 ---
-title:  "LAMP Servers: Logging In"
+title:  "Interacting with a LAMP Server"
 ---
 
-This section describes how to log in to your LAMP servers.
-UMSI has provided each of you with your own server, which is
+This section describes how to find and interact with a LAMP server.
+UMSI provides each student in SI 676 with their own server, which is
 already configured with a LINUX operarating system, the Apache web server software,
 and the capacity to work with PHP files and SQL databases.
 As you work to get your servers running Omeka S, you need to get the software files,
 add them to your server, and configure them to run on your server.
 
-But before you do all of that, you will need to log in to your server!
-There are three main ways that you can interact with your server:
+# Find Your Server
+
+Each student in the class has a server provided by UMSI.
+Your server can be accessed at a URL formulated with the following pattern,
+where `YOUR-UNIQNAME` is substituted with your actual uniqname:
+
+`http://YOUR-UNIQNAME.si676.si.umich.edu/`
+
+So, if my uniqname was `umsimumsi`, my server URL would be: `http://umsimumsi.si676.si.umich.edu/`.
+
+To log in you will need a username and password. This depends on your server setup and administration; in the UMSI class, these will be provided during class, in other settings you may need to be in touch with your IT administrator.[^umsi-login]
+
+[^umsi-login]: In 2026, UMSI server logins used the student's uniqname as a username and a variation of the student's UMID number. So, if `umsimumsi`'s UMID was 12345678, their password would be derived from that number.
+
+When you navigate to your server's URL with a browser, you should see something like [](#blank-server-screen).
+
+```{figure} /assets/part03-servers-blank-server-page.jpg
+:label: blank-server-screen
+:alt: Screenshot of blank LAMP server viewed by web browser
+:align: center
+
+Screenshot of blank LAMP server viewed by web browser.
+```
+
+# Logging In to Your Server
+
+To interact with your server, you will need to log in!
+This book discusses three main ways to interact with your server:
 
 [cPanel](#logging-in-to-cpanel)
 : This is a browser-based "control panel" interface.
@@ -29,29 +55,6 @@ Note that this is a restricted environment for security purposes, so it is possi
 All of its functions could probably also be accomplished using _SFTP_, which is
 a terminal-based protocol. But this file manager is used in some digital collections environments
 and provides all of the functions you will need (without learning additional commands). If you prefer graphical over text interfaces, this is for you! 📠
-
-## Find Your Server
-
-Each student in the class has a server provided by UMSI.
-Your server can be accessed at a URL formulated with the following pattern,
-where `YOUR-UNIQNAME` is substituted with your actual uniqname:
-
-`http://YOUR-UNIQNAME.si676.si.umich.edu/`
-
-So, if my uniqname was `umsimumsi`, my server URL would be: `http://umsimumsi.si676.si.umich.edu/`.
-
-To log in you will need a username and password. Your username is your uniqname. Your password is your UMID (an 8-digit number with no spaces) concatenated with the string `-Fall2025`.
-
-So, if `umsimumsi`'s UMID was 12345678, their password would be: `12345678-Fall2025`.
-
-When you navigate to your server's URL with a browser, you should see something like this:
-
-```{figure} /assets/part03-servers-blank-server-page.jpg
-:alt: Screenshot of blank LAMP server viewed by web browser
-:align: center
-
-Blank server page
-```
 
 ## Logging in to cPanel
 
