@@ -123,13 +123,14 @@ Finally, create a zip file of the folder containing all of the Omeka S files, an
 
 Once your zip file is saved, use FileZilla to transfer the files to the server in the `public_html` folder.
 
-After the file transfer process is complete, you should be able to navigate in the browser to your server’s URL, and then add the name of the Omeka S directory at the end to display the Omeka S interface. It will look something like this:
+After the file transfer process is complete, you should be able to navigate in the browser to your server’s URL, and then add the name of the Omeka S directory at the end to display the Omeka S interface (see [](#servers-omeka-firstuser)).
 
 ```{figure} /assets/part03-servers-omekas-firstuser.jpg
+:label: servers-omeka-firstuser
 :alt: Install Omeka S - first user
 :align: center
 
-Install Omeka S - first user
+Install Omeka S - first user.
 ```
 
 ### Omeka S is Ready to Go
