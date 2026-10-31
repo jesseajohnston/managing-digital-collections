@@ -28,7 +28,7 @@ The process explained in detail below is also [outlined in the Omeka S User Manu
 
 Main steps include:
 
-- Create a directory for the Omeka files in your server’s folder called: `public_html`
+- Create a folder/directory for the Omeka files in your server’s `public_html` folder/directory
 - Create a new database in the SQL server
 - Create a new database user and password
 - Assign that user to the new database
