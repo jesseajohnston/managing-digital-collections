@@ -89,15 +89,16 @@ Now, it's time to get the files for Omeka S.
 
 Download the entire package of files for Omeka S from the Omeka website at: [https://omeka.org/s/download/](https://omeka.org/s/download/). This should arrive in a zip format. Unzip the files and take a look. It is interesting to look around the files and get an idea of how they are structured.
 
-Notice, for example, there are a lot of `.php` files but not many `.html` files. Why do you think that is?
+Notice, for example, that there are a lot of `.php` files but not many `.html` files. Why do you think that is?
 
 #### Prepare Omeka S files locally
 
 After you’ve looked around, **find the file `database.ini` in the folder named `config`**. This file contains the information that allows the Omeka files to talk to the SQL database. It has to have a user, a password, a database name, and a host name. This information will be used by the PHP files in Omeka to write new information to the database, create, read, update, delete, or whatever else it may need to do to access information in the database.
 
-You can open this file as a plain text file using VSCode, or any other text editor. When you open the file, it should look like this:
+You can open this file as a plain text file using VSCode, or any other text editor (see [](#servers-omeka-installdb)).
 
 ```{figure} /assets/part03-servers-omekas-maninstall-databaseini.jpg
+:label: servers-omeka-installdb
 :alt: Configure the database connection
 :align: center
 
