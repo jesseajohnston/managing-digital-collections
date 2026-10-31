@@ -374,7 +374,7 @@ Finally, to help Jekyll ensure that it can make correct references between the p
 While these are not needed to serve locally, GitHub pages needs them.
 Note that when you serve the site locally, the `localhost` URL will now include `planets-test/` (or the name of your base URL) in the address.
 
-:::{code}
+:::{code} yaml
 :label: jekyll-update-baseurl
 :caption: Update the `baseurl` and `url` variables so that Jekyll can create correct references between pages on the site when it goes live. Use the name of your repo for `baseurl` and the appropriate username and `github.io` information for your site. This code would only work for `planets-test` published by `managing-digital-collections`.
 baseurl: "/planets-test" # the subpath of your site, e.g. /blog
