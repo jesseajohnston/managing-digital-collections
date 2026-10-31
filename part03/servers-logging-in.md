@@ -46,7 +46,12 @@ So, if `umsimumsi`'s UMID was 12345678, their password would be: `12345678-Fall2
 
 When you navigate to your server's URL with a browser, you should see something like this:
 
-![Blank server page]({{ site.url }}{{ site.baseurl }}/assets/blank-server-page.jpg "Screenshot of blank LAMP server viewed by web browser"){:style="border: 1px solid black;"}
+```{figure} /assets/part03-servers-blank-server-page.jpg
+:alt: Screenshot of blank LAMP server viewed by web browser
+:align: center
+
+Blank server page
+```
 
 ## Logging in to cPanel
 
@@ -57,11 +62,21 @@ Log in to cPanel at your server using port `2083`.
 3. To access the server, you can use the cPanel tools. To do this, access the above url with port 2083. To do this, append a colon (`:`) to the end of the URL and the number `2083`. For example, if your uniqname was `umsimumsi`, you would use the following URL to access cPanel: `https://umsimumsi.si676.si.umich.edu:2083`.
 4. The page that opens will prompt you for your login credentials. **Your username is your uniqname. Your password is your 8-digit UMID number followed by `-Fall2025`.** So, if `umsimumsi`'s UMID was 12345678, their password would be `12345678-Fall2025`. Here's how the login page will look:
 
-![cPanel login via port 2083]({{ site.url }}{{ site.baseurl }}/assets/cpanel-login-port2083.jpg "Screenshot of cPanel login page at port 2083"){:style="border: 1px solid black;"}
+```{figure} /assets/part03-servers-cpanel-login-port2083.jpg
+:alt: Screenshot of cPanel login page at port 2083
+:align: center
+
+cPanel login via port 2083
+```
 
 When you log in, you should see a screen that looks something like the screenshot below. Notice: at the right, you will see your user information, the name of the domain that connects to your server, the IP address, the path to your home directory (that will be where to add files when we access the server using terminal), and some other information about the setup of cPanel. See below for a screenshot:
 
-![cPanel logged in view]({{ site.url }}{{ site.baseurl }}/assets/cpanel-databases.jpg "Screenshot of cPanel when logged in"){:style="border: 1px solid black;"}
+```{figure} /assets/part03-servers-cpanel-databases.jpg
+:alt: Screenshot of cPanel when logged in
+:align: center
+
+cPanel logged in view
+```
 
 ## SSH via the Terminal
 
@@ -80,20 +95,35 @@ ssh umsimumsi@umsimumsi.si676.si.umich.edu
 
 The command ready to execute in the terminal:
 
-![ssh login via terminal]({{ site.url }}{{ site.baseurl }}/assets/shell-ssh-login.jpg "Screenshot of a command shell window with the SSH login command ready to run"){:style="border: 1px solid black;"}
+```{figure} /assets/part03-servers-shell-ssh-login.jpg
+:alt: Screenshot of a command shell window with the SSH login command ready to run
+:align: center
+
+ssh login via terminal
+```
 
 When you run the command, you will be prompted for your password.
 When you type the password, you will not see the response,
 which can make it difficult to know if you have typed the right information.
 But type carefully, then press enter. If your login is successful, you should see a page notifying you of University of Michigan's IT policies, which will also ask you to select a dual-factor login method. Use the method that you are most comfortable with.
 
-![ssh dual factor authentication]({{ site.url }}{{ site.baseurl }}/assets/ssh-login-dualfactor.jpg "Screenshot of a command shell window requesting dual factor authentication"){:style="border: 1px solid black;"}
+```{figure} /assets/part03-servers-ssh-login-dualfactor.jpg
+:alt: Screenshot of a command shell window requesting dual factor authentication
+:align: center
+
+ssh dual factor authentication
+```
 
 Note the dual factor option can time out. So if you are not logged in, try again. 
 
 Finally, you'll see a page something like this, which indicates you have logged in to your server:
 
-![ssh server logged in]({{ site.url }}{{ site.baseurl }}/assets/ssh-logged-in.jpg "Screenshot of a command shell window logged in to the server at the root location"){:style="border: 1px solid black;"}
+```{figure} /assets/part03-servers-ssh-logged-in.jpg
+:alt: Screenshot of a command shell window logged in to the server at the root location
+:align: center
+
+ssh server logged in
+```
 
 From this page, you should be able to navigate and use basic Bash commands.
 The most frequent location you will need to access here is the `public_html` directory,
@@ -117,14 +147,24 @@ The Filezilla login process is unique, but it requires the same information as t
 
 First, open the Filezilla software (sometimes called a client or app). Your window will look similar to this:
 
-![Filezilla client window]({{ site.url }}{{ site.baseurl }}/assets/filezilla-main-window-macos.jpg "Screenshot of the Filezilla client with main areas highlighted"){:style="border: 1px solid black;"}
+```{figure} /assets/part03-servers-filezilla-main-window-macos.jpg
+:alt: Screenshot of the Filezilla client with main areas highlighted
+:align: center
+
+Filezilla client window
+```
 
 In the above screenshot, take note of the three main parts of the window.
 In the area of rectangle 1., you can see the current status of the connection, any file transfers that you execute, and sometimes useful updates as to what Filezilla is doing.
 In the area of rectangle 2., you have a file browser window that shows files on your local computer (in the above screenshot, it is showing the `jajohnst` directory in my laptops `Users` folder at the root of the operating system indicated by the leading slash `/` of path you see in the "Local site:" bar above the rectangle).
 In the area of rectangle 3., you see a similar file browser. This file browser, however, shows the files on your server. (At least, it will show those files when you are logged.) Note the path bar above the rectangle with the label "Remote site:".
 
-![Filezilla Site Manager window]({{ site.url }}{{ site.baseurl }}/assets/filezilla-site-manager-window.jpg "Screenshot of the Site Manager window to log in to your server following dual factor authentication"){:style="border: 1px solid black;"}
+```{figure} /assets/part03-servers-filezilla-site-manager-window.jpg
+:alt: Screenshot of the Site Manager window to log in to your server following dual factor authentication
+:align: center
+
+Filezilla Site Manager window
+```
 
 Second, locate the "Site Manager..." window (as shown in the above screenshot). This should be found near the top of the "File" menu.
 Use this window to set up your login. In the box with the "Host:" label, type your server's URL.
@@ -140,7 +180,7 @@ hopefully you will appreciate how this tool assists the file transfer process.
 
 ## Resources
 
-* [Related slide deck illustrating the login process][related-slide-deck]
-* [Using FileZilla Guide]({{ site.baseurl }}{% link _posts/2025-08-30-filezilla-guide.md %})
+- [Related slide deck illustrating the login process][related-slide-deck]
+- Using FileZilla Guide TODO
 
 [related-slide-deck]: https://docs.google.com/presentation/d/1krzUOhkDnHrA0Z_SOdWqmS70SbLF0pD4_7p4VQkvnkQ/edit?usp=sharing
