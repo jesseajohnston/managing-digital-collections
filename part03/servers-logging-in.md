@@ -73,7 +73,7 @@ Log in to cPanel by navigating to your site's URL, then requesting port `2083`.
 Screenshot of cPanel, logging in via port 2083.
 ```
 
-When you log in, you should see a screen that looks something like the screenshot below. Notice: at the right, you will see your user information, the name of the domain that connects to your server, the IP address, the path to your home directory (that will be where to add files when we access the server using terminal), and some other information about the setup of cPanel. See ()[#servers-cpanel-logged-in].
+When you log in, you should see a screen that looks something like the screenshot below. Notice: at the right, you will see your user information, the name of the domain that connects to your server, the IP address, the path to your home directory (that will be where to add files when we access the server using terminal), and some other information about the setup of cPanel. See [](#servers-cpanel-logged-in).
 
 ```{figure} /assets/part03-servers-cpanel-databases.jpg
 :label: servers-cpanel-logged-in
@@ -98,13 +98,14 @@ For `umsimumsi`, the command would look like this:
 ssh umsimumsi@umsimumsi.si676.si.umich.edu
 ```
 
-The command ready to execute in the terminal:
+In [](#servers-ssh-logging-in), see the command ready to execute in the terminal.
 
 ```{figure} /assets/part03-servers-shell-ssh-login.jpg
+:label: servers-ssh-logging-in
 :alt: Screenshot of a command shell window with the SSH login command ready to run
 :align: center
 
-ssh login via terminal
+Logging in to `ssh` in the terminal.
 ```
 
 When you run the command, you will be prompted for your password.
