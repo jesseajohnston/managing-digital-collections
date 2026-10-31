@@ -47,14 +47,16 @@ http://umsimumsi.si676.si.umich.edu/omekafan/
 
 There are various ways to do this, but for ease of use (and also because this is not a class about SQL), I suggest using the interactive Databases tool within cPanel.
 
-To do this, click on “MySQL Databases” under “Databases” in cPanel. In the databases tool, you will complete the form for “Create New Database,” which is where you should type the name of the database that you want, then click on “Create Database.” The name you choose will be appended to your username after an underscore, and in a sense is like a namespace, providing a unique alias for your database even though there are likely thousands of database tables out there named omeka. It will look something like this, if you wanted to create a new database named `umsimumsi_new_omeka_db`:
+To do this, click on “MySQL Databases” under “Databases” in cPanel. In the databases tool, you will complete the form for “Create New Database,” which is where you should type the name of the database that you want, then click on “Create Database.” The name you choose will be appended to your username after an underscore, and in a sense is like a namespace, providing a unique alias for your database even though there are likely thousands of database tables out there named omeka. If you wanted to create a new database named `umsimumsi_new_omeka_db`, the form will look something like [](#servers-omeka-newdbs).
 
 ```{figure} /assets/part03-servers-omeka-newdbs.jpg
+:label: servers-omeka-newdbs
 :alt: Creating a new database for your Omeka S install
 :align: center
 
 Creating a new database for your Omeka S install
 ```
+
 #### Create a database User Agent (username and password)
 
 Scrolling down in the databases tool, create a username and password combination. You won’t need to use this frequently, but you will need to enter the pair in your .ini file, so make note of the username and password that you create. You are essentially creating credentials for a local “user agent,” which will interact with the databases on behalf of Omeka S. If you want to randomly generate a password, use the “Password Generator” button or try an online tool like [https://www.avast.com/en-us/random-password-generator#mac](https://www.avast.com/en-us/random-password-generator#mac). Remember when you create the password, write it down or copy it to a safe place before proceeding. You will need to reuse it later.
