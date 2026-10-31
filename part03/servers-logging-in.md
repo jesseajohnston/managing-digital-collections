@@ -153,19 +153,20 @@ for a 30-day trial version if you wish to download it on your own computer
 
 The Filezilla login process is unique, but it requires the same information as the previous two methods. Namely, your uniqname, UMID, and server domain address. Here are the basic steps:
 
-First, open the Filezilla software (sometimes called a client or app). Your window will look similar to this:
+First, open the Filezilla client (that is, a software/app you run locally). The window should look similar to [](#servers-filezilla).
 
 ```{figure} /assets/part03-servers-filezilla-main-window-macos.jpg
+:label: servers-filezilla
 :alt: Screenshot of the Filezilla client with main areas highlighted
 :align: center
 
-Filezilla client window
+Screenshot of the Filezilla client with main areas highlighted.
 ```
 
-In the above screenshot, take note of the three main parts of the window.
-In the area of rectangle 1., you can see the current status of the connection, any file transfers that you execute, and sometimes useful updates as to what Filezilla is doing.
-In the area of rectangle 2., you have a file browser window that shows files on your local computer (in the above screenshot, it is showing the `jajohnst` directory in my laptops `Users` folder at the root of the operating system indicated by the leading slash `/` of path you see in the "Local site:" bar above the rectangle).
-In the area of rectangle 3., you see a similar file browser. This file browser, however, shows the files on your server. (At least, it will show those files when you are logged.) Note the path bar above the rectangle with the label "Remote site:".
+Take note of the three main parts of the window (see [](#servers-filezilla)).
+In the area of rectangle `1.`, you can see the current status of the connection, any file transfers that you execute, and sometimes useful updates as to what Filezilla is doing.
+In the area of rectangle `2.`, you have a file browser window that shows files on your local computer (in [](#servers-filezilla), a bar just above the rectangle shows "Local site:", then shows the path as the root of the operating system indicated by the leading slash `/`, then the local directory named `Users`, then the `jajohnst` directory).
+The area of rectangle `3.` shows a similar file browser. This file browser, however, shows the files on your server. (At least, it will show those files when you are logged in.) Note the path bar above that rectangle is labelled "Remote site:".
 
 ```{figure} /assets/part03-servers-filezilla-site-manager-window.jpg
 :alt: Screenshot of the Site Manager window to log in to your server following dual factor authentication
