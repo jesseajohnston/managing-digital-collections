@@ -187,10 +187,3 @@ Finally, you are logged in to the server via Filezilla. You can now move files f
 
 It may take a few moments to get set up, but once you get Filezilla working,
 hopefully you will appreciate how this tool assists the file transfer process.
-
-## Resources
-
-- [Related slide deck illustrating the login process][related-slide-deck]
-- Using FileZilla Guide TODO
-
-[related-slide-deck]: https://docs.google.com/presentation/d/19wmAE6DZVOh4rOIY9CiLJPbSTWajaWH1mShs8srN4no/edit?usp=sharing

@@ -138,11 +138,3 @@ Install Omeka S - first user.
 If you are seeing a page like [](#servers-omeka-firstuser), then your Omeka S instance should be ready to go. To get started, fill in the initial user form and click the “Submit” button at the bottom of the page.
 
 There is more work to do to get sites and collections running, but if you completed the above, then your Omeka S platform is ready to go. The next steps will be to configure Omeka S so it can publish new sites, modules, users, and the collection content. These are described in [](/part03/servers-omeka-s-configuration.md).
-
-## Resources
-
-- [Related slide deck illustrating the Omeka S install process][related-slide-deck]
-- [](/part03/servers-logging-in.md)
-- [](/part03/servers-omeka-s-configuration.md)
-
-[related-slide-deck]: https://docs.google.com/presentation/d/19wmAE6DZVOh4rOIY9CiLJPbSTWajaWH1mShs8srN4no/edit?usp=sharing
