@@ -59,9 +59,10 @@ Creating a new database for your Omeka S install
 
 #### Create a database User Agent (username and password)
 
-Scrolling down in the databases tool, create a username and password combination. You won’t need to use this frequently, but you will need to enter the pair in your .ini file, so make note of the username and password that you create. You are essentially creating credentials for a local “user agent,” which will interact with the databases on behalf of Omeka S. If you want to randomly generate a password, use the “Password Generator” button or try an online tool like [https://www.avast.com/en-us/random-password-generator#mac](https://www.avast.com/en-us/random-password-generator#mac). Remember when you create the password, write it down or copy it to a safe place before proceeding. You will need to reuse it later.
+Scrolling down in the databases tool, create a username and password combination (see [](#servers-omeka-dbuser)). You won’t need to use this frequently, but you will need to enter the pair in your `.ini` file, so make note of the username and password that you create. You are essentially creating credentials for a local “user agent,” which will interact with the databases on behalf of Omeka S. If you want to randomly generate a password, use the “Password Generator” button or try an online tool like [https://www.avast.com/en-us/random-password-generator#mac](https://www.avast.com/en-us/random-password-generator#mac). Remember to write down the password, or copy and save in a secure place, before proceeding. You will need to reuse it later.
 
 ```{figure} /assets/part03-servers-omekas-db_user.jpg
+:label: servers-omeka-dbuser
 :alt: Creating a new user agent for your database
 :align: center
 
