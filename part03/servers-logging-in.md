@@ -2,7 +2,7 @@
 title:  "LAMP Servers: Logging In"
 ---
 
-This page describes how to log in to your LAMP servers.
+This section describes how to log in to your LAMP servers.
 UMSI has provided each of you with your own server, which is
 already configured with a LINUX operarating system, the Apache web server software,
 and the capacity to work with PHP files and SQL databases.
@@ -12,18 +12,23 @@ add them to your server, and configure them to run on your server.
 But before you do all of that, you will need to log in to your server!
 There are three main ways that you can interact with your server:
 
-1. **[cPanel](#cpanel).** This is a browser-based "control panel" interface.
+[cPanel](#logging-in-to-cpanel)
+: This is a browser-based "control panel" interface.
 To access cPanel, navigate to your server's URL and append `:2083`,
 which directs the browser to port 2083. There, you will have the option
 to log in with the admin username and password for your server.
 You can read the [cPanel documentation here](https://docs.cpanel.net/), though it's probably not necessary for our purposes.
-2. **[SSH](#ssh).** This is a terminal interface that allows you to interact with your server.
+
+[SSH](#ssh-via-the-terminal)
+: This is a terminal interface that allows you to interact with your server.
 The interface is a bash environment, so you should be able to run shell commands and most regular navigation and file system commands.
 Note that this is a restricted environment for security purposes, so it is possible that you may not be able to run all shell commands; and in some cases you may be prompted to enter your username or password to confirm permissions.
-3. **[Filezilla](#filezilla).** This is a GUI client that is helpful for moving files to your server.
+
+[Filezilla](#filezilla-for-file-transfers)
+: This is a GUI client that is helpful for moving files to your server.
 All of its functions could probably also be accomplished using _SFTP_, which is
 a terminal-based protocol. But this file manager is used in some digital collections environments
-and provides all of the functions you will need (without learning additional commands). If you prefer graphical over text interfaces, this is for you! :-)
+and provides all of the functions you will need (without learning additional commands). If you prefer graphical over text interfaces, this is for you! 📠
 
 ## Find Your Server
 
@@ -43,7 +48,7 @@ When you navigate to your server's URL with a browser, you should see something 
 
 ![Blank server page]({{ site.url }}{{ site.baseurl }}/assets/blank-server-page.jpg "Screenshot of blank LAMP server viewed by web browser"){:style="border: 1px solid black;"}
 
-## Logging in to cPanel {#cpanel}
+## Logging in to cPanel
 
 Log in to cPanel at your server using port `2083`.
 
@@ -58,7 +63,7 @@ When you log in, you should see a screen that looks something like the screensho
 
 ![cPanel logged in view]({{ site.url }}{{ site.baseurl }}/assets/cpanel-databases.jpg "Screenshot of cPanel when logged in"){:style="border: 1px solid black;"}
 
-## SSH via the Terminal {#ssh}
+## SSH via the Terminal
 
 To log in with the SSH (Secure SHell), open the client that you use for command shell (e.g., Terminal, GitBash, or other). The command to access your server is `ssh` (secure shell).
 To use this command, use the following syntax:
@@ -99,7 +104,7 @@ which is where HTTP-accessible files will be located.
 * If you incorrectly enter your password more than three times, the server will be inaccessible for 10 minutes
 * You may not be able to log in from off campus unless you are using the U-M VPN since access is restricted by IP range for security purposes
 
-## FileZilla for File Management (FTP) {#filezilla}
+## FileZilla for File Transfers
 
 The final method for accessing your server is the Filezilla client,
 which provides a graphical user interface allowing you to use
