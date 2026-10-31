@@ -193,4 +193,4 @@ hopefully you will appreciate how this tool assists the file transfer process.
 - [Related slide deck illustrating the login process][related-slide-deck]
 - Using FileZilla Guide TODO
 
-[related-slide-deck]: https://docs.google.com/presentation/d/1krzUOhkDnHrA0Z_SOdWqmS70SbLF0pD4_7p4VQkvnkQ/edit?usp=sharing
+[related-slide-deck]: https://docs.google.com/presentation/d/19wmAE6DZVOh4rOIY9CiLJPbSTWajaWH1mShs8srN4no/edit?usp=sharing
