@@ -123,9 +123,10 @@ ssh dual factor authentication
 
 Note the dual factor option can time out. So if you are not logged in, try again. 
 
-Finally, you'll see a page something like this, which indicates you have logged in to your server:
+Finally, you'll see a page something like [](#servers-ssh-logged-in), which indicates you have logged in to your server:
 
 ```{figure} /assets/part03-servers-ssh-logged-in.jpg
+:label: servers-ssh-logged-in
 :alt: Screenshot of a command shell window logged in to the server at the root location
 :align: center
 
