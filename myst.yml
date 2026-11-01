@@ -44,7 +44,6 @@ project:
         - file: ./labs/lab-02-github-collaboration.md
           title: "Lab 2: Basic Collaboration on GitHub"
         - file: ./labs/lab-03-static-site-jekyll-setup.md
-          title: "Lab 3: Setting Up and Publishing a Jekyll Static Site"
         - file: ./labs/lab-04-artisanal-metadata.md
         - file: ./labs/lab-05-python-urls-requests-json.md
         - file: ./labs/project-01a-collectionbuilder.md

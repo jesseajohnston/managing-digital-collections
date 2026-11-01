@@ -1,5 +1,5 @@
 ---
-title: "Lab 3: Setting Up a Jekyll Site"
+title: "Lab 3: Setting Up and Publishing a Static Site Generator (Jekyll)"
 ---
 
 _**NOTE:** If you already published your site during class, there may not be much to complete for this section._
