@@ -40,7 +40,6 @@ project:
       children:
         # list labs etc below
         - file: ./labs/lab-01-regex-python.ipynb
-          title: "Lab 1: RegEx with Python"
         - file: ./labs/lab-02-github-collaboration.md
           title: "Lab 2: Basic Collaboration on GitHub"
         - file: ./labs/lab-03-static-site-jekyll-setup.md
