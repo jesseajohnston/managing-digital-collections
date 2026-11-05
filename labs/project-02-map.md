@@ -29,28 +29,7 @@ Questions will undoubtedly arise as you are working with the data. Feel free to 
 ### Term table template
 
 You already developed a crosswalking approach while recording the descriptive information (metadata) for your small digital collection (see [](/labs/lab-04-artisanal-metadata.md)).
-Now, your task is to document the decisions that you made in that process.
-Each resulting field in your target site should be illustrated with a table that includes information about what it is, where it came from, and what it does in the new collection site. See [](#table-map-term-template) for a template. (In the previous lab, you worked with CollectionBuilder, but this should also be possible to adapt to Omeka S, or any other collections platform.)
-
-:::{table} A MAP term table template describing the information that should be included for each term for each element in the collection.
-:label: table-map-term-template
-
-| Table Label | Is this value required? | Description of what's in the field |
-| ---- | -- | ------ |
-| Element Name [in My Collection] | Required | The label that will appear when the information is displayed on the collection site; this should effectively be the "title" of your table as well |
-| Source collection element | Optional | The label that was used by the source collection (note: may be the same as or very similar to the element name in your site); this field should include a specific notation of how to find the information in response retrieved from the source collection (likely a JSON object, though may be in other formats) |
-| Label [in My New Collection] | Required | How the data will be labelled or described in your new collection |
-| Element with Namespace [in My New Collection] | Required | The namespace and term of the element, corresponding to the value in the new collection |
-| Description | Required | A plain-language explanation of the what this element describes in your collection site |
-| Required? | Required | Explain if the field is required, recommended, or optional |
-| Repeatable? | Required | Explain whether this field may occur more than once (Yes), or only once (No), in the description of the item |
-| Entry Rules | Optional | Explain if there are any rules that constrain how the data is formatted (such as, it is a string or a number), or if there are any external standards like a controlled vocabulary the field should follow |
-| Data Type | Required | The most basic information here is whether this is a literal (a string) or a structured entry (often a URL or other identifier), though you can be more expansive if there is a specific datatype you need |
-| Notes | Optional | Any notes about what the field contains, how it is created from the source data, any conventions (e.g., name order), or other information about the field that you consider to be useful |
-| Example(s) | Required | Provide an example of what the field might contain |
-| Source scheme/mapping | Optional | Most terms that you choose to include should correspond to an existing element in Dublin Core, MODS, or another standard scheme |
-
-:::
+Now, your task is to document the decisions that you made in that process. See [this table from part 3](/part03/apis-04-map-design.ipynb#maps-term-template) for a template. (In the previous lab, you worked with CollectionBuilder, but this should also be possible to adapt to Omeka S, or any other collections platform.)
 
 ### Sample term table
 
