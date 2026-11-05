@@ -33,7 +33,7 @@ Now, your task is to document the decisions that you made in that process. See [
 
 ### Sample term table
 
-Taking as an example the date fields noted above, a sample MAP entry of the first type might look something like the table below (see [](#table-map-term-example)).
+Taking as an example the [template from part 3](/part03/apis-04-map-design.ipynb#maps-term-template), a sample MAP entry of the first type might look something like the table below (see [](#table-map-term-example)).
 
 :::{table} Sample MAP table for a metadata field called `date`.
 :label: table-map-term-example
