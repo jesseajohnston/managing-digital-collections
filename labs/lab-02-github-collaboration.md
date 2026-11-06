@@ -1,5 +1,6 @@
 ---
-title: "Lab 2: GitHub Collaboration"
+title: "Lab 2: Basic Collaboration on GitHub"
+short_title: "Lab 2: GitHub Collaboration"
 ---
 
 ## Basic Collaboration with GitHub
