@@ -1,5 +1,5 @@
 ---
-title:  "Lab 5: Requests and JSON with Python"
+title: "Lab 5: Requests and JSON with Python"
 ---
 
 **Note:** you may provide or share a link to a `.py` file or a Jupyter notebook (`.ipynb` is the file extension for notebooks) as your response.
