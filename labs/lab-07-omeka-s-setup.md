@@ -7,6 +7,6 @@ To complete the lab:
 
 1. Install Omeka S as described in [](/part03/servers-omeka-s-install.md)
 2. Configure Omeka S as described in [](/part03/servers-omeka-s-configuration.md)
-3. Add modules as described in []()
+3. Add modules as described in [](/part03/servers-omeka-s-add-vocabularies.md)
 
 Complete the lab by providing the link to your Omeka S installation via Canvas.
