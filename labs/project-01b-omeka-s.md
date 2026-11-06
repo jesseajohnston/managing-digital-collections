@@ -13,9 +13,9 @@ This assignment builds on the Omeka S site that you previously created.
 Your site and content should be created in the Omeka S installation from [](/labs/lab-07-omeka-s-setup.md).
 To the basic installation you already have, you will complete the site configuration, including:
 
-1. [Add Omeka S Modules](/part03/servers-omeka-s-add-modules.md)
-2. [Add Vocabularies]()
-3. Add an Omeka site
+:::{toc}
+:context: section
+:::
 
 ### 1. Add (Install) Omeka S Modules
 
@@ -24,7 +24,7 @@ To add modules, follow the steps in [](/part03/servers-omeka-s-add-modules.md).
 
 ### 2. Add (Install) Vocabularies
 
-In this step, you are adding a controlled vocabulary to Omeka S. The general idea is similar to adding a module, as it does add functionality, but this step can be completed within Omeka, it does not involve adding new files to your server. To add a vocabulary, follow the steps in []().
+In this step, you are adding a controlled vocabulary to Omeka S. The general idea is similar to adding a module, as it does add functionality, but this step can be completed within Omeka, it does not involve adding new files to your server. To add a vocabulary, follow the steps in [](/part03/servers-omeka-s-add-vocabularies.md).
 
 ### 3. Add (Create) a New Site in Omeka S for a Sample Collection
 
@@ -32,7 +32,7 @@ In this step, you will create a new site in your Omeka S install, which will be 
 
 The [sample CSV template for Omeka](/data/omekas-csv-metadata-template.csv) demonstrates how to structure the CSV so it will import into Omeka S.
 
-### Load Sample Collection Content
+### 4. Load Sample Collection Content
 
 Use the same collection items that you added to your CollectionBuilder site in Assignment 1a.
 To do this, you can reuse the digital objects that you already gathered from the Library of Congress.
