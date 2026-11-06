@@ -105,7 +105,7 @@ Schemas used for validation notebooks and for the JSON Schema plan.
 | File | Version | Used in |
 | --- | --- | --- |
 | `ead3.xsd` | EAD3 release 1.1.1, dated 2019-12-16 (from the file header) | `xml-04-validation.ipynb`, `xml-05-building-xml.ipynb` |
-| `mods-3-8.xsd` | MODS 3.8 (from the file header) | `part03/plan-for-json-schema-exx-part-3.md` |
+| `mods-3-8.xsd` | MODS 3.8 (from the file header) | `part03/plan-for-part-3.md` |
 
 - **Source:** `ead3.xsd` is hosted by the Library of Congress at <http://www.loc.gov/ead/> and developed by the Society of American Archivists'
   Technical Subcommittee for Encoded Archival Description. `mods-3-8.xsd` is the Library of Congress MODS schema
