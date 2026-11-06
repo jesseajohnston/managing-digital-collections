@@ -37,7 +37,3 @@ The basic steps to import a vocabulary are as follows:
 
     Omeka S Vocabulary import success screen for the MODS vocabulary.
     ```
-
-## Omeka-Related Resources
-
-{% include omeka-guides %}
