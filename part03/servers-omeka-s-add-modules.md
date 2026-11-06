@@ -16,10 +16,10 @@ These instructions might also be called a "how to" demonstration for using SSH a
 (The process for logging in with Filezilla is illustrated in [](/part03/servers-logging-in.md#filezilla-for-file-transfers)).
 The screenshots below illustrate the steps to install the [CSV Import module](https://omeka.org/s/modules/CSVImport/).
 
-1. First, find the files you need in the Omeka S module registry: [https://omeka.org/s/modules/](https://omeka.org/s/modules/).
+1. First, find the files you need in the [Omeka S module registry](https://omeka.org/s/modules/).
 You will find many modules in the registry, and while you are welcome to install any that interest you,
 there are a few critical modules that will support your digital collection term project, as described in the [](/part03/servers-omeka-s-configuration.md).
-2. Once you find the module you want, click the “Download” button. If there are multiple versions, it is usually best to choose the most recent unless there is some indication that that version is still under testing. The button should download a zip file to your computer.
+2. Once you find the module you want, click the “Download” button (see [](#servers-omeka-csvimport)). If there are multiple versions, it is usually best to choose the most recent unless there is some indication that that version is still under testing. The button should download a zip file to your computer.
 
    ```{figure} /assets/part03-servers-omekas-csvimport-module-page.jpg
    :label: servers-omeka-csvimport
@@ -30,7 +30,7 @@ there are a few critical modules that will support your digital collection term 
    ```
 
 3. Now, use FileZilla to move the zip file from your computer to your server.
-The zip file should be placed into the `modules` folder that you will find within the Omeka S folder that you have previously created on your server. (Follow the usual process with Filezilla.) To move the files, locate the downloaded zip file in left-hand panel window (showing files on your local computer), then click and drag it to the modules directory on your server in the right-hand panel window (showing files on your server).
+The zip file should be placed into the `modules` folder that you will find within the Omeka S folder that you have previously created on your server. (Follow the usual process with Filezilla.) To move the files, locate the downloaded zip file in left-hand panel window (showing files on your local computer), then click and drag it to the modules directory on your server in the right-hand panel window (showing files on your server). See [](#servers-omeka-module-filezilla).
 
    ```{figure} /assets/part03-servers-omekas-transferring-module-filezilla.jpg
    :label: servers-omeka-module-filezilla
@@ -43,7 +43,7 @@ The zip file should be placed into the `modules` folder that you will find withi
 4. Now that the zip file is on the server, log in to your server via SSH in your terminal or command window.
 To log in, use the SSH login process (see [](/part03/servers-logging-in.md#ssh-via-the-terminal)).
 5. Finally, you can use the command line to unzip the files.
-To do this, move your command prompt to the modules folder (while this command is context-dependent given the location of your window, your command will look something like `cd public_html/omeka-s/modules/`).When your prompt is located in the modules folder, check to confirm that the zip file is there (`ls -la`). Then, unzip command to open up the module (e.g., `unzip CSVImport-2.6.2.zip`).
+To do this, move your command prompt to the modules folder (while this command is context-dependent given the location of your window, your command will look something like `cd public_html/omeka-s/modules/`).When your prompt is located in the modules folder, check to confirm that the zip file is there (`ls -la`). Then, unzip command to open up the module (e.g., `unzip CSVImport-2.6.2.zip`). See [](#servers-omeka-module-unzip).
 
    ```{figure} /assets/part03-servers-omekas-unzipping-module-ssh.jpg
    :label: servers-omeka-module-unzip
@@ -56,9 +56,4 @@ To do this, move your command prompt to the modules folder (while this command i
 Once the files are moved into Omeka S's modules folder and unzipped,
 you can follow the instructions in the [Omeka S guide for "Installing Modules"](https://omeka.org/s/docs/user-manual/modules/#installing-modules).
 
-Additional modules can be added by following the same steps with any zipped package for an Omeka S module. For [](/labs/lab-07-omeka-s-setup.md), you need to install these modules:
-
-- Common
-- CSV Import
-- OAI-PMH Repository
-- Numeric Data Types
+Additional modules can be added by following the same steps as above with any zipped package for an Omeka S module.
