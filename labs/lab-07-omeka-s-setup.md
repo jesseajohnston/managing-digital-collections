@@ -1,5 +1,6 @@
 ---
-title:  "Lab 7: Setting Up and Configuring Omeka S"
+title: "Lab 7: Setting Up and Configuring Omeka S on a LAMP Server"
+short_title: "Lab 7: Setting Up Omeka S"
 ---
 
 This week, you will install and set up Omeka S on your LAMP servers.
