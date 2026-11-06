@@ -49,6 +49,7 @@ project:
         - file: ./labs/project-01a-collectionbuilder.md
         - file: ./labs/project-01b-omeka-s.md
         - file: ./labs/project-02-map.md
+        - file: ./labs/project-03-extract.md
         - file: ./labs/quiz-01-regex-solutions.ipynb
     - file: ./introduction/index.md
       title: The Book
