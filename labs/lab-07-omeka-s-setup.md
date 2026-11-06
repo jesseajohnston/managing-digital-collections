@@ -10,7 +10,7 @@ To complete the lab:
 2. Configure Omeka S as described in [](/part03/servers-omeka-s-configuration.md)
 3. Add modules as described in [](/part03/servers-omeka-s-add-modules.md)
 
-You need to install these modules:
+Install these modules:
 
 - Common
 - CSV Import
