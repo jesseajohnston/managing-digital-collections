@@ -25,6 +25,11 @@ Once you have the schema file, you can import the vocabulary.
 - On the Vocabularies page, click the “Import new vocabulary” button on the upper right of the page.
 - On the Import page, you will fill out the form explaining to Omeka S what to call the ontology (basically defining its namespace within your site), any notes you want to provide, and where to find the ontology file. In this case, you will find it at the link above (in step 1.a.).
 - Fill in the form with the appropriate namespace and link to an ontology. See [](#servers-omeka-mods-vocab-form) for suggested values if you are importing the MODS ontology.
+  - Name/Label: `MODS 1`
+  - Namespace URI: `http://www.loc.gov/mods/rdf/v1`
+  - Namespace prefix: `mods`
+  - Vocabulary URL: `https://www.loc.gov/mods/modsrdf/v1/modsrdf.owl`
+  - File format: `RDF/XML`
 
 ```{figure} /assets/part03-servers-omekas-mods-vocab-addition.jpg
 :label: servers-omeka-mods-vocab-form

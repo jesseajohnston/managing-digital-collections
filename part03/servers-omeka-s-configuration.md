@@ -28,14 +28,7 @@ These instructions assume that you already have a working Omeka S instance, and 
   - [Common](https://omeka.org/s/modules/Common/) - a helper module
   - [OAI-PMH Repository module](https://omeka.org/s/modules/OaiPmhRepository/)
 
-6. Add at least one additional vocabulary. This process is described in more detail in [](/part03/servers-omeka-s-add-vocabularies.md). For a quick start, use MODS ([Metadata Object Description Schema](https://www.loc.gov/standards/mods)). Use the “Vocabularies” option in the left menu, choose the “Import New Vocabulary”, then:
-
-  - Name/Label: `MODS 1`
-  - Namespace URI: `http://www.loc.gov/mods/rdf/v1`
-  - Namespace prefix: `mods`
-  - Vocabulary URL: `https://www.loc.gov/mods/modsrdf/v1/modsrdf.owl`
-  - File format: `RDF/XML`
-  - _Note: you may consider adding other vocabulary namespaces, but for this to happen smoothly with Omeka, any vocabulary you choose will need to be expressed in a standard linked data format specification (like RDF or OWL)._
+6. Add at least one additional vocabulary, following [](/part03/servers-omeka-s-add-vocabularies.md). For a quick start, use MODS ([Metadata Object Description Schema](https://www.loc.gov/standards/mods)).
 
 7. Create at least one site (Omeka S allows you to administer multiple sites/collections)
 
