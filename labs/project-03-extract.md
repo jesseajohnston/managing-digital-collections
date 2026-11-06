@@ -1,5 +1,5 @@
 ---
-title:  "Assignment 3: Extract Collection Data"
+title:  "Project 3: Extract Collection Data"
 ---
 
 **Assignment Due: November 20**
