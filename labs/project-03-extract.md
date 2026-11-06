@@ -2,7 +2,7 @@
 title:  "Project 3: Extract Collection Data"
 ---
 
-**Assignment Due: November 20**
+**Assignment Due: November 13**
 
 In this step of the course project to build multiple collections platforms,
 you are working to *extract* data for your collection sites.
@@ -78,16 +78,10 @@ collection-data-extraction
 While the set has sixty two items, it may not be possible to harvest each item's metadata.
 In that case, you can skip problematic items. But you should get the majority, at least fifty five or more items.[^1]
 
-### Two Submission Options
+### Submitting Your Work
 
-**Option One:** a link to a file or folder in a GitHub repository where you have provided the files and saved the code.
+Submit a link to a file or folder in a GitHub repository where you have provided the files and saved the code.
 It may be a private repo, as long as you have added the instructor as a collaborator with view permissions. The repo URL may be provided via Canvas.
-
-**Option Two:** a zip file, uploaded on Canvas, that contains the extracted material in a directory.
-These should all be in a directory containing python code in a `.py` or `.ipynb` file(s),
-a list of the items in the collection in a JSON file,
-the basic information for each item in the collection in a CSV file,
-and a directory with JSON item files representing each item in the collection.
 
 ### Resources
 
