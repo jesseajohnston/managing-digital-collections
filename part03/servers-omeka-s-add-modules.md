@@ -1,21 +1,16 @@
 ---
-layout: post
-title:  "Adding Modules to Omeka S"
-date:   2025-09-26
-categories: guides omeka filezilla ssh
-published: true
+title: "LAMP Servers: Adding Modules to Omeka S"
 ---
 
-
-This guide describes the process of adding a Module to your Omeka S installation.
-Note that Omeka also provides instructions on how to do this at [https://omeka.org/s/docs/user-manual/modules/#installing-modules](https://omeka.org/s/docs/user-manual/modules/#installing-modules),
+This section describes the process of adding a Module to your Omeka S installation.
+Note that Omeka also provides [instructions on how to install modules](https://omeka.org/s/docs/user-manual/modules/#installing-modules),
 but before you can follow those steps, you’ll need to add ("import") the module's files
 to your server. That is, find the source code files, copy them, get them onto your server,
 and put them where Omeka will look to find them.
 
 This guide demonstrates the process of adding files to your server
 with a combination of tools, namely `ssh` (a command line interface to your server’s OS)
-and FileZilla (a graphical interface that provides secure access and aids the process of moving files between drives, in this case from your local drive to your server.
+and FileZilla (a graphical interface that provides secure access and aids the process of moving files between drives, in this case from your local drive to your server).
 
 These instructions might also be called a "how to" demonstration for using SSH and FileZilla.
 (The process for logging in with Filezilla is illustrated in [](/part03/servers-logging-in.md#filezilla-for-file-transfers)).
