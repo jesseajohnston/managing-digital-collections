@@ -7,6 +7,14 @@ To complete the lab:
 
 1. Install Omeka S as described in [](/part03/servers-omeka-s-install.md)
 2. Configure Omeka S as described in [](/part03/servers-omeka-s-configuration.md)
-3. Add modules as described in [](/part03/servers-omeka-s-add-vocabularies.md)
+3. Add modules as described in [](/part03/servers-omeka-s-add-modules.md)
+
+You need to install these modules:
+
+- Common
+- CSV Import
+- OAI-PMH Repository
+- Numeric Data Types
+- Wikidata
 
 Complete the lab by providing the link to your Omeka S installation via Canvas.
