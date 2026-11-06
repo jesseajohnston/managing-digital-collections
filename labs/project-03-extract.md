@@ -91,14 +91,11 @@ and a directory with JSON item files representing each item in the collection.
 
 ### Resources
 
-* [Assignment submission on Canvas]({{ page.canvas-link }})
-* [Sample Collection List CSV][sample-collection-list-csv]
-* [Example pulling a collection list from loc.gov][loc-gov-collection-list-demo]
-* [Example harvesting JSON item data and images from loc.gov][loc-gov-item-demo]
+- [Sample Collection List CSV](/data/collection_set_list.csv)
+- [](/part03/apis-02-harvesting-metadata.ipynb)
+- [](/part03/apis-03-harvesting-item-metadata.ipynb)
 
-[loc-gov-collection-list-demo]: https://github.com/morskyjezek/si676-2025-data/blob/main/examples/assignment-extract-1-collection-list.ipynb
-[sample-collection-list-csv]: https://github.com/morskyjezek/si676-2025-data/blob/main/collection-site-materials/collection_set_list-sample.csv
-[loc-gov-item-demo]: https://github.com/morskyjezek/si676-2025-data/blob/main/examples/assignment-extract-2-collection-items.ipynb
+Submit the assignment on Canvas.
 
 ### Notes
 
