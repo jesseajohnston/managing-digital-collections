@@ -50,6 +50,7 @@ project:
         - file: ./labs/project-01b-omeka-s.md
         - file: ./labs/project-02-map.md
         - file: ./labs/project-03-extract.md
+        - file: ./labs/project-04-transform.md
         - file: ./labs/quiz-01-regex-solutions.ipynb
         # in-class demo notebooks: built but hidden, linked from labs/index.md
         - pattern: ./labs/in-class-*.ipynb
