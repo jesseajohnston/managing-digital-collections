@@ -29,7 +29,3 @@ These instructions assume that you already have a working Omeka S instance, and 
   - [OAI-PMH Repository module](https://omeka.org/s/modules/OaiPmhRepository/)
 
 6. Add at least one additional vocabulary, following [](/part03/servers-omeka-s-add-vocabularies.md). For a quick start, use MODS ([Metadata Object Description Schema](https://www.loc.gov/standards/mods)).
-
-7. Create at least one site (Omeka S allows you to administer multiple sites/collections)
-
-  - Create an about page, with at least one image asset attached and a descriptive statement.
