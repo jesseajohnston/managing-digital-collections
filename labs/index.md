@@ -22,3 +22,4 @@ These notebook files, which show what was demonstrated in class, can be download
 - [October 16, 2026: XPath and MODS with `lxml`](/labs/in-class-20261016-xml-xpath-mods.ipynb)
 - [October 30, 2026: APIs and JSON](/labs/in-class-20261030-apis-and-json.ipynb)
 - [November 6, 2026: Pulling the Set List with Python](/labs/in-class-20261106-collection-list.ipynb)
+- [November 13, 2026: Transforming Item Metadata with Python](/labs/in-class-20261113-extract-step.ipynb)
