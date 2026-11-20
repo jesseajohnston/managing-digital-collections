@@ -153,6 +153,17 @@ Used in Part 3 (API extraction and MAP design) and in the CollectionBuilder and 
 - **Modifications:** `cb-csv-metadata-template.csv` differs from the course copy `metadata-template-cb.csv` (first difference in the header row);
   TODO — what changed. `item_metadata-cph.3f05183.json` is not yet committed to git.
 
+### Omeka S API credentials template
+
+| File | Description | Used in |
+| --- | --- | --- |
+| `omeka-credentials-template.json` | Placeholder `key_identity` and `key_credential` for an Omeka S API key | `part04/omeka-s-api-*.ipynb`, `part04/omeka-s-linked-data-load.ipynb` |
+
+- **Source:** same structure as the course copy `collection-site-materials/omeka-credentials-template.json`. Added 2026-11-19.
+- **Use:** copy to the repository root as `omeka-credentials.json` and fill in the keys for your own site. `.gitignore` blocks
+  `*credentials*.json` but allows `*credentials*template*.json`, so only the template can be committed.
+- **Note:** this is not a `sample-` file; the name keeps `credentials` and `template` so the `.gitignore` rules apply.
+
 <!--
 ### `<next-collection>/` — short title
 
