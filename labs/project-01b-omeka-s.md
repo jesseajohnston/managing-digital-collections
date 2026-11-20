@@ -28,7 +28,7 @@ In this step, you are adding a controlled vocabulary to Omeka S. The general ide
 
 ### 3. Add (Create) a New Site in Omeka S for a Sample Collection
 
-In this step, you will create a new site in your Omeka S install, which will be the home for the sample collection you gathered in Assignment 1a. You can follow the steps outlined in the [Adding an Omeka S Site guide]({{ site.baseurl }}{% post_url 2025-09-25-omeka-s-install-guide %}).
+In this step, you will create a new site in your Omeka S install, which will be the home for the sample collection you gathered in Assignment 1a. You can follow the steps outlined in [](/part03/servers-omeka-s-sites.md).
 
 The [sample CSV template for Omeka](/data/omekas-csv-metadata-template.csv) demonstrates how to structure the CSV so it will import into Omeka S.
 
