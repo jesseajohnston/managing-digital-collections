@@ -40,7 +40,7 @@ Taking as an example the [template from part 3](/part03/apis-04-map-design.ipynb
 
 | **Element Name** | **Date** |
 | --- | ------ |
-| Source | Descriptive metadata for item JSON at loc.gov.
+| Source | Descriptive metadata for item JSON at loc.gov. |
 | Label in My New Collection | Date of Creation |
 | Element and Namespace in My New Collection | dcterms:created |
 | Description | This is a date extracted from the LOC's original metadata, which indicates when the original resource was scanned or digitized |
