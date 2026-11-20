@@ -104,10 +104,21 @@ project:
             - file: ./part03/servers-omeka-s-add-modules.md
             - file: ./part03/servers-omeka-s-add-vocabularies.md
             - file: ./part03/servers-omeka-s-sites.md
-    - title: "Part 4: Presenting and Managing Collections"
+    - file: ./part04/index.md
       children:
-        # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 4
-        - file: ./part04/present-transform-metadata.ipynb
+        - title: "Presenting Collections on the Web"
+          # TODO: add chapters — see plan_changing_to_book_update_202607.md, Part 4
+          children:
+          - file: ./part04/present-transform-metadata.ipynb
+        - title: "The Omeka S API and JSON-LD"
+          children:
+          - file: ./part04/omeka-s-api-basics.ipynb
+          - file: ./part04/omeka-s-api-add-item.ipynb
+          - file: ./part04/omeka-s-api-add-bulk.ipynb
+        - title: "Working with RDF Linked Data in Python"
+          children:
+            - file: ./part04/omeka-s-linked-data-demos.ipynb
+            - file: ./part04/omeka-s-linked-data-load.ipynb
   exports:
     - format: typst
       template: ./templates/plain_typst_book_custom #lapreprint-typst #plain_typest_book
