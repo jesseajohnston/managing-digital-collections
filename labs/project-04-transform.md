@@ -13,6 +13,8 @@ Omeka S Tip: create an item set for the new set, which will make it easier to id
 1. The script(s) that extracts & transforms the original data from UMMAA. For this part, you can turn in a `.py` or `.ipynb`.
 2. The script outputs (that is, the transformed data likely in CSV or JSON).
 
+Submit the assignment on Canvs. 
+
 ### Resources
 
 - [](/part04/present-transform-metadata.ipynb)
