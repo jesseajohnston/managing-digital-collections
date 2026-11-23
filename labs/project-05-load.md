@@ -11,6 +11,8 @@ The final step of the assignment is structured around the load process (aka, *in
 which completes the ETL workflow. The goal of the assignment is to create as a collection that is as complete as possible given the resources that you identified in your source collection.
 The resources should be presented in both Omeka S and CollectionBuilder.
 
+## The Load Process
+
 There will be a few distinct steps, including:
 
 - preparing resource metadata for load,
