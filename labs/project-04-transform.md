@@ -15,6 +15,6 @@ Omeka S Tip: create an item set for the new set, which will make it easier to id
 
 Submit the assignment on Canvs. 
 
-### Resources
+## Resources
 
 - [](/part04/present-transform-metadata.ipynb)
