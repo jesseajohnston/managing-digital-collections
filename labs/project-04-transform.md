@@ -6,7 +6,9 @@ title:  "Project 4: Transform Collection Data (Scripting and Implementing Your M
 
 The goal of this assignment is to implement the metadata transformation that was implied in your MAP document (see [](/part03/apis-04-map-design.ipynb)). Your task is to develop a batch workflow that will transform from the origin data, apply the rules for destination fields and formatting as established in your MAP, then transform it to a format that you can ingest into Omeka S and CollectionBuilder. It's possible that you may need to make some modifications by hand, but to the extent possible your script tools should automate as much of this process as possible so that the contents display in the new platforms as clearly and accurately as possible. The deliverables for this assignment are the Python script that accomplishes the transformation and the resulting CSV, JSON, or other files that your workflow generates. At this point, you will have all of the steps needed for importing the objects successfully into your site. In other words, your script(s) will pull data from the original metadata, transform that data, and you will be ready to batch upload the objects from a CSV or API.
 
-Omeka S Tip: create an item set for the new set, which will make it easier to identify the materials from a specific import batch.  
+:::{hint} Omeka S Tip
+Create an item set for the import. This will make it easier to identify the materials from a specific import batch later, in case you need to isolate the batch or redo the import.
+:::
 
 ## Deliverables
 
