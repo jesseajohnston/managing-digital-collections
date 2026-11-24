@@ -38,21 +38,26 @@ project:
         - file: ./teaching/digital-collections-of-interest.md
     - file: ./labs/index.md
       children:
-        # list labs etc below
-        - file: ./labs/lab-01-regex-python.ipynb
-        - file: ./labs/lab-02-github-collaboration.md
-        - file: ./labs/lab-03-static-site-jekyll-setup.md
-        - file: ./labs/lab-04-artisanal-metadata.md
-        - file: ./labs/lab-05-python-urls-requests-json.md
-        - file: ./labs/lab-06-using-lamp-server.md
-        - file: ./labs/lab-07-omeka-s-setup.md
-        - file: ./labs/project-01a-collectionbuilder.md
-        - file: ./labs/project-01b-omeka-s.md
-        - file: ./labs/project-02-map.md
-        - file: ./labs/project-03-extract.md
-        - file: ./labs/project-04-transform.md
-        - file: ./labs/project-05-load.md
-        - file: ./labs/quiz-01-regex-solutions.ipynb
+        - title: Labs
+          children:
+            - file: ./labs/lab-01-regex-python.ipynb
+            - file: ./labs/lab-02-github-collaboration.md
+            - file: ./labs/lab-03-static-site-jekyll-setup.md
+            - file: ./labs/lab-04-artisanal-metadata.md
+            - file: ./labs/lab-05-python-urls-requests-json.md
+            - file: ./labs/lab-06-using-lamp-server.md
+            - file: ./labs/lab-07-omeka-s-setup.md
+        - title: Quiz Solutions
+          children:
+            - file: ./labs/quiz-01-regex-solutions.ipynb
+        - title: Course Project
+          children:
+            - file: ./labs/project-01a-collectionbuilder.md
+            - file: ./labs/project-01b-omeka-s.md
+            - file: ./labs/project-02-map.md
+            - file: ./labs/project-03-extract.md
+            - file: ./labs/project-04-transform.md
+            - file: ./labs/project-05-load.md
         # in-class demo notebooks: built but hidden, linked from labs/index.md
         - pattern: ./labs/in-class-*.ipynb
           hidden: true
