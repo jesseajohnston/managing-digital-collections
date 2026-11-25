@@ -171,11 +171,13 @@ image_title,work_title,subject,type,rights
 :::{tab-item} JSON
 :label: encoding-ex-json
 ```json
-[{"image_title","Wild Turkey, Meleagris Gallopavo, Linn."},
-{"work_title","The birds of America; from original drawings by John James Audubon"},
-{"subject": "birds"},
-{"type": "book"},
-{"rights":"https://creativecommons.org/publicdomain/mark/1.0/"}]
+{
+    "image_title": "Wild Turkey, Meleagris Gallopavo, Linn.",
+    "work_title": "The birds of America; from original drawings by John James Audubon",
+    "subject": "birds",
+    "type": "book",
+    "rights":"https://creativecommons.org/publicdomain/mark/1.0/"
+}
 ```
 :::
 
