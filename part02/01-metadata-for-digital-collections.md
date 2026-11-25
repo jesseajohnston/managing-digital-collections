@@ -203,8 +203,8 @@ In addition, the XML structure enables a deeper structure: note how the
 rights tag includes embedded attributes, including the `@label` of `Public Domain` and an indication that the data enclosed in the tag is a URI (`@uri`).
 Finally, the [**JSON**](#encoding-ex-json) tab shows how the data might be encoded in this format.
 We will be discussing and working with JSON much more later, but it is worth noting
-in brief that the entire record here is enclosed in square brackets (`[ ]`),
-which hints that Python can work with this data as a list.
+in brief that the entire record here is enclosed in curly brackets (`{ }`),
+which hints that Python can work with this data as a dictionary.
 
 We will see below how the metadata examined here can be encoded more effectively
 in data structures that are more closely defined through specific metadata schemes.
