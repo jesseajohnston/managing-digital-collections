@@ -121,6 +121,7 @@ One plate from John James Audubon's _The Birds of America_, used in Part 2 to il
 | File | Description | Used in |
 | --- | --- | --- |
 | `sclaudubon_sclib_B464540_AUDUBON_V1_1_P1_audubon_v1_1_p1_2702x4086.jpg` | JPEG, 2702 × 4086 px | `part02/01-metadata-for-digital-collections.md` |
+| `sclaudubon_turkey_med.jpg` | JPEG, 676 × 1022 px (124 KB); medium-resolution derivative of the same plate, renamed on download | `part04/omeka-s-api-add-item.ipynb` (upload example) |
 | `digital-turkey-exif.csv`, `digital-turkey-exif.json` | EXIF/file metadata for the image above, in two serializations | Not currently referenced in a chapter or lab |
 | `digital-turkey-iiif.json` | IIIF Presentation 2 manifest for the same item | Not currently referenced in a chapter or lab |
 | `digital-turkey-iiif-readable.json` | The same manifest, formatted for reading (parses equal to `digital-turkey-iiif.json`) | Not currently referenced in a chapter or lab |
@@ -128,9 +129,15 @@ One plate from John James Audubon's _The Birds of America_, used in Part 2 to il
 - **Source:** University of Michigan Library Digital Collections (Special Collections Research Center). The manifest `@id` is
   `https://quod.lib.umich.edu/cgi/i/image/api/manifest/sclaudubon:B464540` and its attribution is "University of Michigan Library
   Digital Collections". The EXIF files were generated with ExifTool 13.55 from the local image (2026-08-06). TODO — image download
-  date and the manifest retrieval date.
-- **Rights:** the manifest has no `license` field. TODO — copy the rights statement from the item's record page.
-- **Modifications:** none known to the image. The EXIF `SourceFile` paths are local paths from the machine that ran ExifTool.
+  date and the manifest retrieval date. `sclaudubon_turkey_med.jpg` was downloaded from the item page
+  (<https://quod.lib.umich.edu/s/sclaudubon/x-b464540/audubon_v1_1_p1>) via the image API URL
+  `https://quod.lib.umich.edu/cgi/i/image/api/image/sclaudubon:B464540:AUDUBON_V1_1_P1/full/res:3/0/native.jpg?attachment=1`
+  (URLs from the file's macOS download metadata; file date 2026-11-25).
+- **Rights:** the manifest has no `license` field. The item's Record Details (as reproduced in `part02/01-metadata-for-digital-collections.md`)
+  state: "The images in this collection are in the public domain and may be used without permission. Kindly provide attribution to the
+  University of Michigan Special Collections Library."
+- **Modifications:** none known to the image files; `sclaudubon_turkey_med.jpg` is the library-served derivative, renamed only. The EXIF
+  `SourceFile` paths are local paths from the machine that ran ExifTool.
 
 ### Library of Congress APIs and collection-site materials
 
